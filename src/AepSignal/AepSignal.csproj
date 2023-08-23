@@ -1,0 +1,87 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AepCore\AepCore.csproj" />
+    <ProjectReference Include="..\AepServices\AepServices.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="References\AEPSignal.xcframework">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="References\AEPSignal.xcframework\ios-arm64\StructsAndEnums.cs" />
+    <Compile Remove="References\AEPSignal.xcframework\ios-arm64\ApiDefinitions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="References\.DS_Store" />
+    <None Remove="References\AEPSignal.xcframework\.DS_Store" />
+    <None Remove="References\AEPSignal.xcframework\Info.plist" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64\AEPSignal.framework\AEPSignal" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64\AEPSignal.framework\Info.plist" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64\AEPSignal.framework\Headers\AEPSignal-Swift.h" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64\AEPSignal.framework\Headers\AEPSignal.h" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64\AEPSignal.framework\Modules\module.modulemap" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-tvos.abi.json" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-tvos.private.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-tvos.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-tvos.swiftdoc" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64\dSYMs\AEPSignal.framework.dSYM\Contents\Info.plist" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64\dSYMs\AEPSignal.framework.dSYM\Contents\Resources\DWARF\AEPSignal" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\AEPSignal" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Info.plist" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\_CodeSignature\CodeResources" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Headers\AEPSignal-Swift.h" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Headers\AEPSignal.h" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Modules\module.modulemap" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\x86_64-apple-tvos-simulator.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-tvos-simulator.swiftdoc" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\x86_64-apple-tvos-simulator.swiftdoc" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-tvos-simulator.abi.json" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-tvos-simulator.private.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-tvos-simulator.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\x86_64-apple-tvos-simulator.abi.json" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\x86_64-apple-tvos-simulator.private.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\dSYMs\AEPSignal.framework.dSYM\Contents\Info.plist" />
+    <None Remove="References\AEPSignal.xcframework\tvos-arm64_x86_64-simulator\dSYMs\AEPSignal.framework.dSYM\Contents\Resources\DWARF\AEPSignal" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\AEPSignal" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Info.plist" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\_CodeSignature\CodeResources" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Headers\AEPSignal-Swift.h" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Headers\AEPSignal.h" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Modules\module.modulemap" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\x86_64-apple-ios-simulator.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios-simulator.abi.json" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios-simulator.private.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\x86_64-apple-ios-simulator.swiftdoc" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios-simulator.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\x86_64-apple-ios-simulator.private.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios-simulator.swiftdoc" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\AEPSignal.framework\Modules\AEPSignal.swiftmodule\x86_64-apple-ios-simulator.abi.json" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\dSYMs\AEPSignal.framework.dSYM\Contents\Info.plist" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64_x86_64-simulator\dSYMs\AEPSignal.framework.dSYM\Contents\Resources\DWARF\AEPSignal" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\.DS_Store" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\AEPSignal.framework\AEPSignal" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\AEPSignal.framework\Info.plist" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\AEPSignal.framework\Headers\AEPSignal-Swift.h" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\AEPSignal.framework\Headers\AEPSignal.h" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\AEPSignal.framework\Modules\module.modulemap" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.swiftdoc" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.abi.json" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.private.swiftinterface" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\dSYMs\AEPSignal.framework.dSYM\Contents\Info.plist" />
+    <None Remove="References\AEPSignal.xcframework\ios-arm64\dSYMs\AEPSignal.framework.dSYM\Contents\Resources\DWARF\AEPSignal" />
+  </ItemGroup>
+</Project>

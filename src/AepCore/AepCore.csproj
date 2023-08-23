@@ -1,0 +1,83 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="References\AEPCore.xcframework">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AepServices\AepServices.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="References\.DS_Store" />
+    <None Remove="References\AEPCore.xcframework\.DS_Store" />
+    <None Remove="References\AEPCore.xcframework\Info.plist" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64\AEPCore.framework\AEPCore" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64\AEPCore.framework\Info.plist" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64\AEPCore.framework\Headers\AEPCore.h" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64\AEPCore.framework\Headers\AEPCore-Swift.h" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64\AEPCore.framework\Modules\module.modulemap" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-tvos.abi.json" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-tvos.private.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-tvos.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-tvos.swiftdoc" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64\dSYMs\AEPCore.framework.dSYM\Contents\Info.plist" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64\dSYMs\AEPCore.framework.dSYM\Contents\Resources\DWARF\AEPCore" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\AEPCore" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Info.plist" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\_CodeSignature\CodeResources" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Headers\AEPCore.h" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Headers\AEPCore-Swift.h" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Modules\module.modulemap" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\x86_64-apple-tvos-simulator.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-tvos-simulator.swiftdoc" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\x86_64-apple-tvos-simulator.swiftdoc" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-tvos-simulator.abi.json" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-tvos-simulator.private.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-tvos-simulator.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\x86_64-apple-tvos-simulator.abi.json" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\x86_64-apple-tvos-simulator.private.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\dSYMs\AEPCore.framework.dSYM\Contents\Info.plist" />
+    <None Remove="References\AEPCore.xcframework\tvos-arm64_x86_64-simulator\dSYMs\AEPCore.framework.dSYM\Contents\Resources\DWARF\AEPCore" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\AEPCore" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Info.plist" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\_CodeSignature\CodeResources" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Headers\AEPCore.h" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Headers\AEPCore-Swift.h" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Modules\module.modulemap" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\x86_64-apple-ios-simulator.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios-simulator.abi.json" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios-simulator.private.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\x86_64-apple-ios-simulator.swiftdoc" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios-simulator.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\x86_64-apple-ios-simulator.private.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios-simulator.swiftdoc" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\AEPCore.framework\Modules\AEPCore.swiftmodule\x86_64-apple-ios-simulator.abi.json" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\dSYMs\AEPCore.framework.dSYM\Contents\Info.plist" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64_x86_64-simulator\dSYMs\AEPCore.framework.dSYM\Contents\Resources\DWARF\AEPCore" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\.DS_Store" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\AEPCore.framework\.DS_Store" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\AEPCore.framework\AEPCore" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\AEPCore.framework\Info.plist" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\AEPCore.framework\Headers\AEPCore.h" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\AEPCore.framework\Headers\AEPCore-Swift.h" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\AEPCore.framework\Modules\module.modulemap" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios.swiftdoc" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios.abi.json" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios.private.swiftinterface" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\dSYMs\AEPCore.framework.dSYM\Contents\Info.plist" />
+    <None Remove="References\AEPCore.xcframework\ios-arm64\dSYMs\AEPCore.framework.dSYM\Contents\Resources\DWARF\AEPCore" />
+  </ItemGroup>
+</Project>

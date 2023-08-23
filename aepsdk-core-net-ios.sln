@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{838D5299-72BB-4972-B74A-B830FEB86719}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A8BB83A1-C258-4460-8D8A-1F3D34387656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AepCore", "src\AepCore\AepCore.csproj", "{A65E88FA-7AD9-4421-BA58-23CFDD0BD7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AepSignal", "src\AepSignal\AepSignal.csproj", "{D6304674-7B9B-48DE-A9A2-305A7DB41F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AepServices", "src\AepServices\AepServices.csproj", "{FC327E90-EA14-47C6-BFBB-2227A8AE8E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AepRulesEngine", "src\AepRulesEngine\AepRulesEngine.csproj", "{74693030-9439-4D15-9B22-FA14AF821204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AepLifecycle", "src\AepLifecycle\AepLifecycle.csproj", "{D055F67B-CC25-4C4F-83BC-9F3C5A11B806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AEPIdentity", "src\AEPIdentity\AEPIdentity.csproj", "{00A4FE3C-DBF5-43F6-A53A-8BA6E2B2B96B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A65E88FA-7AD9-4421-BA58-23CFDD0BD7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65E88FA-7AD9-4421-BA58-23CFDD0BD7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65E88FA-7AD9-4421-BA58-23CFDD0BD7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65E88FA-7AD9-4421-BA58-23CFDD0BD7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6304674-7B9B-48DE-A9A2-305A7DB41F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6304674-7B9B-48DE-A9A2-305A7DB41F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6304674-7B9B-48DE-A9A2-305A7DB41F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6304674-7B9B-48DE-A9A2-305A7DB41F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC327E90-EA14-47C6-BFBB-2227A8AE8E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC327E90-EA14-47C6-BFBB-2227A8AE8E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC327E90-EA14-47C6-BFBB-2227A8AE8E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC327E90-EA14-47C6-BFBB-2227A8AE8E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74693030-9439-4D15-9B22-FA14AF821204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74693030-9439-4D15-9B22-FA14AF821204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74693030-9439-4D15-9B22-FA14AF821204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74693030-9439-4D15-9B22-FA14AF821204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D055F67B-CC25-4C4F-83BC-9F3C5A11B806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D055F67B-CC25-4C4F-83BC-9F3C5A11B806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D055F67B-CC25-4C4F-83BC-9F3C5A11B806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D055F67B-CC25-4C4F-83BC-9F3C5A11B806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A4FE3C-DBF5-43F6-A53A-8BA6E2B2B96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A4FE3C-DBF5-43F6-A53A-8BA6E2B2B96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A4FE3C-DBF5-43F6-A53A-8BA6E2B2B96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A4FE3C-DBF5-43F6-A53A-8BA6E2B2B96B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0A7E52F-682C-4D9C-A631-DF4A7D99CE6C}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A65E88FA-7AD9-4421-BA58-23CFDD0BD7C0} = {838D5299-72BB-4972-B74A-B830FEB86719}
+		{D6304674-7B9B-48DE-A9A2-305A7DB41F18} = {838D5299-72BB-4972-B74A-B830FEB86719}
+		{FC327E90-EA14-47C6-BFBB-2227A8AE8E88} = {838D5299-72BB-4972-B74A-B830FEB86719}
+		{74693030-9439-4D15-9B22-FA14AF821204} = {838D5299-72BB-4972-B74A-B830FEB86719}
+		{D055F67B-CC25-4C4F-83BC-9F3C5A11B806} = {838D5299-72BB-4972-B74A-B830FEB86719}
+		{00A4FE3C-DBF5-43F6-A53A-8BA6E2B2B96B} = {838D5299-72BB-4972-B74A-B830FEB86719}
+	EndGlobalSection
+EndGlobal

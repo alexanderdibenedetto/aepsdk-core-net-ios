@@ -1,0 +1,251 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AEPCore",
+        "printedName": "AEPCore",
+        "declKind": "Import",
+        "moduleName": "AEPSignal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AEPServices",
+        "printedName": "AEPServices",
+        "declKind": "Import",
+        "moduleName": "AEPSignal"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPSignal"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPSignal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AEPCore",
+        "printedName": "AEPCore",
+        "declKind": "Import",
+        "moduleName": "AEPSignal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AEPServices",
+        "printedName": "AEPServices",
+        "declKind": "Import",
+        "moduleName": "AEPSignal"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPSignal"
+      },
+      {
+        "kind": "Import",
+        "name": "AEPCore",
+        "printedName": "AEPCore",
+        "declKind": "Import",
+        "moduleName": "AEPSignal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPSignal"
+      },
+      {
+        "kind": "Import",
+        "name": "AEPCore",
+        "printedName": "AEPCore",
+        "declKind": "Import",
+        "moduleName": "AEPSignal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPSignal"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 6,
+      "value": "\"AEPSignal.Signal\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 677,
+      "length": 25,
+      "value": "\"com.adobe.module.signal\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
+      "length": 8,
+      "value": "\"Signal\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 7,
+      "value": "\"4.0.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 927,
+      "length": 32,
+      "value": "\"com.adobe.module.configuration\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 996,
+      "length": 16,
+      "value": "\"global.privacy\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1083,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1203,
+      "length": 4,
+      "value": "\"pb\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1233,
+      "length": 5,
+      "value": "\"pii\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1269,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1350,
+      "length": 22,
+      "value": "\"triggeredconsequence\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1397,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1430,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1465,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1507,
+      "length": 13,
+      "value": "\"contenttype\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1556,
+      "length": 14,
+      "value": "\"templatebody\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1605,
+      "length": 13,
+      "value": "\"templateurl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1648,
+      "length": 9,
+      "value": "\"timeout\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1684,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 724,
+      "length": 20,
+      "value": "\"SignalHitProcessor\""
+    }
+  ]
+}
