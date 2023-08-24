@@ -12,64 +12,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="References\.DS_Store" />
-    <None Remove="References\AEPLifecycle.xcframework\.DS_Store" />
-    <None Remove="References\AEPLifecycle.xcframework\Info.plist" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64\AEPLifecycle.framework\AEPLifecycle" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64\AEPLifecycle.framework\Info.plist" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64\AEPLifecycle.framework\Headers\AEPLifecycle-Swift.h" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64\AEPLifecycle.framework\Headers\AEPLifecycle.h" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64\AEPLifecycle.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-tvos.abi.json" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-tvos.private.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-tvos.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-tvos.swiftdoc" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64\dSYMs\AEPLifecycle.framework.dSYM\Contents\Info.plist" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64\dSYMs\AEPLifecycle.framework.dSYM\Contents\Resources\DWARF\AEPLifecycle" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\AEPLifecycle" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Info.plist" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\_CodeSignature\CodeResources" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Headers\AEPLifecycle-Swift.h" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Headers\AEPLifecycle.h" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\x86_64-apple-tvos-simulator.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-tvos-simulator.swiftdoc" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\x86_64-apple-tvos-simulator.swiftdoc" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-tvos-simulator.abi.json" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-tvos-simulator.private.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-tvos-simulator.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\x86_64-apple-tvos-simulator.abi.json" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\x86_64-apple-tvos-simulator.private.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\dSYMs\AEPLifecycle.framework.dSYM\Contents\Info.plist" />
-    <None Remove="References\AEPLifecycle.xcframework\tvos-arm64_x86_64-simulator\dSYMs\AEPLifecycle.framework.dSYM\Contents\Resources\DWARF\AEPLifecycle" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\AEPLifecycle" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Info.plist" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\_CodeSignature\CodeResources" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Headers\AEPLifecycle-Swift.h" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Headers\AEPLifecycle.h" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\x86_64-apple-ios-simulator.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios-simulator.abi.json" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios-simulator.private.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\x86_64-apple-ios-simulator.swiftdoc" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios-simulator.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\x86_64-apple-ios-simulator.private.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios-simulator.swiftdoc" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\x86_64-apple-ios-simulator.abi.json" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\dSYMs\AEPLifecycle.framework.dSYM\Contents\Info.plist" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64_x86_64-simulator\dSYMs\AEPLifecycle.framework.dSYM\Contents\Resources\DWARF\AEPLifecycle" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\.DS_Store" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\AEPLifecycle.framework\.DS_Store" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\AEPLifecycle.framework\AEPLifecycle" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\AEPLifecycle.framework\Info.plist" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\AEPLifecycle.framework\Headers\AEPLifecycle-Swift.h" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\AEPLifecycle.framework\Headers\AEPLifecycle.h" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\AEPLifecycle.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.swiftdoc" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.abi.json" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.private.swiftinterface" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\dSYMs\AEPLifecycle.framework.dSYM\Contents\Info.plist" />
-    <None Remove="References\AEPLifecycle.xcframework\ios-arm64\dSYMs\AEPLifecycle.framework.dSYM\Contents\Resources\DWARF\AEPLifecycle" />
     <None Remove="References\AEPLifecycle.framework\AEPLifecycle" />
     <None Remove="References\AEPLifecycle.framework\Info.plist" />
     <None Remove="References\AEPLifecycle.framework\Headers\AEPLifecycle-Swift.h" />
@@ -88,6 +30,7 @@
     <NativeReference Include="References\AEPLifecycle.framework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
+      <LinkerFlags>-Objc</LinkerFlags>
     </NativeReference>
   </ItemGroup>
 </Project>

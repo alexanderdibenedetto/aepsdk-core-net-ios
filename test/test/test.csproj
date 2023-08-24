@@ -19,7 +19,8 @@
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
 
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">12.0</SupportedOSPlatformVersion>
+		<TargetFramework>net7.0-ios</TargetFramework>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
@@ -48,11 +49,11 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)'=='net7.0-ios'">
-<!--	  <ProjectReference Include="..\..\src\AepCore\AepCore.csproj" />
+	  <ProjectReference Include="..\..\src\AepCore\AepCore.csproj" />
 	  <ProjectReference Include="..\..\src\AEPIdentity\AEPIdentity.csproj" />
 	  <ProjectReference Include="..\..\src\AepLifecycle\AepLifecycle.csproj" />
-	  <ProjectReference Include="..\..\src\AepRulesEngine\AepRulesEngine.csproj" />-->
+	  <ProjectReference Include="..\..\src\AepRulesEngine\AepRulesEngine.csproj" />
 	  <ProjectReference Include="..\..\src\AepServices\AepServices.csproj" />
-<!--	  <ProjectReference Include="..\..\src\AepSignal\AepSignal.csproj" />-->
+	  <ProjectReference Include="..\..\src\AepSignal\AepSignal.csproj" />
 	</ItemGroup>
 </Project>

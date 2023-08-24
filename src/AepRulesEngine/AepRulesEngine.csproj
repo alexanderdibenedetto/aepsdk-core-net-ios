@@ -11,61 +11,6 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="References\AEPRulesEngine.xcframework\Info.plist" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64\AEPRulesEngine.framework\AEPRulesEngine" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64\AEPRulesEngine.framework\Info.plist" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64\AEPRulesEngine.framework\Headers\AEPRulesEngine-umbrella.h" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64\AEPRulesEngine.framework\Headers\AEPRulesEngine-Swift.h" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64\AEPRulesEngine.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-tvos.abi.json" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-tvos.private.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-tvos.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-tvos.swiftdoc" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64\dSYMs\AEPRulesEngine.framework.dSYM\Contents\Info.plist" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64\dSYMs\AEPRulesEngine.framework.dSYM\Contents\Resources\DWARF\AEPRulesEngine" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\AEPRulesEngine" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Info.plist" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\_CodeSignature\CodeResources" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Headers\AEPRulesEngine-umbrella.h" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Headers\AEPRulesEngine-Swift.h" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\x86_64-apple-tvos-simulator.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-tvos-simulator.swiftdoc" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\x86_64-apple-tvos-simulator.swiftdoc" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-tvos-simulator.abi.json" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-tvos-simulator.private.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-tvos-simulator.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\x86_64-apple-tvos-simulator.abi.json" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\x86_64-apple-tvos-simulator.private.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\dSYMs\AEPRulesEngine.framework.dSYM\Contents\Info.plist" />
-    <None Remove="References\AEPRulesEngine.xcframework\tvos-arm64_x86_64-simulator\dSYMs\AEPRulesEngine.framework.dSYM\Contents\Resources\DWARF\AEPRulesEngine" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\AEPRulesEngine" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Info.plist" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\_CodeSignature\CodeResources" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Headers\AEPRulesEngine-umbrella.h" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Headers\AEPRulesEngine-Swift.h" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\x86_64-apple-ios-simulator.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios-simulator.abi.json" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios-simulator.private.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\x86_64-apple-ios-simulator.swiftdoc" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios-simulator.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\x86_64-apple-ios-simulator.private.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios-simulator.swiftdoc" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\x86_64-apple-ios-simulator.abi.json" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\dSYMs\AEPRulesEngine.framework.dSYM\Contents\Info.plist" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64_x86_64-simulator\dSYMs\AEPRulesEngine.framework.dSYM\Contents\Resources\DWARF\AEPRulesEngine" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\AEPRulesEngine.framework\AEPRulesEngine" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\AEPRulesEngine.framework\Info.plist" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\AEPRulesEngine.framework\Headers\AEPRulesEngine-umbrella.h" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\AEPRulesEngine.framework\Headers\AEPRulesEngine-Swift.h" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\AEPRulesEngine.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios.swiftdoc" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios.abi.json" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios.private.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\dSYMs\AEPRulesEngine.framework.dSYM\Contents\Info.plist" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\dSYMs\AEPRulesEngine.framework.dSYM\Contents\Resources\DWARF\AEPRulesEngine" />
     <None Remove="References\.DS_Store" />
     <None Remove="References\AEPRulesEngine.xcframework\.DS_Store" />
     <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\.DS_Store" />
@@ -84,6 +29,7 @@
     <NativeReference Include="References\AEPRulesEngine.framework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
+      <LinkerFlags>-Objc</LinkerFlags>
     </NativeReference>
   </ItemGroup>
 </Project>
