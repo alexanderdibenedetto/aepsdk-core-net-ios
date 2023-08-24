@@ -15,16 +15,6 @@
     <ProjectReference Include="..\AepServices\AepServices.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="References\AEPSignal.xcframework">
-      <Kind>Static</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="References\AEPSignal.xcframework\ios-arm64\StructsAndEnums.cs" />
-    <Compile Remove="References\AEPSignal.xcframework\ios-arm64\ApiDefinitions.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <None Remove="References\.DS_Store" />
     <None Remove="References\AEPSignal.xcframework\.DS_Store" />
     <None Remove="References\AEPSignal.xcframework\Info.plist" />
@@ -83,5 +73,20 @@
     <None Remove="References\AEPSignal.xcframework\ios-arm64\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.private.swiftinterface" />
     <None Remove="References\AEPSignal.xcframework\ios-arm64\dSYMs\AEPSignal.framework.dSYM\Contents\Info.plist" />
     <None Remove="References\AEPSignal.xcframework\ios-arm64\dSYMs\AEPSignal.framework.dSYM\Contents\Resources\DWARF\AEPSignal" />
+    <None Remove="References\AEPSignal.framework\AEPSignal" />
+    <None Remove="References\AEPSignal.framework\Info.plist" />
+    <None Remove="References\AEPSignal.framework\Headers\AEPSignal-Swift.h" />
+    <None Remove="References\AEPSignal.framework\Headers\AEPSignal.h" />
+    <None Remove="References\AEPSignal.framework\Modules\module.modulemap" />
+    <None Remove="References\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.swiftinterface" />
+    <None Remove="References\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.swiftdoc" />
+    <None Remove="References\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.abi.json" />
+    <None Remove="References\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.private.swiftinterface" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="References\AEPSignal.framework">
+      <Kind>Framework</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
   </ItemGroup>
 </Project>

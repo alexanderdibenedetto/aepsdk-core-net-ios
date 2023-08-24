@@ -363,11 +363,11 @@ namespace AepServices
         void Label(AEPLogLevel level, string label, string message);
     }
 
-    // @interface MessageGestureRecognizer : UISwipeGestureRecognizer
-    [BaseType(typeof(UISwipeGestureRecognizer), Name = "_TtC11AEPServices24MessageGestureRecognizer")]
-    interface MessageGestureRecognizer
-    {
-    }
+    //// @interface MessageGestureRecognizer : UISwipeGestureRecognizer
+    //[BaseType(typeof(UISwipeGestureRecognizer), Name = "_TtC11AEPServices24MessageGestureRecognizer")]
+    //interface MessageGestureRecognizer
+    //{
+    //}
 
     // @interface AEPMessageSettings : NSObject
     [BaseType(typeof(NSObject))]

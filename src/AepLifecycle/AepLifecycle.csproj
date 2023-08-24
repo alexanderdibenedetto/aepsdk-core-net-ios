@@ -70,15 +70,24 @@
     <None Remove="References\AEPLifecycle.xcframework\ios-arm64\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.private.swiftinterface" />
     <None Remove="References\AEPLifecycle.xcframework\ios-arm64\dSYMs\AEPLifecycle.framework.dSYM\Contents\Info.plist" />
     <None Remove="References\AEPLifecycle.xcframework\ios-arm64\dSYMs\AEPLifecycle.framework.dSYM\Contents\Resources\DWARF\AEPLifecycle" />
-  </ItemGroup>
-  <ItemGroup>
-    <NativeReference Include="References\AEPLifecycle.xcframework">
-      <Kind>Static</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
+    <None Remove="References\AEPLifecycle.framework\AEPLifecycle" />
+    <None Remove="References\AEPLifecycle.framework\Info.plist" />
+    <None Remove="References\AEPLifecycle.framework\Headers\AEPLifecycle-Swift.h" />
+    <None Remove="References\AEPLifecycle.framework\Headers\AEPLifecycle.h" />
+    <None Remove="References\AEPLifecycle.framework\Modules\module.modulemap" />
+    <None Remove="References\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.swiftinterface" />
+    <None Remove="References\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.swiftdoc" />
+    <None Remove="References\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.abi.json" />
+    <None Remove="References\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.private.swiftinterface" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AepCore\AepCore.csproj" />
     <ProjectReference Include="..\AepServices\AepServices.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="References\AEPLifecycle.framework">
+      <Kind>Framework</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
   </ItemGroup>
 </Project>

@@ -11,12 +11,6 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="References\AEPCore.xcframework">
-      <Kind>Static</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\AepServices\AepServices.csproj" />
   </ItemGroup>
   <ItemGroup>
@@ -79,5 +73,20 @@
     <None Remove="References\AEPCore.xcframework\ios-arm64\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios.private.swiftinterface" />
     <None Remove="References\AEPCore.xcframework\ios-arm64\dSYMs\AEPCore.framework.dSYM\Contents\Info.plist" />
     <None Remove="References\AEPCore.xcframework\ios-arm64\dSYMs\AEPCore.framework.dSYM\Contents\Resources\DWARF\AEPCore" />
+    <None Remove="References\AEPCore.framework\AEPCore" />
+    <None Remove="References\AEPCore.framework\Info.plist" />
+    <None Remove="References\AEPCore.framework\Headers\AEPCore.h" />
+    <None Remove="References\AEPCore.framework\Headers\AEPCore-Swift.h" />
+    <None Remove="References\AEPCore.framework\Modules\module.modulemap" />
+    <None Remove="References\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios.swiftinterface" />
+    <None Remove="References\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios.swiftdoc" />
+    <None Remove="References\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios.abi.json" />
+    <None Remove="References\AEPCore.framework\Modules\AEPCore.swiftmodule\arm64-apple-ios.private.swiftinterface" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="References\AEPCore.framework">
+      <Kind>Framework</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
   </ItemGroup>
 </Project>
