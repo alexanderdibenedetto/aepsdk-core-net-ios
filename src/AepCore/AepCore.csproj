@@ -11,9 +11,6 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AepServices\AepServices.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <None Remove="References\.DS_Store" />
     <None Remove="References\AEPCore.framework\AEPCore" />
     <None Remove="References\AEPCore.framework\Info.plist" />
@@ -29,7 +26,10 @@
     <NativeReference Include="References\AEPCore.framework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
-      <LinkerFlags>-Objc</LinkerFlags>
+      <LinkerFlags>-Objc -framework AEPServices</LinkerFlags>
     </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AepServices\AepServices.csproj" />
   </ItemGroup>
 </Project>
