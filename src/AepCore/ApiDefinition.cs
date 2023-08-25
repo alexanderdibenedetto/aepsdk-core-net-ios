@@ -9,6 +9,11 @@ using AepCore;
 
 namespace AepCore
 {
+    interface IAEPExtension : AEPExtension
+    {
+
+    }
+
     // @protocol AEPExtension
     /*
       Check whether adding [Model] to this declaration is appropriate.
@@ -19,8 +24,7 @@ namespace AepCore
       protocol, then [Model] is redundant and will generate code that will never
       be used.
     */
-    [Protocol]
-    [BaseType(typeof(NSObject))]
+    [Protocol, Model]
     interface AEPExtension
     {
         // @required @property (readonly, copy, nonatomic) NSString * _Nonnull name;
@@ -64,54 +68,54 @@ namespace AepCore
         bool ReadyForEvent(AEPEvent @event);
 
         // @required -(instancetype _Nullable)initWithRuntime:(id<AEPExtensionRuntime> _Nonnull)runtime;
-        //[Abstract]
-        //[Export("initWithRuntime:")]
-        //NativeHandle Constructor(AEPExtensionRuntime runtime);
+        [DesignatedInitializer]
+        [Export("initWithRuntime:")]
+        NativeHandle Constructor(AEPExtensionRuntime runtime);
     }
 
     //// @interface Configuration : NSObject <AEPExtension>
-    //[BaseType(typeof(AEPExtension), Name = "_TtC7AEPCore13Configuration")]
-    //[DisableDefaultCtor]
-    //interface Configuration : AEPExtension
-    //{
-    //    // @property (readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
-    //    //[Export("runtime", ArgumentSemantic.Strong)]
-    //    //AEPExtensionRuntime Runtime { get; }
+    [BaseType(typeof(NSObject), Name = "_TtC7AEPCore13Configuration")]
+    [DisableDefaultCtor]
+    interface Configuration : AEPExtension
+    {
+        // @property (readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
+        //[Export("runtime", ArgumentSemantic.Strong)]
+        //AEPExtensionRuntime Runtime { get; }
 
-    //    // @property (readonly, copy, nonatomic) NSString * _Nonnull name;
-    //    [Export("name")]
-    //    string Name { get; }
+        // @property (readonly, copy, nonatomic) NSString * _Nonnull name;
+        [Export("name")]
+        string Name { get; }
 
-    //    // @property (readonly, copy, nonatomic) NSString * _Nonnull friendlyName;
-    //    [Export("friendlyName")]
-    //    string FriendlyName { get; }
+        // @property (readonly, copy, nonatomic) NSString * _Nonnull friendlyName;
+        [Export("friendlyName")]
+        string FriendlyName { get; }
 
-    //    // @property (readonly, copy, nonatomic, class) NSString * _Nonnull extensionVersion;
-    //    [Static]
-    //    [Export("extensionVersion")]
-    //    string ExtensionVersion { get; }
+        // @property (readonly, copy, nonatomic, class) NSString * _Nonnull extensionVersion;
+        [Static]
+        [Export("extensionVersion")]
+        string ExtensionVersion { get; }
 
-    //    // @property (readonly, copy, nonatomic) NSDictionary<NSString *,NSString *> * _Nullable metadata;
-    //    [NullAllowed, Export("metadata", ArgumentSemantic.Copy)]
-    //    NSDictionary<NSString, NSString> Metadata { get; }
+        // @property (readonly, copy, nonatomic) NSDictionary<NSString *,NSString *> * _Nullable metadata;
+        [NullAllowed, Export("metadata", ArgumentSemantic.Copy)]
+        NSDictionary<NSString, NSString> Metadata { get; }
 
-    //    // -(instancetype _Nonnull)initWithRuntime:(id<AEPExtensionRuntime> _Nonnull)runtime __attribute__((objc_designated_initializer));
-    //    //[Export("initWithRuntime:")]
-    //    //[DesignatedInitializer]
-    //    //NativeHandle Constructor(AEPExtensionRuntime runtime);
+        // -(instancetype _Nonnull)initWithRuntime:(id<AEPExtensionRuntime> _Nonnull)runtime __attribute__((objc_designated_initializer));
+        [Export("initWithRuntime:")]
+        [DesignatedInitializer]
+        NativeHandle Constructor(AEPExtensionRuntime runtime);
 
-    //    // -(void)onRegistered;
-    //    [Export("onRegistered")]
-    //    void OnRegistered();
+        // -(void)onRegistered;
+        [Export("onRegistered")]
+        void OnRegistered();
 
-    //    // -(void)onUnregistered;
-    //    [Export("onUnregistered")]
-    //    void OnUnregistered();
+        // -(void)onUnregistered;
+        [Export("onUnregistered")]
+        void OnUnregistered();
 
-    //    // -(BOOL)readyForEvent:(AEPEvent * _Nonnull)event __attribute__((warn_unused_result("")));
-    //    [Export("readyForEvent:")]
-    //    bool ReadyForEvent(AEPEvent @event);
-    //}
+        // -(BOOL)readyForEvent:(AEPEvent * _Nonnull)event __attribute__((warn_unused_result("")));
+        [Export("readyForEvent:")]
+        bool ReadyForEvent(AEPEvent @event);
+    }
 
     // @interface AEPEvent : NSObject
     [BaseType(typeof(NSObject))]
@@ -225,49 +229,49 @@ namespace AepCore
         NativeHandle Constructor(nint count, [NullAllowed] NSDate oldest, [NullAllowed] NSDate newest);
     }
 
-    //// @interface EventHubPlaceholderExtension : NSObject <AEPExtension>
-    //[BaseType(typeof(AEPExtension), Name = "_TtC7AEPCore28EventHubPlaceholderExtension")]
-    //[DisableDefaultCtor]
-    //interface EventHubPlaceholderExtension : AEPExtension
-    //{
-    //    // @property (readonly, copy, nonatomic) NSString * _Nonnull name;
-    //    [Export("name")]
-    //    string Name { get; }
+    // @interface EventHubPlaceholderExtension : NSObject <AEPExtension>
+    [BaseType(typeof(NSObject), Name = "_TtC7AEPCore28EventHubPlaceholderExtension")]
+    [DisableDefaultCtor]
+    interface EventHubPlaceholderExtension : AEPExtension
+    {
+        // @property (readonly, copy, nonatomic) NSString * _Nonnull name;
+        [Export("name")]
+        string Name { get; }
 
-    //    // @property (readonly, copy, nonatomic) NSString * _Nonnull friendlyName;
-    //    [Export("friendlyName")]
-    //    string FriendlyName { get; }
+        // @property (readonly, copy, nonatomic) NSString * _Nonnull friendlyName;
+        [Export("friendlyName")]
+        string FriendlyName { get; }
 
-    //    // @property (readonly, copy, nonatomic, class) NSString * _Nonnull extensionVersion;
-    //    [Static]
-    //    [Export("extensionVersion")]
-    //    string ExtensionVersion { get; }
+        // @property (readonly, copy, nonatomic, class) NSString * _Nonnull extensionVersion;
+        [Static]
+        [Export("extensionVersion")]
+        string ExtensionVersion { get; }
 
-    //    // @property (readonly, copy, nonatomic) NSDictionary<NSString *,NSString *> * _Nullable metadata;
-    //    [NullAllowed, Export("metadata", ArgumentSemantic.Copy)]
-    //    NSDictionary<NSString, NSString> Metadata { get; }
+        // @property (readonly, copy, nonatomic) NSDictionary<NSString *,NSString *> * _Nullable metadata;
+        [NullAllowed, Export("metadata", ArgumentSemantic.Copy)]
+        NSDictionary<NSString, NSString> Metadata { get; }
 
-    //    // @property (readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
-    //    //[Export("runtime", ArgumentSemantic.Strong)]
-    //    //AEPExtensionRuntime Runtime { get; }
+        // @property (readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
+        //[Export("runtime", ArgumentSemantic.Strong)]
+        //AEPExtensionRuntime Runtime { get; }
 
-    //    // -(instancetype _Nonnull)initWithRuntime:(id<AEPExtensionRuntime> _Nonnull)runtime __attribute__((objc_designated_initializer));
-    //    //[Export("initWithRuntime:")]
-    //    //[DesignatedInitializer]
-    //    //NativeHandle Constructor(AEPExtensionRuntime runtime);
+        // -(instancetype _Nonnull)initWithRuntime:(id<AEPExtensionRuntime> _Nonnull)runtime __attribute__((objc_designated_initializer));
+        [Export("initWithRuntime:")]
+        [DesignatedInitializer]
+        NativeHandle Constructor(AEPExtensionRuntime runtime);
 
-    //    // -(void)onRegistered;
-    //    [Export("onRegistered")]
-    //    void OnRegistered();
+        // -(void)onRegistered;
+        [Export("onRegistered")]
+        void OnRegistered();
 
-    //    // -(void)onUnregistered;
-    //    [Export("onUnregistered")]
-    //    void OnUnregistered();
+        // -(void)onUnregistered;
+        [Export("onUnregistered")]
+        void OnUnregistered();
 
-    //    // -(BOOL)readyForEvent:(AEPEvent * _Nonnull)_ __attribute__((warn_unused_result("")));
-    //    [Export("readyForEvent:")]
-    //    bool ReadyForEvent(AEPEvent _);
-    //}
+        // -(BOOL)readyForEvent:(AEPEvent * _Nonnull)_ __attribute__((warn_unused_result("")));
+        [Export("readyForEvent:")]
+        bool ReadyForEvent(AEPEvent _);
+    }
 
     // @interface AEPEventSource : NSObject
     [BaseType(typeof(NSObject))]
@@ -559,83 +563,84 @@ namespace AepCore
       protocol, then [Model] is redundant and will generate code that will never
       be used.
     */
-    //[Protocol, Model]
-    //interface AEPExtensionRuntime
-    //{
-    //    // @required -(void)unregisterExtension;
-    //    [Abstract]
-    //    [Export("unregisterExtension")]
-    //    void UnregisterExtension();
+    [Protocol, Model]
+    [BaseType(typeof(NSObject))]
+    interface AEPExtensionRuntime
+    {
+        // @required -(void)unregisterExtension;
+        [Abstract]
+        [Export("unregisterExtension")]
+        void UnregisterExtension();
 
-    //    // @required -(void)registerListenerWithType:(NSString * _Nonnull)type source:(NSString * _Nonnull)source listener:(void (^ _Nonnull)(AEPEvent * _Nonnull))listener;
-    //    [Abstract]
-    //    [Export("registerListenerWithType:source:listener:")]
-    //    void RegisterListenerWithType(string type, string source, Action<AEPEvent> listener);
+        // @required -(void)registerListenerWithType:(NSString * _Nonnull)type source:(NSString * _Nonnull)source listener:(void (^ _Nonnull)(AEPEvent * _Nonnull))listener;
+        [Abstract]
+        [Export("registerListenerWithType:source:listener:")]
+        void RegisterListenerWithType(string type, string source, Action<AEPEvent> listener);
 
-    //    // @required -(void)startEvents;
-    //    [Abstract]
-    //    [Export("startEvents")]
-    //    void StartEvents();
+        // @required -(void)startEvents;
+        [Abstract]
+        [Export("startEvents")]
+        void StartEvents();
 
-    //    // @required -(void)stopEvents;
-    //    [Abstract]
-    //    [Export("stopEvents")]
-    //    void StopEvents();
+        // @required -(void)stopEvents;
+        [Abstract]
+        [Export("stopEvents")]
+        void StopEvents();
 
-    //    // @required -(void)dispatchWithEvent:(AEPEvent * _Nonnull)event;
-    //    [Abstract]
-    //    [Export("dispatchWithEvent:")]
-    //    void DispatchWithEvent(AEPEvent @event);
+        // @required -(void)dispatchWithEvent:(AEPEvent * _Nonnull)event;
+        [Abstract]
+        [Export("dispatchWithEvent:")]
+        void DispatchWithEvent(AEPEvent @event);
 
-    //    // @required -(void)createSharedStateWithData:(NSDictionary<NSString *,id> * _Nonnull)data event:(AEPEvent * _Nullable)event;
-    //    [Abstract]
-    //    [Export("createSharedStateWithData:event:")]
-    //    void CreateSharedStateWithData(NSDictionary<NSString, NSObject> data, [NullAllowed] AEPEvent @event);
+        // @required -(void)createSharedStateWithData:(NSDictionary<NSString *,id> * _Nonnull)data event:(AEPEvent * _Nullable)event;
+        [Abstract]
+        [Export("createSharedStateWithData:event:")]
+        void CreateSharedStateWithData(NSDictionary<NSString, NSObject> data, [NullAllowed] AEPEvent @event);
 
-    //    // @required -(void (^ _Nonnull)(NSDictionary<NSString *,id> * _Nullable))createPendingSharedStateWithEvent:(AEPEvent * _Nullable)event __attribute__((warn_unused_result("")));
-    //    [Abstract]
-    //    [Export("createPendingSharedStateWithEvent:")]
-    //    Action<NSDictionary<NSString, NSObject>> CreatePendingSharedStateWithEvent([NullAllowed] AEPEvent @event);
+        // @required -(void (^ _Nonnull)(NSDictionary<NSString *,id> * _Nullable))createPendingSharedStateWithEvent:(AEPEvent * _Nullable)event __attribute__((warn_unused_result("")));
+        [Abstract]
+        [Export("createPendingSharedStateWithEvent:")]
+        Action<NSDictionary<NSString, NSObject>> CreatePendingSharedStateWithEvent([NullAllowed] AEPEvent @event);
 
-    //    // @required -(AEPSharedStateResult * _Nullable)getSharedStateWithExtensionName:(NSString * _Nonnull)extensionName event:(AEPEvent * _Nullable)event barrier:(BOOL)barrier __attribute__((warn_unused_result("")));
-    //    [Abstract]
-    //    [Export("getSharedStateWithExtensionName:event:barrier:")]
-    //    [return: NullAllowed]
-    //    AEPSharedStateResult GetSharedStateWithExtensionName(string extensionName, [NullAllowed] AEPEvent @event, bool barrier);
+        // @required -(AEPSharedStateResult * _Nullable)getSharedStateWithExtensionName:(NSString * _Nonnull)extensionName event:(AEPEvent * _Nullable)event barrier:(BOOL)barrier __attribute__((warn_unused_result("")));
+        [Abstract]
+        [Export("getSharedStateWithExtensionName:event:barrier:")]
+        [return: NullAllowed]
+        AEPSharedStateResult GetSharedStateWithExtensionName(string extensionName, [NullAllowed] AEPEvent @event, bool barrier);
 
-    //    // @required -(AEPSharedStateResult * _Nullable)getSharedStateWithExtensionName:(NSString * _Nonnull)extensionName event:(AEPEvent * _Nullable)event barrier:(BOOL)barrier resolution:(enum AEPSharedStateResolution)resolution __attribute__((warn_unused_result("")));
-    //    [Abstract]
-    //    [Export("getSharedStateWithExtensionName:event:barrier:resolution:")]
-    //    [return: NullAllowed]
-    //    AEPSharedStateResult GetSharedStateWithExtensionName(string extensionName, [NullAllowed] AEPEvent @event, bool barrier, AEPSharedStateResolution resolution);
+        // @required -(AEPSharedStateResult * _Nullable)getSharedStateWithExtensionName:(NSString * _Nonnull)extensionName event:(AEPEvent * _Nullable)event barrier:(BOOL)barrier resolution:(enum AEPSharedStateResolution)resolution __attribute__((warn_unused_result("")));
+        [Abstract]
+        [Export("getSharedStateWithExtensionName:event:barrier:resolution:")]
+        [return: NullAllowed]
+        AEPSharedStateResult GetSharedStateWithExtensionName(string extensionName, [NullAllowed] AEPEvent @event, bool barrier, AEPSharedStateResolution resolution);
 
-    //    // @required -(void)createXDMSharedStateWithData:(NSDictionary<NSString *,id> * _Nonnull)data event:(AEPEvent * _Nullable)event;
-    //    [Abstract]
-    //    [Export("createXDMSharedStateWithData:event:")]
-    //    void CreateXDMSharedStateWithData(NSDictionary<NSString, NSObject> data, [NullAllowed] AEPEvent @event);
+        // @required -(void)createXDMSharedStateWithData:(NSDictionary<NSString *,id> * _Nonnull)data event:(AEPEvent * _Nullable)event;
+        [Abstract]
+        [Export("createXDMSharedStateWithData:event:")]
+        void CreateXDMSharedStateWithData(NSDictionary<NSString, NSObject> data, [NullAllowed] AEPEvent @event);
 
-    //    // @required -(void (^ _Nonnull)(NSDictionary<NSString *,id> * _Nullable))createPendingXDMSharedStateWithEvent:(AEPEvent * _Nullable)event __attribute__((warn_unused_result("")));
-    //    [Abstract]
-    //    [Export("createPendingXDMSharedStateWithEvent:")]
-    //    Action<NSDictionary<NSString, NSObject>> CreatePendingXDMSharedStateWithEvent([NullAllowed] AEPEvent @event);
+        // @required -(void (^ _Nonnull)(NSDictionary<NSString *,id> * _Nullable))createPendingXDMSharedStateWithEvent:(AEPEvent * _Nullable)event __attribute__((warn_unused_result("")));
+        [Abstract]
+        [Export("createPendingXDMSharedStateWithEvent:")]
+        Action<NSDictionary<NSString, NSObject>> CreatePendingXDMSharedStateWithEvent([NullAllowed] AEPEvent @event);
 
-    //    // @required -(AEPSharedStateResult * _Nullable)getXDMSharedStateWithExtensionName:(NSString * _Nonnull)extensionName event:(AEPEvent * _Nullable)event barrier:(BOOL)barrier __attribute__((warn_unused_result("")));
-    //    [Abstract]
-    //    [Export("getXDMSharedStateWithExtensionName:event:barrier:")]
-    //    [return: NullAllowed]
-    //    AEPSharedStateResult GetXDMSharedStateWithExtensionName(string extensionName, [NullAllowed] AEPEvent @event, bool barrier);
+        // @required -(AEPSharedStateResult * _Nullable)getXDMSharedStateWithExtensionName:(NSString * _Nonnull)extensionName event:(AEPEvent * _Nullable)event barrier:(BOOL)barrier __attribute__((warn_unused_result("")));
+        [Abstract]
+        [Export("getXDMSharedStateWithExtensionName:event:barrier:")]
+        [return: NullAllowed]
+        AEPSharedStateResult GetXDMSharedStateWithExtensionName(string extensionName, [NullAllowed] AEPEvent @event, bool barrier);
 
-    //    // @required -(AEPSharedStateResult * _Nullable)getXDMSharedStateWithExtensionName:(NSString * _Nonnull)extensionName event:(AEPEvent * _Nullable)event barrier:(BOOL)barrier resolution:(enum AEPSharedStateResolution)resolution __attribute__((warn_unused_result("")));
-    //    [Abstract]
-    //    [Export("getXDMSharedStateWithExtensionName:event:barrier:resolution:")]
-    //    [return: NullAllowed]
-    //    AEPSharedStateResult GetXDMSharedStateWithExtensionName(string extensionName, [NullAllowed] AEPEvent @event, bool barrier, AEPSharedStateResolution resolution);
+        // @required -(AEPSharedStateResult * _Nullable)getXDMSharedStateWithExtensionName:(NSString * _Nonnull)extensionName event:(AEPEvent * _Nullable)event barrier:(BOOL)barrier resolution:(enum AEPSharedStateResolution)resolution __attribute__((warn_unused_result("")));
+        [Abstract]
+        [Export("getXDMSharedStateWithExtensionName:event:barrier:resolution:")]
+        [return: NullAllowed]
+        AEPSharedStateResult GetXDMSharedStateWithExtensionName(string extensionName, [NullAllowed] AEPEvent @event, bool barrier, AEPSharedStateResolution resolution);
 
-    //    // @required -(void)getHistoricalEvents:(NSArray<AEPEventHistoryRequest *> * _Nonnull)requests enforceOrder:(BOOL)enforceOrder handler:(void (^ _Nonnull)(NSArray<AEPEventHistoryResult *> * _Nonnull))handler;
-    //    [Abstract]
-    //    [Export("getHistoricalEvents:enforceOrder:handler:")]
-    //    void GetHistoricalEvents(AEPEventHistoryRequest[] requests, bool enforceOrder, Action<NSArray<AEPEventHistoryResult>> handler);
-    //}
+        // @required -(void)getHistoricalEvents:(NSArray<AEPEventHistoryRequest *> * _Nonnull)requests enforceOrder:(BOOL)enforceOrder handler:(void (^ _Nonnull)(NSArray<AEPEventHistoryResult *> * _Nonnull))handler;
+        [Abstract]
+        [Export("getHistoricalEvents:enforceOrder:handler:")]
+        void GetHistoricalEvents(AEPEventHistoryRequest[] requests, bool enforceOrder, Action<NSArray<AEPEventHistoryResult>> handler);
+    }
 
     // @interface AEPMobileCore : NSObject
     [BaseType(typeof(NSObject))]
@@ -646,7 +651,7 @@ namespace AepCore
         [Export("extensionVersion")]
         string ExtensionVersion { get; }
 
-        //[Wrap("WeakMessagingDelegate"), Static]
+        // [Wrap("WeakMessagingDelegate"), Static]
         //[NullAllowed]
         //AEPMessagingDelegate MessagingDelegate { get; set; }
 
@@ -663,12 +668,12 @@ namespace AepCore
         // +(void)registerExtension:(Class<AEPExtension> _Nonnull)exten completion:(void (^ _Nullable)(void))completion;
         [Static]
         [Export("registerExtension:completion:")]
-        void RegisterExtension(AEPExtension exten, [NullAllowed] Action completion);
+        void RegisterExtension(IAEPExtension exten, [NullAllowed] Action completion);
 
         // +(void)unregisterExtension:(Class<AEPExtension> _Nonnull)exten completion:(void (^ _Nullable)(void))completion;
         [Static]
         [Export("unregisterExtension:completion:")]
-        void UnregisterExtension(AEPExtension exten, [NullAllowed] Action completion);
+        void UnregisterExtension(IAEPExtension exten, [NullAllowed] Action completion);
 
         // +(NSString * _Nonnull)getRegisteredExtensions __attribute__((warn_unused_result("")));
         [Static]
@@ -766,7 +771,7 @@ namespace AepCore
     // @interface AEPCore_Swift_863 (AEPMobileCore)
     [Category]
     [BaseType(typeof(AEPMobileCore))]
-    interface AEPMobileCore_AEPCore_Swift_863
+    interface AEPMobileCore_AEPCore_Swift_863 : AEPMobileCore
     {
         // +(void)configureWithAppId:(NSString * _Nonnull)appId;
         [Static]
@@ -824,5 +829,3 @@ namespace AepCore
     }
 
 }
-
-

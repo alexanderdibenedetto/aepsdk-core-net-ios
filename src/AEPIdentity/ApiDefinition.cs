@@ -71,9 +71,9 @@ namespace AEPIdentity
         NSDictionary<NSString, NSString> Metadata { get; }
 
         // -(instancetype _Nonnull)initWithRuntime:(id<AEPExtensionRuntime> _Nonnull)runtime __attribute__((objc_designated_initializer));
-        //[Export("initWithRuntime:")]
-        //[DesignatedInitializer]
-        //NativeHandle Constructor(AEPExtensionRuntime runtime);
+        [Export("initWithRuntime:")]
+        [DesignatedInitializer]
+        NativeHandle Constructor(AEPExtensionRuntime runtime);
 
         // -(void)onRegistered;
         [Export("onRegistered")]

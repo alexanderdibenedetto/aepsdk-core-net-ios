@@ -5,8 +5,7 @@ using Foundation;
 using ObjCRuntime;
 using Security;
 
-namespace AepSignal {
+namespace AepSignal
+{
 
 }
-
-

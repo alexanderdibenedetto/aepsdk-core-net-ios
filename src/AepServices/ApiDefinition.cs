@@ -24,80 +24,85 @@ namespace AepServices
     {
     }
 
-    //// @protocol AEPDataQueue
-    ///*
-    //  Check whether adding [Model] to this declaration is appropriate.
-    //  [Model] is used to generate a C# class that implements this protocol,
-    //  and might be useful for protocols that consumers are supposed to implement,
-    //  since consumers can subclass the generated class instead of implementing
-    //  the generated interface. If consumers are not supposed to implement this
-    //  protocol, then [Model] is redundant and will generate code that will never
-    //  be used.
-    //*/
-    //[Protocol, Model]
-    //interface AEPDataQueue
-    //{
-    //    // @required -(BOOL)addWithDataEntity:(AEPDataEntity * _Nonnull)dataEntity;
-    //    [Abstract]
-    //    [Export("addWithDataEntity:")]
-    //    bool AddWithDataEntity(AEPDataEntity dataEntity);
+    interface IAEPDataQueue : AEPDataQueue
+    {
 
-    //    // @required -(AEPDataEntity * _Nullable)peek __attribute__((warn_unused_result("")));
-    //    [Abstract]
-    //    [NullAllowed, Export("peek")]
-    //    AEPDataEntity Peek { get; }
+    }
 
-    //    // @required -(NSArray<AEPDataEntity *> * _Nullable)peekWithN:(NSInteger)n __attribute__((warn_unused_result("")));
-    //    [Abstract]
-    //    [Export("peekWithN:")]
-    //    [return: NullAllowed]
-    //    AEPDataEntity[] PeekWithN(nint n);
+    // @protocol AEPDataQueue
+    /*
+      Check whether adding [Model] to this declaration is appropriate.
+      [Model] is used to generate a C# class that implements this protocol,
+      and might be useful for protocols that consumers are supposed to implement,
+      since consumers can subclass the generated class instead of implementing
+      the generated interface. If consumers are not supposed to implement this
+      protocol, then [Model] is redundant and will generate code that will never
+      be used.
+    */
+    [Protocol, Model]
+    interface AEPDataQueue
+    {
+        // @required -(BOOL)addWithDataEntity:(AEPDataEntity * _Nonnull)dataEntity;
+        [Abstract]
+        [Export("addWithDataEntity:")]
+        bool AddWithDataEntity(AEPDataEntity dataEntity);
 
-    //    // @required -(BOOL)remove;
-    //    [Abstract]
-    //    [Export("remove")]
-    //    bool Remove { get; }
+        // @required -(AEPDataEntity * _Nullable)peek __attribute__((warn_unused_result("")));
+        [Abstract]
+        [NullAllowed, Export("peek")]
+        AEPDataEntity Peek { get; }
 
-    //    // @required -(BOOL)removeWithN:(NSInteger)n;
-    //    [Abstract]
-    //    [Export("removeWithN:")]
-    //    bool RemoveWithN(nint n);
+        // @required -(NSArray<AEPDataEntity *> * _Nullable)peekWithN:(NSInteger)n __attribute__((warn_unused_result("")));
+        [Abstract]
+        [Export("peekWithN:")]
+        [return: NullAllowed]
+        AEPDataEntity[] PeekWithN(nint n);
 
-    //    // @required -(BOOL)clear;
-    //    [Abstract]
-    //    [Export("clear")]
-    //    bool Clear { get; }
+        // @required -(BOOL)remove;
+        [Abstract]
+        [Export("remove")]
+        bool Remove { get; }
 
-    //    // @required -(NSInteger)count __attribute__((warn_unused_result("")));
-    //    [Abstract]
-    //    [Export("count")]
-    //    nint Count { get; }
+        // @required -(BOOL)removeWithN:(NSInteger)n;
+        [Abstract]
+        [Export("removeWithN:")]
+        bool RemoveWithN(nint n);
 
-    //    // @required -(void)close;
-    //    [Abstract]
-    //    [Export("close")]
-    //    void Close();
-    //}
+        // @required -(BOOL)clear;
+        [Abstract]
+        [Export("clear")]
+        bool Clear { get; }
 
-    //// @protocol AEPDataQueuing
-    ///*
-    //  Check whether adding [Model] to this declaration is appropriate.
-    //  [Model] is used to generate a C# class that implements this protocol,
-    //  and might be useful for protocols that consumers are supposed to implement,
-    //  since consumers can subclass the generated class instead of implementing
-    //  the generated interface. If consumers are not supposed to implement this
-    //  protocol, then [Model] is redundant and will generate code that will never
-    //  be used.
-    //*/
-    //[Protocol]
-    //interface AEPDataQueuing
-    //{
-    //    // @required -(id<AEPDataQueue> _Nullable)getDataQueueWithLabel:(NSString * _Nonnull)label __attribute__((warn_unused_result("")));
-    //    [Abstract]
-    //    [Export("getDataQueueWithLabel:")]
-    //    [return: NullAllowed]
-    //    AEPDataQueue GetDataQueueWithLabel(string label);
-    //}
+        // @required -(NSInteger)count __attribute__((warn_unused_result("")));
+        [Abstract]
+        [Export("count")]
+        nint Count { get; }
+
+        // @required -(void)close;
+        [Abstract]
+        [Export("close")]
+        void Close();
+    }
+
+    // @protocol AEPDataQueuing
+    /*
+      Check whether adding [Model] to this declaration is appropriate.
+      [Model] is used to generate a C# class that implements this protocol,
+      and might be useful for protocols that consumers are supposed to implement,
+      since consumers can subclass the generated class instead of implementing
+      the generated interface. If consumers are not supposed to implement this
+      protocol, then [Model] is redundant and will generate code that will never
+      be used.
+    */
+    [Protocol]
+    interface AEPDataQueuing
+    {
+        // @required -(id<AEPDataQueue> _Nullable)getDataQueueWithLabel:(NSString * _Nonnull)label __attribute__((warn_unused_result("")));
+        [Abstract]
+        [Export("getDataQueueWithLabel:")]
+        [return: NullAllowed]
+        IAEPDataQueue GetDataQueueWithLabel(string label);
+    }
 
     // @protocol AEPDismissible
     /*

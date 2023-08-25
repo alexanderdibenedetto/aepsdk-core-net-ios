@@ -9,13 +9,12 @@ using AepSignal;
 
 namespace AepSignal
 {
-
     // @interface AEPMobileSignal : NSObject
     [BaseType(typeof(NSObject))]
     [DisableDefaultCtor]
     interface AEPMobileSignal
     {
-        // @property (readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
+        // @property(readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
         //[Export("runtime", ArgumentSemantic.Strong)]
         //AEPExtensionRuntime Runtime { get; }
 
@@ -37,9 +36,9 @@ namespace AepSignal
         NSDictionary<NSString, NSString> Metadata { get; }
 
         // -(instancetype _Nullable)initWithRuntime:(id<AEPExtensionRuntime> _Nonnull)runtime __attribute__((objc_designated_initializer));
-        //[Export("initWithRuntime:")]
-        //[DesignatedInitializer]
-        //NativeHandle Constructor(AEPExtensionRuntime runtime);
+        [Export("initWithRuntime:")]
+        [DesignatedInitializer]
+        NativeHandle Constructor(AEPExtensionRuntime runtime);
 
         // -(void)onRegistered;
         [Export("onRegistered")]

@@ -48,7 +48,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
-	<ItemGroup Condition="'$(TargetFramework)'=='net7.0-ios'">
+	<ItemGroup>
 	  <ProjectReference Include="..\..\src\AepCore\AepCore.csproj" />
 	  <ProjectReference Include="..\..\src\AEPIdentity\AEPIdentity.csproj" />
 	  <ProjectReference Include="..\..\src\AepLifecycle\AepLifecycle.csproj" />
