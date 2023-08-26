@@ -3,7 +3,14 @@
     <TargetFramework>net7.0-ios</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
+    <IsTrimmable>false</IsTrimmable>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+    <AssemblyName>Adobe.AekSdk.Core.Net.iOS</AssemblyName>
+    <AssemblyTitle>Adobe.AekSdk.Core.Net.iOS</AssemblyTitle>
+    <Description>.NET MAUI Bindings for Adobe.AekSdk.Core.iOS</Description>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <PackageVersion>$(Version)</PackageVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <CreatePackage>false</CreatePackage>

@@ -7,6 +7,11 @@
     <IsTrimmable>false</IsTrimmable>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+    <AssemblyName>Adobe.AekSdk.Core.Net.iOS.AepLifecycle</AssemblyName>
+    <AssemblyTitle>Adobe.AekSdk.Core.Net.iOS.AepLifecycle</AssemblyTitle>
+    <Description>.NET MAUI Bindings for Adobe.AekSdk.Core.iOS</Description>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <PackageVersion>$(Version)</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,6 +27,8 @@
       <Kind>Framework</Kind>
       <ForceLoad>True</ForceLoad>
       <SmartLink>False</SmartLink>
+      <Frameworks>Foundation</Frameworks>
+      <LinkerFlags>-Objc</LinkerFlags>
     </NativeReference>
   </ItemGroup>
 </Project>
