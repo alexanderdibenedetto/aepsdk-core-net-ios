@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsTrimmable>false</IsTrimmable>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+    <AssemblyName>Adobe.AekSdk.Core.Net.iOS</AssemblyName>
+    <AssemblyTitle>Adobe.AekSdk.Core.Net.iOS</AssemblyTitle>
+    <Description>.NET MAUI Bindings for Adobe.AekSdk.Core.iOS</Description>
+    <Authors>Alexander DiBenedetto</Authors>
+    <PackageTags>Adobe MAUI AEP</PackageTags>
+    <ReleaseVersion>0.0.1</ReleaseVersion>
+    <AssemblyVersion>$(ReleaseVersion)</AssemblyVersion>
+    <PackageVersion>$(ReleaseVersion)</PackageVersion>
+    <OutputType>Library</OutputType>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/alexanderdibenedetto/aepsdk-core-net-ios</PackageProjectUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AepCore\AepCore.csproj" />
+    <ProjectReference Include="..\AepIdentity\AepIdentity.csproj" />
+    <ProjectReference Include="..\AepLifecycle\AepLifecycle.csproj" />
+    <ProjectReference Include="..\AepRulesEngine\AepRulesEngine.csproj" />
+    <ProjectReference Include="..\AepServices\AepServices.csproj" />
+    <ProjectReference Include="..\AepSignal\AepSignal.csproj" />
+  </ItemGroup>
+</Project>

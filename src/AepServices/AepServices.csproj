@@ -4,29 +4,31 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
+    <IsTrimmable>false</IsTrimmable>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+    <AssemblyName>Adobe.AekSdk.Core.Net.iOS.AepServices</AssemblyName>
+    <AssemblyTitle>Adobe.AekSdk.Core.Net.iOS.AepServices</AssemblyTitle>
+    <Description>.NET MAUI Bindings for Adobe.AekSdk.Core.iOS</Description>
+    <Authors>Alexander DiBenedetto</Authors>
+    <PackageTags>Adobe MAUI AEP</PackageTags>
+    <ReleaseVersion>0.0.1</ReleaseVersion>
+    <AssemblyVersion>$(ReleaseVersion)</AssemblyVersion>
+    <PackageVersion>$(ReleaseVersion)</PackageVersion>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/alexanderdibenedetto/aepsdk-core-net-ios</PackageProjectUrl>
   </PropertyGroup>
-
   <ItemGroup>
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="References\.DS_Store" />
-    <None Remove="References\AEPServices.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPServices.framework\Info.plist" />
-    <None Remove="References\AEPServices.framework\AEPServices" />
-    <None Remove="References\AEPServices.framework\Headers\AEPServices-Swift.h" />
-    <None Remove="References\AEPServices.framework\Headers\AEPServices.h" />
-    <None Remove="References\AEPServices.framework\Modules\AEPServices.swiftmodule\arm64-apple-ios.swiftinterface" />
-    <None Remove="References\AEPServices.framework\Modules\AEPServices.swiftmodule\arm64-apple-ios.swiftdoc" />
-    <None Remove="References\AEPServices.framework\Modules\AEPServices.swiftmodule\arm64-apple-ios.abi.json" />
-    <None Remove="References\AEPServices.framework\Modules\AEPServices.swiftmodule\arm64-apple-ios.private.swiftinterface" />
-  </ItemGroup>
-  <ItemGroup>
-    <NativeReference Include="References\AEPServices.framework">
+    <NativeReference Include="..\..\frameworks\AEPServices.xcframework">
       <Kind>Framework</Kind>
+      <ForceLoad>True</ForceLoad>
       <SmartLink>False</SmartLink>
-      <LinkerFlags>-Objc -framework UIKit -framework WebKit</LinkerFlags>
+      <Frameworks>UIKit Foundation WebKit</Frameworks>
+      <LinkerFlags>-Objc</LinkerFlags>
     </NativeReference>
   </ItemGroup>
 </Project>

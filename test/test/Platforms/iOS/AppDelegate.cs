@@ -1,7 +1,7 @@
 ﻿using Foundation;
 using AepCore;
 using AepServices;
-using AEPIdentity;
+using AepIdentity;
 using AepLifecycle;
 using AepSignal;
 using Security;
