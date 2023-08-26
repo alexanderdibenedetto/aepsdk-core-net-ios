@@ -4,6 +4,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
+    <IsTrimmable>false</IsTrimmable>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,22 +18,10 @@
     <ProjectReference Include="..\AepServices\AepServices.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="References\.DS_Store" />
-    <None Remove="References\AEPSignal.framework\AEPSignal" />
-    <None Remove="References\AEPSignal.framework\Info.plist" />
-    <None Remove="References\AEPSignal.framework\Headers\AEPSignal-Swift.h" />
-    <None Remove="References\AEPSignal.framework\Headers\AEPSignal.h" />
-    <None Remove="References\AEPSignal.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.swiftinterface" />
-    <None Remove="References\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.swiftdoc" />
-    <None Remove="References\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.abi.json" />
-    <None Remove="References\AEPSignal.framework\Modules\AEPSignal.swiftmodule\arm64-apple-ios.private.swiftinterface" />
-  </ItemGroup>
-  <ItemGroup>
-    <NativeReference Include="References\AEPSignal.framework">
+    <NativeReference Include="..\..\frameworks\AEPSignal.xcframework">
       <Kind>Framework</Kind>
+      <ForceLoad>True</ForceLoad>
       <SmartLink>False</SmartLink>
-      <LinkerFlags>-Objc</LinkerFlags>
     </NativeReference>
   </ItemGroup>
 </Project>

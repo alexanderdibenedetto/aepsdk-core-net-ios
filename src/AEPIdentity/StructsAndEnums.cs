@@ -5,7 +5,7 @@ using Foundation;
 using ObjCRuntime;
 using Security;
 
-namespace AEPIdentity
+namespace AepIdentity
 {
     [Native]
     public enum AEPMobileVisitorAuthState : long

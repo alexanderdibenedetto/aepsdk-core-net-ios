@@ -1,0 +1,4620 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ComparisonExpression",
+        "printedName": "ComparisonExpression",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(lhs:operationName:rhs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ComparisonExpression",
+                "printedName": "AEPRulesEngine.ComparisonExpression<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine20ComparisonExpressionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Operand",
+                "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine7OperandO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Operand",
+                "printedName": "AEPRulesEngine.Operand<τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine7OperandO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine20ComparisonExpressionV3lhs13operationName3rhsACyxq_GAA7OperandOyxG_SSAIyq_Gtcfc",
+            "mangledName": "$s14AEPRulesEngine20ComparisonExpressionV3lhs13operationName3rhsACyxq_GAA7OperandOyxG_SSAIyq_Gtcfc",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<A, B>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Swift.Bool, AEPRulesEngine.RulesFailure>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RulesFailure",
+                    "printedName": "AEPRulesEngine.RulesFailure",
+                    "usr": "s:14AEPRulesEngine12RulesFailureO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "AEPRulesEngine.Context",
+                "usr": "s:14AEPRulesEngine7ContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine20ComparisonExpressionV8evaluate2ins6ResultOySbAA12RulesFailureOGAA7ContextV_tF",
+            "mangledName": "$s14AEPRulesEngine20ComparisonExpressionV8evaluate2ins6ResultOySbAA12RulesFailureOGAA7ContextV_tF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<A, B>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14AEPRulesEngine20ComparisonExpressionV",
+        "mangledName": "$s14AEPRulesEngine20ComparisonExpressionV",
+        "moduleName": "AEPRulesEngine",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<A, B>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Evaluable",
+            "printedName": "Evaluable",
+            "usr": "s:14AEPRulesEngine9EvaluableP",
+            "mangledName": "$s14AEPRulesEngine9EvaluableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConditionEvaluator",
+        "printedName": "ConditionEvaluator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(operation:lhs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Swift.Bool, AEPRulesEngine.RulesFailure>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RulesFailure",
+                    "printedName": "AEPRulesEngine.RulesFailure",
+                    "usr": "s:14AEPRulesEngine12RulesFailureO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine18ConditionEvaluatorC8evaluate9operation3lhss6ResultOySbAA12RulesFailureOGSS_xtlF",
+            "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC8evaluate9operation3lhss6ResultOySbAA12RulesFailureOGSS_xtlF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<A>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(operation:lhs:rhs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Swift.Bool, AEPRulesEngine.RulesFailure>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RulesFailure",
+                    "printedName": "AEPRulesEngine.RulesFailure",
+                    "usr": "s:14AEPRulesEngine12RulesFailureO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine18ConditionEvaluatorC8evaluate9operation3lhs3rhss6ResultOySbAA12RulesFailureOGSS_xq_tr0_lF",
+            "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC8evaluate9operation3lhs3rhss6ResultOySbAA12RulesFailureOGSS_xq_tr0_lF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<A, B>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addUnaryOperator",
+            "printedName": "addUnaryOperator(operation:closure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine18ConditionEvaluatorC16addUnaryOperator9operation7closureySS_SbxctlF",
+            "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC16addUnaryOperator9operation7closureySS_SbxctlF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<A>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addComparisonOperator",
+            "printedName": "addComparisonOperator(operation:closure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0, τ_0_1) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(τ_0_0, τ_0_1)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine18ConditionEvaluatorC21addComparisonOperator9operation7closureySS_Sbx_q_tctr0_lF",
+            "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC21addComparisonOperator9operation7closureySS_Sbx_q_tctr0_lF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<A, B>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addComparisonOperator",
+            "printedName": "addComparisonOperator(operation:type:closure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0, τ_0_0) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(τ_0_0, τ_0_0)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine18ConditionEvaluatorC21addComparisonOperator9operation4type7closureySS_xmSbx_xtctlF",
+            "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC21addComparisonOperator9operation4type7closureySS_xmSbx_xtctlF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<A>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Options",
+            "printedName": "Options",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV8rawValueSivp",
+                "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC7OptionsV8rawValueSivp",
+                "moduleName": "AEPRulesEngine",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV8rawValueSivg",
+                    "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC7OptionsV8rawValueSivg",
+                    "moduleName": "AEPRulesEngine",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "defaultOptions",
+                "printedName": "defaultOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "AEPRulesEngine.ConditionEvaluator.Options",
+                    "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV07defaultE0AEvpZ",
+                "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC7OptionsV07defaultE0AEvpZ",
+                "moduleName": "AEPRulesEngine",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "AEPRulesEngine.ConditionEvaluator.Options",
+                        "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV07defaultE0AEvgZ",
+                    "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC7OptionsV07defaultE0AEvgZ",
+                    "moduleName": "AEPRulesEngine",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "caseInsensitive",
+                "printedName": "caseInsensitive",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "AEPRulesEngine.ConditionEvaluator.Options",
+                    "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV15caseInsensitiveAEvpZ",
+                "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC7OptionsV15caseInsensitiveAEvpZ",
+                "moduleName": "AEPRulesEngine",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "AEPRulesEngine.ConditionEvaluator.Options",
+                        "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV15caseInsensitiveAEvgZ",
+                    "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC7OptionsV15caseInsensitiveAEvgZ",
+                    "moduleName": "AEPRulesEngine",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "AEPRulesEngine.ConditionEvaluator.Options",
+                    "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV8rawValueAESi_tcfc",
+                "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC7OptionsV8rawValueAESi_tcfc",
+                "moduleName": "AEPRulesEngine",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV",
+            "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC7OptionsV",
+            "moduleName": "AEPRulesEngine",
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "OptionSet",
+                "printedName": "OptionSet",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Element",
+                    "printedName": "Element",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "AEPRulesEngine.ConditionEvaluator.Options",
+                        "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s9OptionSetP",
+                "mangledName": "$ss9OptionSetP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SetAlgebra",
+                "printedName": "SetAlgebra",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Element",
+                    "printedName": "Element",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "AEPRulesEngine.ConditionEvaluator.Options",
+                        "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s10SetAlgebraP",
+                "mangledName": "$ss10SetAlgebraP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "ExpressibleByArrayLiteral",
+                "printedName": "ExpressibleByArrayLiteral",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "ArrayLiteralElement",
+                    "printedName": "ArrayLiteralElement",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "AEPRulesEngine.ConditionEvaluator.Options",
+                        "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s25ExpressibleByArrayLiteralP",
+                "mangledName": "$ss25ExpressibleByArrayLiteralP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConditionEvaluator",
+                "printedName": "AEPRulesEngine.ConditionEvaluator",
+                "usr": "s:14AEPRulesEngine18ConditionEvaluatorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "AEPRulesEngine.ConditionEvaluator.Options",
+                "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7OptionsV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine18ConditionEvaluatorC7optionsA2C7OptionsV_tcfc",
+            "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC7optionsA2C7OptionsV_tcfc",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14AEPRulesEngine18ConditionEvaluatorC",
+        "mangledName": "$s14AEPRulesEngine18ConditionEvaluatorC",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Evaluating",
+            "printedName": "Evaluating",
+            "usr": "s:14AEPRulesEngine10EvaluatingP",
+            "mangledName": "$s14AEPRulesEngine10EvaluatingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Context",
+        "printedName": "Context",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Traversable",
+                "printedName": "AEPRulesEngine.Traversable",
+                "usr": "s:14AEPRulesEngine11TraversableP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine7ContextV4dataAA11Traversable_pvp",
+            "mangledName": "$s14AEPRulesEngine7ContextV4dataAA11Traversable_pvp",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Traversable",
+                    "printedName": "AEPRulesEngine.Traversable",
+                    "usr": "s:14AEPRulesEngine11TraversableP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine7ContextV4dataAA11Traversable_pvg",
+                "mangledName": "$s14AEPRulesEngine7ContextV4dataAA11Traversable_pvg",
+                "moduleName": "AEPRulesEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "evaluator",
+            "printedName": "evaluator",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Evaluating",
+                "printedName": "AEPRulesEngine.Evaluating",
+                "usr": "s:14AEPRulesEngine10EvaluatingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine7ContextV9evaluatorAA10Evaluating_pvp",
+            "mangledName": "$s14AEPRulesEngine7ContextV9evaluatorAA10Evaluating_pvp",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Evaluating",
+                    "printedName": "AEPRulesEngine.Evaluating",
+                    "usr": "s:14AEPRulesEngine10EvaluatingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine7ContextV9evaluatorAA10Evaluating_pvg",
+                "mangledName": "$s14AEPRulesEngine7ContextV9evaluatorAA10Evaluating_pvg",
+                "moduleName": "AEPRulesEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transformer",
+            "printedName": "transformer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Transforming",
+                "printedName": "AEPRulesEngine.Transforming",
+                "usr": "s:14AEPRulesEngine12TransformingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine7ContextV11transformerAA12Transforming_pvp",
+            "mangledName": "$s14AEPRulesEngine7ContextV11transformerAA12Transforming_pvp",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Transforming",
+                    "printedName": "AEPRulesEngine.Transforming",
+                    "usr": "s:14AEPRulesEngine12TransformingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine7ContextV11transformerAA12Transforming_pvg",
+                "mangledName": "$s14AEPRulesEngine7ContextV11transformerAA12Transforming_pvg",
+                "moduleName": "AEPRulesEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14AEPRulesEngine7ContextV",
+        "mangledName": "$s14AEPRulesEngine7ContextV",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Evaluable",
+        "printedName": "Evaluable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Swift.Bool, AEPRulesEngine.RulesFailure>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RulesFailure",
+                    "printedName": "AEPRulesEngine.RulesFailure",
+                    "usr": "s:14AEPRulesEngine12RulesFailureO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "AEPRulesEngine.Context",
+                "usr": "s:14AEPRulesEngine7ContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine9EvaluableP8evaluate2ins6ResultOySbAA12RulesFailureOGAA7ContextV_tF",
+            "mangledName": "$s14AEPRulesEngine9EvaluableP8evaluate2ins6ResultOySbAA12RulesFailureOGAA7ContextV_tF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Evaluable>",
+            "sugared_genericSig": "<Self where Self : AEPRulesEngine.Evaluable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14AEPRulesEngine9EvaluableP",
+        "mangledName": "$s14AEPRulesEngine9EvaluableP",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Evaluating",
+        "printedName": "Evaluating",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(operation:lhs:rhs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Swift.Bool, AEPRulesEngine.RulesFailure>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RulesFailure",
+                    "printedName": "AEPRulesEngine.RulesFailure",
+                    "usr": "s:14AEPRulesEngine12RulesFailureO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_1"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine10EvaluatingP8evaluate9operation3lhs3rhss6ResultOySbAA12RulesFailureOGSS_qd__qd_0_tr0_lF",
+            "mangledName": "$s14AEPRulesEngine10EvaluatingP8evaluate9operation3lhs3rhss6ResultOySbAA12RulesFailureOGSS_qd__qd_0_tr0_lF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0, τ_1_0, τ_1_1 where τ_0_0 : AEPRulesEngine.Evaluating>",
+            "sugared_genericSig": "<Self, A, B where Self : AEPRulesEngine.Evaluating>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(operation:lhs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Swift.Bool, AEPRulesEngine.RulesFailure>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RulesFailure",
+                    "printedName": "AEPRulesEngine.RulesFailure",
+                    "usr": "s:14AEPRulesEngine12RulesFailureO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine10EvaluatingP8evaluate9operation3lhss6ResultOySbAA12RulesFailureOGSS_qd__tlF",
+            "mangledName": "$s14AEPRulesEngine10EvaluatingP8evaluate9operation3lhss6ResultOySbAA12RulesFailureOGSS_qd__tlF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : AEPRulesEngine.Evaluating>",
+            "sugared_genericSig": "<Self, A where Self : AEPRulesEngine.Evaluating>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14AEPRulesEngine10EvaluatingP",
+        "mangledName": "$s14AEPRulesEngine10EvaluatingP",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Log",
+        "printedName": "Log",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "logging",
+            "printedName": "logging",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AEPRulesEngine.Logging?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Logging",
+                    "printedName": "AEPRulesEngine.Logging",
+                    "usr": "s:14AEPRulesEngine7LoggingP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine3LogO7loggingAA7Logging_pSgvpZ",
+            "mangledName": "$s14AEPRulesEngine3LogO7loggingAA7Logging_pSgvpZ",
+            "moduleName": "AEPRulesEngine",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AEPRulesEngine.Logging?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Logging",
+                        "printedName": "AEPRulesEngine.Logging",
+                        "usr": "s:14AEPRulesEngine7LoggingP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine3LogO7loggingAA7Logging_pSgvgZ",
+                "mangledName": "$s14AEPRulesEngine3LogO7loggingAA7Logging_pSgvgZ",
+                "moduleName": "AEPRulesEngine",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AEPRulesEngine.Logging?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Logging",
+                        "printedName": "AEPRulesEngine.Logging",
+                        "usr": "s:14AEPRulesEngine7LoggingP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine3LogO7loggingAA7Logging_pSgvsZ",
+                "mangledName": "$s14AEPRulesEngine3LogO7loggingAA7Logging_pSgvsZ",
+                "moduleName": "AEPRulesEngine",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine3LogO7loggingAA7Logging_pSgvMZ",
+                "mangledName": "$s14AEPRulesEngine3LogO7loggingAA7Logging_pSgvMZ",
+                "moduleName": "AEPRulesEngine",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14AEPRulesEngine3LogO",
+        "mangledName": "$s14AEPRulesEngine3LogO",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logging",
+        "printedName": "Logging",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(level:label:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "AEPRulesEngine.LogLevel",
+                "usr": "s:14AEPRulesEngine8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine7LoggingP3log5level5label7messageyAA8LogLevelO_S2StF",
+            "mangledName": "$s14AEPRulesEngine7LoggingP3log5level5label7messageyAA8LogLevelO_S2StF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Logging>",
+            "sugared_genericSig": "<Self where Self : AEPRulesEngine.Logging>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14AEPRulesEngine7LoggingP",
+        "mangledName": "$s14AEPRulesEngine7LoggingP",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogicalExpression",
+        "printedName": "LogicalExpression",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "operands",
+            "printedName": "operands",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AEPRulesEngine.Evaluable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Evaluable",
+                    "printedName": "AEPRulesEngine.Evaluable",
+                    "usr": "s:14AEPRulesEngine9EvaluableP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine17LogicalExpressionV8operandsSayAA9Evaluable_pGvp",
+            "mangledName": "$s14AEPRulesEngine17LogicalExpressionV8operandsSayAA9Evaluable_pGvp",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AEPRulesEngine.Evaluable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Evaluable",
+                        "printedName": "AEPRulesEngine.Evaluable",
+                        "usr": "s:14AEPRulesEngine9EvaluableP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine17LogicalExpressionV8operandsSayAA9Evaluable_pGvg",
+                "mangledName": "$s14AEPRulesEngine17LogicalExpressionV8operandsSayAA9Evaluable_pGvg",
+                "moduleName": "AEPRulesEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "operationName",
+            "printedName": "operationName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine17LogicalExpressionV13operationNameSSvp",
+            "mangledName": "$s14AEPRulesEngine17LogicalExpressionV13operationNameSSvp",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine17LogicalExpressionV13operationNameSSvg",
+                "mangledName": "$s14AEPRulesEngine17LogicalExpressionV13operationNameSSvg",
+                "moduleName": "AEPRulesEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(operationName:operands:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogicalExpression",
+                "printedName": "AEPRulesEngine.LogicalExpression",
+                "usr": "s:14AEPRulesEngine17LogicalExpressionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AEPRulesEngine.Evaluable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Evaluable",
+                    "printedName": "AEPRulesEngine.Evaluable",
+                    "usr": "s:14AEPRulesEngine9EvaluableP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine17LogicalExpressionV13operationName8operandsACSS_AA9Evaluable_pdtcfc",
+            "mangledName": "$s14AEPRulesEngine17LogicalExpressionV13operationName8operandsACSS_AA9Evaluable_pdtcfc",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(operationName:operands:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogicalExpression",
+                "printedName": "AEPRulesEngine.LogicalExpression",
+                "usr": "s:14AEPRulesEngine17LogicalExpressionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AEPRulesEngine.Evaluable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Evaluable",
+                    "printedName": "AEPRulesEngine.Evaluable",
+                    "usr": "s:14AEPRulesEngine9EvaluableP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine17LogicalExpressionV13operationName8operandsACSS_SayAA9Evaluable_pGtcfc",
+            "mangledName": "$s14AEPRulesEngine17LogicalExpressionV13operationName8operandsACSS_SayAA9Evaluable_pGtcfc",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Swift.Bool, AEPRulesEngine.RulesFailure>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RulesFailure",
+                    "printedName": "AEPRulesEngine.RulesFailure",
+                    "usr": "s:14AEPRulesEngine12RulesFailureO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "AEPRulesEngine.Context",
+                "usr": "s:14AEPRulesEngine7ContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine17LogicalExpressionV8evaluate2ins6ResultOySbAA12RulesFailureOGAA7ContextV_tF",
+            "mangledName": "$s14AEPRulesEngine17LogicalExpressionV8evaluate2ins6ResultOySbAA12RulesFailureOGAA7ContextV_tF",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14AEPRulesEngine17LogicalExpressionV",
+        "mangledName": "$s14AEPRulesEngine17LogicalExpressionV",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Evaluable",
+            "printedName": "Evaluable",
+            "usr": "s:14AEPRulesEngine9EvaluableP",
+            "mangledName": "$s14AEPRulesEngine9EvaluableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.LogLevel.Type) -> AEPRulesEngine.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "AEPRulesEngine.LogLevel",
+                    "usr": "s:14AEPRulesEngine8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "AEPRulesEngine.LogLevel",
+                        "usr": "s:14AEPRulesEngine8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine8LogLevelO5erroryA2CmF",
+            "mangledName": "$s14AEPRulesEngine8LogLevelO5erroryA2CmF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.LogLevel.Type) -> AEPRulesEngine.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "AEPRulesEngine.LogLevel",
+                    "usr": "s:14AEPRulesEngine8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "AEPRulesEngine.LogLevel",
+                        "usr": "s:14AEPRulesEngine8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine8LogLevelO7warningyA2CmF",
+            "mangledName": "$s14AEPRulesEngine8LogLevelO7warningyA2CmF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.LogLevel.Type) -> AEPRulesEngine.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "AEPRulesEngine.LogLevel",
+                    "usr": "s:14AEPRulesEngine8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "AEPRulesEngine.LogLevel",
+                        "usr": "s:14AEPRulesEngine8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine8LogLevelO5debugyA2CmF",
+            "mangledName": "$s14AEPRulesEngine8LogLevelO5debugyA2CmF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "trace",
+            "printedName": "trace",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.LogLevel.Type) -> AEPRulesEngine.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "AEPRulesEngine.LogLevel",
+                    "usr": "s:14AEPRulesEngine8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "AEPRulesEngine.LogLevel",
+                        "usr": "s:14AEPRulesEngine8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine8LogLevelO5traceyA2CmF",
+            "mangledName": "$s14AEPRulesEngine8LogLevelO5traceyA2CmF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "AEPRulesEngine.LogLevel",
+                "usr": "s:14AEPRulesEngine8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "AEPRulesEngine.LogLevel",
+                "usr": "s:14AEPRulesEngine8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine8LogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s14AEPRulesEngine8LogLevelO1loiySbAC_ACtFZ",
+            "moduleName": "AEPRulesEngine",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine8LogLevelO8toStringSSyF",
+            "mangledName": "$s14AEPRulesEngine8LogLevelO8toStringSSyF",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AEPRulesEngine.LogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "AEPRulesEngine.LogLevel",
+                    "usr": "s:14AEPRulesEngine8LogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine8LogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s14AEPRulesEngine8LogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "AEPRulesEngine",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine8LogLevelO8rawValueSivp",
+            "mangledName": "$s14AEPRulesEngine8LogLevelO8rawValueSivp",
+            "moduleName": "AEPRulesEngine",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine8LogLevelO8rawValueSivg",
+                "mangledName": "$s14AEPRulesEngine8LogLevelO8rawValueSivg",
+                "moduleName": "AEPRulesEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14AEPRulesEngine8LogLevelO",
+        "mangledName": "$s14AEPRulesEngine8LogLevelO",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MustacheError",
+        "printedName": "MustacheError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine13MustacheErrorV7messageSSSgvp",
+            "mangledName": "$s14AEPRulesEngine13MustacheErrorV7messageSSSgvp",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine13MustacheErrorV7messageSSSgvg",
+                "mangledName": "$s14AEPRulesEngine13MustacheErrorV7messageSSSgvg",
+                "moduleName": "AEPRulesEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MustacheError",
+                "printedName": "AEPRulesEngine.MustacheError",
+                "usr": "s:14AEPRulesEngine13MustacheErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine13MustacheErrorV7messageACSSSg_tcfc",
+            "mangledName": "$s14AEPRulesEngine13MustacheErrorV7messageACSSSg_tcfc",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14AEPRulesEngine13MustacheErrorV",
+        "mangledName": "$s14AEPRulesEngine13MustacheErrorV",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MustacheToken",
+        "printedName": "MustacheToken",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "variable",
+            "printedName": "variable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.MustacheToken.Type) -> (Swift.String) -> AEPRulesEngine.MustacheToken",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AEPRulesEngine.MustacheToken",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MustacheToken",
+                        "printedName": "AEPRulesEngine.MustacheToken",
+                        "usr": "s:14AEPRulesEngine13MustacheTokenO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(text: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.MustacheToken.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MustacheToken",
+                        "printedName": "AEPRulesEngine.MustacheToken",
+                        "usr": "s:14AEPRulesEngine13MustacheTokenO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine13MustacheTokenO8variableyACSS_tcACmF",
+            "mangledName": "$s14AEPRulesEngine13MustacheTokenO8variableyACSS_tcACmF",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "function",
+            "printedName": "function",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.MustacheToken.Type) -> (Swift.String, AEPRulesEngine.MustacheToken) -> AEPRulesEngine.MustacheToken",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, AEPRulesEngine.MustacheToken) -> AEPRulesEngine.MustacheToken",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MustacheToken",
+                        "printedName": "AEPRulesEngine.MustacheToken",
+                        "usr": "s:14AEPRulesEngine13MustacheTokenO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(content: Swift.String, inner: AEPRulesEngine.MustacheToken)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MustacheToken",
+                            "printedName": "AEPRulesEngine.MustacheToken",
+                            "usr": "s:14AEPRulesEngine13MustacheTokenO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.MustacheToken.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MustacheToken",
+                        "printedName": "AEPRulesEngine.MustacheToken",
+                        "usr": "s:14AEPRulesEngine13MustacheTokenO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine13MustacheTokenO8functionyACSS_ACtcACmF",
+            "mangledName": "$s14AEPRulesEngine13MustacheTokenO8functionyACSS_ACtcACmF",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MustacheToken",
+                "printedName": "AEPRulesEngine.MustacheToken",
+                "usr": "s:14AEPRulesEngine13MustacheTokenO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine13MustacheTokenOyACSScfc",
+            "mangledName": "$s14AEPRulesEngine13MustacheTokenOyACSScfc",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(in:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Transforming",
+                "printedName": "AEPRulesEngine.Transforming",
+                "usr": "s:14AEPRulesEngine12TransformingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Traversable",
+                "printedName": "AEPRulesEngine.Traversable",
+                "usr": "s:14AEPRulesEngine11TraversableP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine13MustacheTokenO7resolve2in4dataypSgAA12Transforming_p_AA11Traversable_ptF",
+            "mangledName": "$s14AEPRulesEngine13MustacheTokenO7resolve2in4dataypSgAA12Transforming_p_AA11Traversable_ptF",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14AEPRulesEngine13MustacheTokenO",
+        "mangledName": "$s14AEPRulesEngine13MustacheTokenO",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "Indirect",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Operand",
+        "printedName": "Operand",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (AEPRulesEngine.Operand<τ_0_0>.Type) -> AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Operand",
+                    "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:14AEPRulesEngine7OperandO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.Operand<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Operand",
+                        "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14AEPRulesEngine7OperandO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine7OperandO4noneyACyxGAEmlF",
+            "mangledName": "$s14AEPRulesEngine7OperandO4noneyACyxGAEmlF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "some",
+            "printedName": "some",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (AEPRulesEngine.Operand<τ_0_0>.Type) -> (τ_0_0) -> AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> AEPRulesEngine.Operand<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Operand",
+                        "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14AEPRulesEngine7OperandO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.Operand<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Operand",
+                        "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14AEPRulesEngine7OperandO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine7OperandO4someyACyxGxcAEmlF",
+            "mangledName": "$s14AEPRulesEngine7OperandO4someyACyxGxcAEmlF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (AEPRulesEngine.Operand<τ_0_0>.Type) -> (AEPRulesEngine.MustacheToken) -> AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AEPRulesEngine.MustacheToken) -> AEPRulesEngine.Operand<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Operand",
+                        "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14AEPRulesEngine7OperandO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MustacheToken",
+                        "printedName": "AEPRulesEngine.MustacheToken",
+                        "usr": "s:14AEPRulesEngine13MustacheTokenO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.Operand<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Operand",
+                        "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14AEPRulesEngine7OperandO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine7OperandO5tokenyACyxGAA13MustacheTokenOcAEmlF",
+            "mangledName": "$s14AEPRulesEngine7OperandO5tokenyACyxGAA13MustacheTokenOcAEmlF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "function",
+            "printedName": "function",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (AEPRulesEngine.Operand<τ_0_0>.Type) -> (@escaping ([Any]?) -> τ_0_0, [Any]?) -> AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(@escaping ([Any]?) -> τ_0_0, [Any]?) -> AEPRulesEngine.Operand<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Operand",
+                        "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14AEPRulesEngine7OperandO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(([Any]?) -> τ_0_0, [Any]?)",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "([Any]?) -> τ_0_0",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "[Any]?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Array",
+                                    "printedName": "[Any]",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ProtocolComposition",
+                                        "printedName": "Any"
+                                      }
+                                    ],
+                                    "usr": "s:Sa"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "[Any]?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[Any]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.Operand<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Operand",
+                        "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14AEPRulesEngine7OperandO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine7OperandO8functionyACyxGxSayypGSgc_AGtcAEmlF",
+            "mangledName": "$s14AEPRulesEngine7OperandO8functionyACyxGxSayypGSgc_AGtcAEmlF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mustache:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Operand",
+                "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine7OperandO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine7OperandO8mustacheACyxGSS_tcfc",
+            "mangledName": "$s14AEPRulesEngine7OperandO8mustacheACyxGSS_tcfc",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(function:parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Operand",
+                "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine7OperandO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Any]?) -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine7OperandO8function10parametersACyxGxSayypGSgc_AHtcfc",
+            "mangledName": "$s14AEPRulesEngine7OperandO8function10parametersACyxGxSayypGSgc_AHtcfc",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine7OperandO11descriptionSSvp",
+            "mangledName": "$s14AEPRulesEngine7OperandO11descriptionSSvp",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine7OperandO11descriptionSSvg",
+                "mangledName": "$s14AEPRulesEngine7OperandO11descriptionSSvg",
+                "moduleName": "AEPRulesEngine",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(booleanLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Operand",
+                "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine7OperandO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine7OperandOAASbRszlE14booleanLiteralACySbGSb_tcfc",
+            "mangledName": "$s14AEPRulesEngine7OperandOAASbRszlE14booleanLiteralACySbGSb_tcfc",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Bool>",
+            "sugared_genericSig": "<T where T == Swift.Bool>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(floatLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Operand",
+                "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine7OperandO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine7OperandOAASdRszlE12floatLiteralACySdGSd_tcfc",
+            "mangledName": "$s14AEPRulesEngine7OperandOAASdRszlE12floatLiteralACySdGSd_tcfc",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Double>",
+            "sugared_genericSig": "<T where T == Swift.Double>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(integerLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Operand",
+                "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine7OperandO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine7OperandOAASiRszlE14integerLiteralACySiGSi_tcfc",
+            "mangledName": "$s14AEPRulesEngine7OperandOAASiRszlE14integerLiteralACySiGSi_tcfc",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Int>",
+            "sugared_genericSig": "<T where T == Swift.Int>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nilLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Operand",
+                "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine7OperandO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine7OperandO10nilLiteralACyxGyt_tcfc",
+            "mangledName": "$s14AEPRulesEngine7OperandO10nilLiteralACyxGyt_tcfc",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(stringLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Operand",
+                "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine7OperandO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine7OperandOAASSRszlE13stringLiteralACySSGSS_tcfc",
+            "mangledName": "$s14AEPRulesEngine7OperandOAASSRszlE13stringLiteralACySSGSS_tcfc",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.String>",
+            "sugared_genericSig": "<T where T == Swift.String>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14AEPRulesEngine7OperandO",
+        "mangledName": "$s14AEPRulesEngine7OperandO",
+        "moduleName": "AEPRulesEngine",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByBooleanLiteral",
+            "printedName": "ExpressibleByBooleanLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "BooleanLiteralType",
+                "printedName": "BooleanLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByBooleanLiteralP",
+            "mangledName": "$ss27ExpressibleByBooleanLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByFloatLiteral",
+            "printedName": "ExpressibleByFloatLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "FloatLiteralType",
+                "printedName": "FloatLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByFloatLiteralP",
+            "mangledName": "$ss25ExpressibleByFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByNilLiteral",
+            "printedName": "ExpressibleByNilLiteral",
+            "usr": "s:s23ExpressibleByNilLiteralP",
+            "mangledName": "$ss23ExpressibleByNilLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Rule",
+        "printedName": "Rule",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "condition",
+            "printedName": "condition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Evaluable",
+                "printedName": "AEPRulesEngine.Evaluable",
+                "usr": "s:14AEPRulesEngine9EvaluableP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine4RuleP9conditionAA9Evaluable_pvp",
+            "mangledName": "$s14AEPRulesEngine4RuleP9conditionAA9Evaluable_pvp",
+            "moduleName": "AEPRulesEngine",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Evaluable",
+                    "printedName": "AEPRulesEngine.Evaluable",
+                    "usr": "s:14AEPRulesEngine9EvaluableP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine4RuleP9conditionAA9Evaluable_pvg",
+                "mangledName": "$s14AEPRulesEngine4RuleP9conditionAA9Evaluable_pvg",
+                "moduleName": "AEPRulesEngine",
+                "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Rule>",
+                "sugared_genericSig": "<Self where Self : AEPRulesEngine.Rule>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14AEPRulesEngine4RuleP",
+        "mangledName": "$s14AEPRulesEngine4RuleP",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RulesEngine",
+        "printedName": "RulesEngine",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine05RulesB0C7versionSSvp",
+            "mangledName": "$s14AEPRulesEngine05RulesB0C7versionSSvp",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine05RulesB0C7versionSSvg",
+                "mangledName": "$s14AEPRulesEngine05RulesB0C7versionSSvg",
+                "moduleName": "AEPRulesEngine",
+                "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Rule>",
+                "sugared_genericSig": "<T where T : AEPRulesEngine.Rule>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(evaluator:transformer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RulesEngine",
+                "printedName": "AEPRulesEngine.RulesEngine<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine05RulesB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Evaluating",
+                "printedName": "AEPRulesEngine.Evaluating",
+                "usr": "s:14AEPRulesEngine10EvaluatingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Transforming",
+                "printedName": "AEPRulesEngine.Transforming",
+                "hasDefaultArg": true,
+                "usr": "s:14AEPRulesEngine12TransformingP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine05RulesB0C9evaluator11transformerACyxGAA10Evaluating_p_AA12Transforming_ptcfc",
+            "mangledName": "$s14AEPRulesEngine05RulesB0C9evaluator11transformerACyxGAA10Evaluating_p_AA12Transforming_ptcfc",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Rule>",
+            "sugared_genericSig": "<T where T : AEPRulesEngine.Rule>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Traversable",
+                "printedName": "AEPRulesEngine.Traversable",
+                "usr": "s:14AEPRulesEngine11TraversableP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine05RulesB0C8evaluate4dataSayxGAA11Traversable_p_tF",
+            "mangledName": "$s14AEPRulesEngine05RulesB0C8evaluate4dataSayxGAA11Traversable_p_tF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Rule>",
+            "sugared_genericSig": "<T where T : AEPRulesEngine.Rule>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addRules",
+            "printedName": "addRules(rules:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine05RulesB0C03addC05rulesySayxG_tF",
+            "mangledName": "$s14AEPRulesEngine05RulesB0C03addC05rulesySayxG_tF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Rule>",
+            "sugared_genericSig": "<T where T : AEPRulesEngine.Rule>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearRules",
+            "printedName": "clearRules()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine05RulesB0C05clearC0yyF",
+            "mangledName": "$s14AEPRulesEngine05RulesB0C05clearC0yyF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Rule>",
+            "sugared_genericSig": "<T where T : AEPRulesEngine.Rule>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trace",
+            "printedName": "trace(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, AEPRulesEngine.Rule, AEPRulesEngine.Context, AEPRulesEngine.RulesFailure?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, AEPRulesEngine.Rule, AEPRulesEngine.Context, AEPRulesEngine.RulesFailure?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Rule",
+                        "printedName": "AEPRulesEngine.Rule",
+                        "usr": "s:14AEPRulesEngine4RuleP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Context",
+                        "printedName": "AEPRulesEngine.Context",
+                        "usr": "s:14AEPRulesEngine7ContextV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AEPRulesEngine.RulesFailure?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RulesFailure",
+                            "printedName": "AEPRulesEngine.RulesFailure",
+                            "usr": "s:14AEPRulesEngine12RulesFailureO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine05RulesB0C5trace4withyySb_AA4Rule_pAA7ContextVAA0C7FailureOSgtc_tF",
+            "mangledName": "$s14AEPRulesEngine05RulesB0C5trace4withyySb_AA4Rule_pAA7ContextVAA0C7FailureOSgtc_tF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Rule>",
+            "sugared_genericSig": "<T where T : AEPRulesEngine.Rule>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14AEPRulesEngine05RulesB0C",
+        "mangledName": "$s14AEPRulesEngine05RulesB0C",
+        "moduleName": "AEPRulesEngine",
+        "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Rule>",
+        "sugared_genericSig": "<T where T : AEPRulesEngine.Rule>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RulesFailure",
+        "printedName": "RulesFailure",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.RulesFailure.Type) -> AEPRulesEngine.RulesFailure",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RulesFailure",
+                    "printedName": "AEPRulesEngine.RulesFailure",
+                    "usr": "s:14AEPRulesEngine12RulesFailureO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.RulesFailure.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RulesFailure",
+                        "printedName": "AEPRulesEngine.RulesFailure",
+                        "usr": "s:14AEPRulesEngine12RulesFailureO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine12RulesFailureO7unknownyA2CmF",
+            "mangledName": "$s14AEPRulesEngine12RulesFailureO7unknownyA2CmF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "conditionNotMatched",
+            "printedName": "conditionNotMatched",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.RulesFailure.Type) -> (Swift.String) -> AEPRulesEngine.RulesFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AEPRulesEngine.RulesFailure",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RulesFailure",
+                        "printedName": "AEPRulesEngine.RulesFailure",
+                        "usr": "s:14AEPRulesEngine12RulesFailureO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.RulesFailure.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RulesFailure",
+                        "printedName": "AEPRulesEngine.RulesFailure",
+                        "usr": "s:14AEPRulesEngine12RulesFailureO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine12RulesFailureO19conditionNotMatchedyACSS_tcACmF",
+            "mangledName": "$s14AEPRulesEngine12RulesFailureO19conditionNotMatchedyACSS_tcACmF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "typeMismatched",
+            "printedName": "typeMismatched",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.RulesFailure.Type) -> (Swift.String) -> AEPRulesEngine.RulesFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AEPRulesEngine.RulesFailure",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RulesFailure",
+                        "printedName": "AEPRulesEngine.RulesFailure",
+                        "usr": "s:14AEPRulesEngine12RulesFailureO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.RulesFailure.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RulesFailure",
+                        "printedName": "AEPRulesEngine.RulesFailure",
+                        "usr": "s:14AEPRulesEngine12RulesFailureO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine12RulesFailureO14typeMismatchedyACSS_tcACmF",
+            "mangledName": "$s14AEPRulesEngine12RulesFailureO14typeMismatchedyACSS_tcACmF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "missingOperator",
+            "printedName": "missingOperator",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.RulesFailure.Type) -> (Swift.String) -> AEPRulesEngine.RulesFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AEPRulesEngine.RulesFailure",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RulesFailure",
+                        "printedName": "AEPRulesEngine.RulesFailure",
+                        "usr": "s:14AEPRulesEngine12RulesFailureO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.RulesFailure.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RulesFailure",
+                        "printedName": "AEPRulesEngine.RulesFailure",
+                        "usr": "s:14AEPRulesEngine12RulesFailureO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine12RulesFailureO15missingOperatoryACSS_tcACmF",
+            "mangledName": "$s14AEPRulesEngine12RulesFailureO15missingOperatoryACSS_tcACmF",
+            "moduleName": "AEPRulesEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "innerFailure",
+            "printedName": "innerFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.RulesFailure.Type) -> (Swift.String, AEPRulesEngine.RulesFailure) -> AEPRulesEngine.RulesFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, AEPRulesEngine.RulesFailure) -> AEPRulesEngine.RulesFailure",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RulesFailure",
+                        "printedName": "AEPRulesEngine.RulesFailure",
+                        "usr": "s:14AEPRulesEngine12RulesFailureO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String, error: AEPRulesEngine.RulesFailure)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RulesFailure",
+                            "printedName": "AEPRulesEngine.RulesFailure",
+                            "usr": "s:14AEPRulesEngine12RulesFailureO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.RulesFailure.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RulesFailure",
+                        "printedName": "AEPRulesEngine.RulesFailure",
+                        "usr": "s:14AEPRulesEngine12RulesFailureO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine12RulesFailureO05innerD0yACSS_ACtcACmF",
+            "mangledName": "$s14AEPRulesEngine12RulesFailureO05innerD0yACSS_ACtcACmF",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "Indirect"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "innerFailures",
+            "printedName": "innerFailures",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AEPRulesEngine.RulesFailure.Type) -> (Swift.String, [AEPRulesEngine.RulesFailure]) -> AEPRulesEngine.RulesFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, [AEPRulesEngine.RulesFailure]) -> AEPRulesEngine.RulesFailure",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RulesFailure",
+                        "printedName": "AEPRulesEngine.RulesFailure",
+                        "usr": "s:14AEPRulesEngine12RulesFailureO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String, errors: [AEPRulesEngine.RulesFailure])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[AEPRulesEngine.RulesFailure]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "RulesFailure",
+                                "printedName": "AEPRulesEngine.RulesFailure",
+                                "usr": "s:14AEPRulesEngine12RulesFailureO"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AEPRulesEngine.RulesFailure.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RulesFailure",
+                        "printedName": "AEPRulesEngine.RulesFailure",
+                        "usr": "s:14AEPRulesEngine12RulesFailureO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AEPRulesEngine12RulesFailureO13innerFailuresyACSS_SayACGtcACmF",
+            "mangledName": "$s14AEPRulesEngine12RulesFailureO13innerFailuresyACSS_SayACGtcACmF",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "Indirect"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AEPRulesEngine12RulesFailureO11descriptionSSvp",
+            "mangledName": "$s14AEPRulesEngine12RulesFailureO11descriptionSSvp",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AEPRulesEngine12RulesFailureO11descriptionSSvg",
+                "mangledName": "$s14AEPRulesEngine12RulesFailureO11descriptionSSvg",
+                "moduleName": "AEPRulesEngine",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14AEPRulesEngine12RulesFailureO",
+        "mangledName": "$s14AEPRulesEngine12RulesFailureO",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Segment",
+        "printedName": "Segment",
+        "declKind": "Struct",
+        "usr": "s:14AEPRulesEngine7SegmentV",
+        "mangledName": "$s14AEPRulesEngine7SegmentV",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Template",
+        "printedName": "Template",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(templateString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Template",
+                "printedName": "AEPRulesEngine.Template",
+                "usr": "s:14AEPRulesEngine8TemplateC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine8TemplateC14templateStringACSS_tcfc",
+            "mangledName": "$s14AEPRulesEngine8TemplateC14templateStringACSS_tcfc",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(templateString:tagDelimiterPair:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Template",
+                "printedName": "AEPRulesEngine.Template",
+                "usr": "s:14AEPRulesEngine8TemplateC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.String, Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine8TemplateC14templateString16tagDelimiterPairACSS_SS_SSttcfc",
+            "mangledName": "$s14AEPRulesEngine8TemplateC14templateString16tagDelimiterPairACSS_SS_SSttcfc",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(data:transformers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Traversable",
+                "printedName": "AEPRulesEngine.Traversable",
+                "usr": "s:14AEPRulesEngine11TraversableP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Transforming",
+                "printedName": "AEPRulesEngine.Transforming",
+                "usr": "s:14AEPRulesEngine12TransformingP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine8TemplateC6render4data12transformersSSAA11Traversable_p_AA12Transforming_ptF",
+            "mangledName": "$s14AEPRulesEngine8TemplateC6render4data12transformersSSAA11Traversable_p_AA12Transforming_ptF",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14AEPRulesEngine8TemplateC",
+        "mangledName": "$s14AEPRulesEngine8TemplateC",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TemplateParser",
+        "printedName": "TemplateParser",
+        "declKind": "Enum",
+        "usr": "s:14AEPRulesEngine14TemplateParserO",
+        "mangledName": "$s14AEPRulesEngine14TemplateParserO",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Transformer",
+        "printedName": "Transformer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Transformer",
+                "printedName": "AEPRulesEngine.Transformer",
+                "usr": "s:14AEPRulesEngine11TransformerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine11TransformerCACycfc",
+            "mangledName": "$s14AEPRulesEngine11TransformerCACycfc",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(name:transformation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any) -> Any",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine11TransformerC8register4name14transformationySS_ypypctF",
+            "mangledName": "$s14AEPRulesEngine11TransformerC8register4name14transformationySS_ypypctF",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "transform",
+            "printedName": "transform(name:parameter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine11TransformerC9transform4name9parameterypSS_yptF",
+            "mangledName": "$s14AEPRulesEngine11TransformerC9transform4name9parameterypSS_yptF",
+            "moduleName": "AEPRulesEngine",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14AEPRulesEngine11TransformerC",
+        "mangledName": "$s14AEPRulesEngine11TransformerC",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Transforming",
+            "printedName": "Transforming",
+            "usr": "s:14AEPRulesEngine12TransformingP",
+            "mangledName": "$s14AEPRulesEngine12TransformingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Transforming",
+        "printedName": "Transforming",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "transform",
+            "printedName": "transform(name:parameter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine12TransformingP9transform4name9parameterypSS_yptF",
+            "mangledName": "$s14AEPRulesEngine12TransformingP9transform4name9parameterypSS_yptF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Transforming>",
+            "sugared_genericSig": "<Self where Self : AEPRulesEngine.Transforming>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14AEPRulesEngine12TransformingP",
+        "mangledName": "$s14AEPRulesEngine12TransformingP",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Traversable",
+        "printedName": "Traversable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine11TraversableP3get3keyypSgSS_tF",
+            "mangledName": "$s14AEPRulesEngine11TraversableP3get3keyypSgSS_tF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0 where τ_0_0 : AEPRulesEngine.Traversable>",
+            "sugared_genericSig": "<Self where Self : AEPRulesEngine.Traversable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14AEPRulesEngine11TraversableP",
+        "mangledName": "$s14AEPRulesEngine11TraversableP",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AEPRulesEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnaryExpression",
+        "printedName": "UnaryExpression",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(lhs:operationName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnaryExpression",
+                "printedName": "AEPRulesEngine.UnaryExpression<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine15UnaryExpressionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Operand",
+                "printedName": "AEPRulesEngine.Operand<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14AEPRulesEngine7OperandO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AEPRulesEngine15UnaryExpressionV3lhs13operationNameACyxGAA7OperandOyxG_SStcfc",
+            "mangledName": "$s14AEPRulesEngine15UnaryExpressionV3lhs13operationNameACyxGAA7OperandOyxG_SStcfc",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<A>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Swift.Bool, AEPRulesEngine.RulesFailure>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RulesFailure",
+                    "printedName": "AEPRulesEngine.RulesFailure",
+                    "usr": "s:14AEPRulesEngine12RulesFailureO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "AEPRulesEngine.Context",
+                "usr": "s:14AEPRulesEngine7ContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AEPRulesEngine15UnaryExpressionV8evaluate2ins6ResultOySbAA12RulesFailureOGAA7ContextV_tF",
+            "mangledName": "$s14AEPRulesEngine15UnaryExpressionV8evaluate2ins6ResultOySbAA12RulesFailureOGAA7ContextV_tF",
+            "moduleName": "AEPRulesEngine",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<A>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14AEPRulesEngine15UnaryExpressionV",
+        "mangledName": "$s14AEPRulesEngine15UnaryExpressionV",
+        "moduleName": "AEPRulesEngine",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<A>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Evaluable",
+            "printedName": "Evaluable",
+            "usr": "s:14AEPRulesEngine9EvaluableP",
+            "mangledName": "$s14AEPRulesEngine9EvaluableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 43,
+      "value": "\"ComparisonExpression<\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 743,
+      "length": 1,
+      "value": "\">\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 20,
+      "value": "\"ConditionEvaluator\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "Dictionary",
+      "offset": 735,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3168,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3173,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3238,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3243,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 700,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 719,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 738,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 700,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 719,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 738,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 700,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 719,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 738,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/RulesEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 7,
+      "value": "\"4.0.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Transformer.swift",
+      "kind": "Dictionary",
+      "offset": 715,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/UnaryExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 694,
+      "length": 28,
+      "value": "\"UnaryExpression<\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/UnaryExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 720,
+      "length": 1,
+      "value": "\">\""
+    }
+  ]
+}

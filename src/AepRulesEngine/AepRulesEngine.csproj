@@ -4,6 +4,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
+    <IsTrimmable>false</IsTrimmable>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,25 +14,10 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="References\.DS_Store" />
-    <None Remove="References\AEPRulesEngine.xcframework\.DS_Store" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\.DS_Store" />
-    <None Remove="References\AEPRulesEngine.xcframework\ios-arm64\AEPRulesEngine.framework\.DS_Store" />
-    <None Remove="References\AEPRulesEngine.framework\AEPRulesEngine" />
-    <None Remove="References\AEPRulesEngine.framework\Info.plist" />
-    <None Remove="References\AEPRulesEngine.framework\Headers\AEPRulesEngine-umbrella.h" />
-    <None Remove="References\AEPRulesEngine.framework\Headers\AEPRulesEngine-Swift.h" />
-    <None Remove="References\AEPRulesEngine.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios.swiftinterface" />
-    <None Remove="References\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios.swiftdoc" />
-    <None Remove="References\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios.abi.json" />
-    <None Remove="References\AEPRulesEngine.framework\Modules\AEPRulesEngine.swiftmodule\arm64-apple-ios.private.swiftinterface" />
-  </ItemGroup>
-  <ItemGroup>
-    <NativeReference Include="References\AEPRulesEngine.framework">
+    <NativeReference Include="..\..\frameworks\AEPRulesEngine.xcframework">
       <Kind>Framework</Kind>
+      <ForceLoad>True</ForceLoad>
       <SmartLink>False</SmartLink>
-      <LinkerFlags>-Objc</LinkerFlags>
     </NativeReference>
   </ItemGroup>
 </Project>

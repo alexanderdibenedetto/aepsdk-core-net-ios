@@ -4,6 +4,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
+    <IsTrimmable>false</IsTrimmable>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,26 +14,14 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="References\.DS_Store" />
-    <None Remove="References\AEPIdentity.framework\AEPIdentity" />
-    <None Remove="References\AEPIdentity.framework\Info.plist" />
-    <None Remove="References\AEPIdentity.framework\Headers\AEPIdentity-Swift.h" />
-    <None Remove="References\AEPIdentity.framework\Headers\AEPIdentity.h" />
-    <None Remove="References\AEPIdentity.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPIdentity.framework\Modules\AEPIdentity.swiftmodule\arm64-apple-ios.swiftinterface" />
-    <None Remove="References\AEPIdentity.framework\Modules\AEPIdentity.swiftmodule\arm64-apple-ios.swiftdoc" />
-    <None Remove="References\AEPIdentity.framework\Modules\AEPIdentity.swiftmodule\arm64-apple-ios.abi.json" />
-    <None Remove="References\AEPIdentity.framework\Modules\AEPIdentity.swiftmodule\arm64-apple-ios.private.swiftinterface" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\AepCore\AepCore.csproj" />
     <ProjectReference Include="..\AepServices\AepServices.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="References\AEPIdentity.framework">
+    <NativeReference Include="..\..\frameworks\AEPIdentity.xcframework">
       <Kind>Framework</Kind>
+      <ForceLoad>True</ForceLoad>
       <SmartLink>False</SmartLink>
-      <LinkerFlags>-Objc</LinkerFlags>
     </NativeReference>
   </ItemGroup>
 </Project>

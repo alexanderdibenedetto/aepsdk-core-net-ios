@@ -4,6 +4,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
+    <IsTrimmable>false</IsTrimmable>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,26 +14,14 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="References\.DS_Store" />
-    <None Remove="References\AEPLifecycle.framework\AEPLifecycle" />
-    <None Remove="References\AEPLifecycle.framework\Info.plist" />
-    <None Remove="References\AEPLifecycle.framework\Headers\AEPLifecycle-Swift.h" />
-    <None Remove="References\AEPLifecycle.framework\Headers\AEPLifecycle.h" />
-    <None Remove="References\AEPLifecycle.framework\Modules\module.modulemap" />
-    <None Remove="References\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.swiftinterface" />
-    <None Remove="References\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.swiftdoc" />
-    <None Remove="References\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.abi.json" />
-    <None Remove="References\AEPLifecycle.framework\Modules\AEPLifecycle.swiftmodule\arm64-apple-ios.private.swiftinterface" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\AepCore\AepCore.csproj" />
     <ProjectReference Include="..\AepServices\AepServices.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="References\AEPLifecycle.framework">
+    <NativeReference Include="..\..\frameworks\AEPLifecycle.xcframework">
       <Kind>Framework</Kind>
+      <ForceLoad>True</ForceLoad>
       <SmartLink>False</SmartLink>
-      <LinkerFlags>-Objc</LinkerFlags>
     </NativeReference>
   </ItemGroup>
 </Project>

@@ -5,9 +5,9 @@ using Foundation;
 using ObjCRuntime;
 using Security;
 using AepCore;
-using AEPIdentity;
+using AepIdentity;
 
-namespace AEPIdentity
+namespace AepIdentity
 {
     // @protocol AEPIdentifiable
     /*
