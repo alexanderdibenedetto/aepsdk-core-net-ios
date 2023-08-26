@@ -7,9 +7,9 @@
     <IsTrimmable>false</IsTrimmable>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
-    <AssemblyName>Adobe.AekSdk.Core.Net.iOS.AepSignal</AssemblyName>
-    <AssemblyTitle>Adobe.AekSdk.Core.Net.iOS.AepSignal</AssemblyTitle>
-    <Description>.NET MAUI Bindings for Adobe.AekSdk.Core.iOS</Description>
+    <AssemblyName>Adobe.AepSdk.Core.Net.iOS.AepSignal</AssemblyName>
+    <AssemblyTitle>Adobe.AepSdk.Core.Net.iOS.AepSignal</AssemblyTitle>
+    <Description>.NET MAUI Bindings for Adobe.AepSdk.Core.iOS</Description>
     <Authors>Alexander DiBenedetto</Authors>
     <PackageTags>Adobe MAUI AEP</PackageTags>
     <ReleaseVersion>0.0.1</ReleaseVersion>
