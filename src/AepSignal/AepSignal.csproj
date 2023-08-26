@@ -10,8 +10,11 @@
     <AssemblyName>Adobe.AekSdk.Core.Net.iOS.AepSignal</AssemblyName>
     <AssemblyTitle>Adobe.AekSdk.Core.Net.iOS.AepSignal</AssemblyTitle>
     <Description>.NET MAUI Bindings for Adobe.AekSdk.Core.iOS</Description>
-    <AssemblyVersion>$(Version)</AssemblyVersion>
-    <PackageVersion>$(Version)</PackageVersion>
+    <Authors>Alexander DiBenedetto</Authors>
+    <PackageTags>Adobe MAUI AEP</PackageTags>
+    <ReleaseVersion>0.0.1</ReleaseVersion>
+    <AssemblyVersion>$(ReleaseVersion)</AssemblyVersion>
+    <PackageVersion>$(ReleaseVersion)</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
