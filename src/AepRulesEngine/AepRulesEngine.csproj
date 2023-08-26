@@ -15,6 +15,7 @@
     <ReleaseVersion>0.0.1</ReleaseVersion>
     <AssemblyVersion>$(ReleaseVersion)</AssemblyVersion>
     <PackageVersion>$(ReleaseVersion)</PackageVersion>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>

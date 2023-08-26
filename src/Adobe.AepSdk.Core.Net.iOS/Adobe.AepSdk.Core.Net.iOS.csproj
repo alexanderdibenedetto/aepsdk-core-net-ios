@@ -16,6 +16,7 @@
     <PackageVersion>$(ReleaseVersion)</PackageVersion>
     <OutputType>Library</OutputType>
     <IncludeBuildOutput>false</IncludeBuildOutput>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <CreatePackage>false</CreatePackage>
