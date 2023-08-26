@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AepCore\AepCore.csproj" />
+    <ProjectReference Include="..\AepIdentity\AepIdentity.csproj" />
+    <ProjectReference Include="..\AepLifecycle\AepLifecycle.csproj" />
+    <ProjectReference Include="..\AepRulesEngine\AepRulesEngine.csproj" />
+    <ProjectReference Include="..\AepServices\AepServices.csproj" />
+    <ProjectReference Include="..\AepSignal\AepSignal.csproj" />
+  </ItemGroup>
+</Project>

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test\test.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AepIdentity", "src\AepIdentity\AepIdentity.csproj", "{2E492669-BCF4-41D8-BF6C-DED261873963}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.AepSdk.Core.Net.iOS", "src\Adobe.AepSdk.Core.Net.iOS\Adobe.AepSdk.Core.Net.iOS.csproj", "{8DD61AB1-DA25-485C-8093-586AE37A3EE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{2E492669-BCF4-41D8-BF6C-DED261873963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E492669-BCF4-41D8-BF6C-DED261873963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E492669-BCF4-41D8-BF6C-DED261873963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD61AB1-DA25-485C-8093-586AE37A3EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD61AB1-DA25-485C-8093-586AE37A3EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD61AB1-DA25-485C-8093-586AE37A3EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD61AB1-DA25-485C-8093-586AE37A3EE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,5 +76,6 @@ Global
 		{D055F67B-CC25-4C4F-83BC-9F3C5A11B806} = {838D5299-72BB-4972-B74A-B830FEB86719}
 		{2CDA1532-87F4-4A63-8BE5-5D5699FC1A40} = {A8BB83A1-C258-4460-8D8A-1F3D34387656}
 		{2E492669-BCF4-41D8-BF6C-DED261873963} = {838D5299-72BB-4972-B74A-B830FEB86719}
+		{8DD61AB1-DA25-485C-8093-586AE37A3EE0} = {838D5299-72BB-4972-B74A-B830FEB86719}
 	EndGlobalSection
 EndGlobal

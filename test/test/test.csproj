@@ -35,6 +35,9 @@
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 	  <WarningLevel>4</WarningLevel>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
+	  <CreatePackage>false</CreatePackage>
+	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
@@ -57,11 +60,6 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\..\src\AepCore\AepCore.csproj" />
-	  <ProjectReference Include="..\..\src\AepIdentity\AepIdentity.csproj" />
-	  <ProjectReference Include="..\..\src\AepLifecycle\AepLifecycle.csproj" />
-	  <ProjectReference Include="..\..\src\AepRulesEngine\AepRulesEngine.csproj" />
-	  <ProjectReference Include="..\..\src\AepServices\AepServices.csproj" />
-	  <ProjectReference Include="..\..\src\AepSignal\AepSignal.csproj" />
+	  <ProjectReference Include="..\..\src\Adobe.AepSdk.Core.Net.iOS\Adobe.AepSdk.Core.Net.iOS.csproj" />
 	</ItemGroup>
 </Project>
