@@ -71,48 +71,48 @@ namespace AepCore
     }
 
     // @interface Configuration : NSObject <AEPExtension>
-    [BaseType(typeof(NSObject), Name = "_TtC7AEPCore13Configuration")]
-    [DisableDefaultCtor]
-    interface Configuration : AEPExtension
-    {
-        // @property (readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
-        //[Export("runtime", ArgumentSemantic.Strong)]
-        //AEPExtensionRuntime Runtime { get; }
+    //[BaseType(typeof(NSObject), Name = "_TtC7AEPCore13Configuration")]
+    //[DisableDefaultCtor]
+    //interface Configuration : AEPExtension
+    //{
+    //    // @property (readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
+    //    //[Export("runtime", ArgumentSemantic.Strong)]
+    //    //AEPExtensionRuntime Runtime { get; }
 
-        // @property (readonly, copy, nonatomic) NSString * _Nonnull name;
-        [Export("name")]
-        string Name { get; }
+    //    // @property (readonly, copy, nonatomic) NSString * _Nonnull name;
+    //    [Export("name")]
+    //    string Name { get; }
 
-        // @property (readonly, copy, nonatomic) NSString * _Nonnull friendlyName;
-        [Export("friendlyName")]
-        string FriendlyName { get; }
+    //    // @property (readonly, copy, nonatomic) NSString * _Nonnull friendlyName;
+    //    [Export("friendlyName")]
+    //    string FriendlyName { get; }
 
-        // @property (readonly, copy, nonatomic, class) NSString * _Nonnull extensionVersion;
-        [Static]
-        [Export("extensionVersion")]
-        string ExtensionVersion { get; }
+    //    // @property (readonly, copy, nonatomic, class) NSString * _Nonnull extensionVersion;
+    //    [Static]
+    //    [Export("extensionVersion")]
+    //    string ExtensionVersion { get; }
 
-        // @property (readonly, copy, nonatomic) NSDictionary<NSString *,NSString *> * _Nullable metadata;
-        [NullAllowed, Export("metadata", ArgumentSemantic.Copy)]
-        NSDictionary<NSString, NSString> Metadata { get; }
+    //    // @property (readonly, copy, nonatomic) NSDictionary<NSString *,NSString *> * _Nullable metadata;
+    //    [NullAllowed, Export("metadata", ArgumentSemantic.Copy)]
+    //    NSDictionary<NSString, NSString> Metadata { get; }
 
-        // -(instancetype _Nonnull)initWithRuntime:(id<AEPExtensionRuntime> _Nonnull)runtime __attribute__((objc_designated_initializer));
-        [Export("initWithRuntime:")]
-        [DesignatedInitializer]
-        NativeHandle Constructor(AEPExtensionRuntime runtime);
+    //    // -(instancetype _Nonnull)initWithRuntime:(id<AEPExtensionRuntime> _Nonnull)runtime __attribute__((objc_designated_initializer));
+    //    [Export("initWithRuntime:")]
+    //    [DesignatedInitializer]
+    //    NativeHandle Constructor(AEPExtensionRuntime runtime);
 
-        // -(void)onRegistered;
-        [Export("onRegistered")]
-        void OnRegistered();
+    //    // -(void)onRegistered;
+    //    [Export("onRegistered")]
+    //    void OnRegistered();
 
-        // -(void)onUnregistered;
-        [Export("onUnregistered")]
-        void OnUnregistered();
+    //    // -(void)onUnregistered;
+    //    [Export("onUnregistered")]
+    //    void OnUnregistered();
 
-        // -(BOOL)readyForEvent:(AEPEvent * _Nonnull)event __attribute__((warn_unused_result("")));
-        [Export("readyForEvent:")]
-        bool ReadyForEvent(AEPEvent @event);
-    }
+    //    // -(BOOL)readyForEvent:(AEPEvent * _Nonnull)event __attribute__((warn_unused_result("")));
+    //    [Export("readyForEvent:")]
+    //    bool ReadyForEvent(AEPEvent @event);
+    //}
 
     // @interface AEPEvent : NSObject
     [BaseType(typeof(NSObject))]
@@ -227,48 +227,48 @@ namespace AepCore
     }
 
     // @interface EventHubPlaceholderExtension : NSObject <AEPExtension>
-    [BaseType(typeof(NSObject), Name = "_TtC7AEPCore28EventHubPlaceholderExtension")]
-    [DisableDefaultCtor]
-    interface EventHubPlaceholderExtension : AEPExtension
-    {
-        // @property (readonly, copy, nonatomic) NSString * _Nonnull name;
-        [Export("name")]
-        string Name { get; }
+    //[BaseType(typeof(NSObject), Name = "_TtC7AEPCore28EventHubPlaceholderExtension")]
+    //[DisableDefaultCtor]
+    //interface EventHubPlaceholderExtension : AEPExtension
+    //{
+    //    // @property (readonly, copy, nonatomic) NSString * _Nonnull name;
+    //    [Export("name")]
+    //    string Name { get; }
 
-        // @property (readonly, copy, nonatomic) NSString * _Nonnull friendlyName;
-        [Export("friendlyName")]
-        string FriendlyName { get; }
+    //    // @property (readonly, copy, nonatomic) NSString * _Nonnull friendlyName;
+    //    [Export("friendlyName")]
+    //    string FriendlyName { get; }
 
-        // @property (readonly, copy, nonatomic, class) NSString * _Nonnull extensionVersion;
-        [Static]
-        [Export("extensionVersion")]
-        string ExtensionVersion { get; }
+    //    // @property (readonly, copy, nonatomic, class) NSString * _Nonnull extensionVersion;
+    //    [Static]
+    //    [Export("extensionVersion")]
+    //    string ExtensionVersion { get; }
 
-        // @property (readonly, copy, nonatomic) NSDictionary<NSString *,NSString *> * _Nullable metadata;
-        [NullAllowed, Export("metadata", ArgumentSemantic.Copy)]
-        NSDictionary<NSString, NSString> Metadata { get; }
+    //    // @property (readonly, copy, nonatomic) NSDictionary<NSString *,NSString *> * _Nullable metadata;
+    //    [NullAllowed, Export("metadata", ArgumentSemantic.Copy)]
+    //    NSDictionary<NSString, NSString> Metadata { get; }
 
-        // @property (readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
-        //[Export("runtime", ArgumentSemantic.Strong)]
-        //AEPExtensionRuntime Runtime { get; }
+    //    // @property (readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
+    //    //[Export("runtime", ArgumentSemantic.Strong)]
+    //    //AEPExtensionRuntime Runtime { get; }
 
-        // -(instancetype _Nonnull)initWithRuntime:(id<AEPExtensionRuntime> _Nonnull)runtime __attribute__((objc_designated_initializer));
-        [Export("initWithRuntime:")]
-        [DesignatedInitializer]
-        NativeHandle Constructor(AEPExtensionRuntime runtime);
+    //    // -(instancetype _Nonnull)initWithRuntime:(id<AEPExtensionRuntime> _Nonnull)runtime __attribute__((objc_designated_initializer));
+    //    [Export("initWithRuntime:")]
+    //    [DesignatedInitializer]
+    //    NativeHandle Constructor(AEPExtensionRuntime runtime);
 
-        // -(void)onRegistered;
-        [Export("onRegistered")]
-        void OnRegistered();
+    //    // -(void)onRegistered;
+    //    [Export("onRegistered")]
+    //    void OnRegistered();
 
-        // -(void)onUnregistered;
-        [Export("onUnregistered")]
-        void OnUnregistered();
+    //    // -(void)onUnregistered;
+    //    [Export("onUnregistered")]
+    //    void OnUnregistered();
 
-        // -(BOOL)readyForEvent:(AEPEvent * _Nonnull)_ __attribute__((warn_unused_result("")));
-        [Export("readyForEvent:")]
-        bool ReadyForEvent(AEPEvent _);
-    }
+    //    // -(BOOL)readyForEvent:(AEPEvent * _Nonnull)_ __attribute__((warn_unused_result("")));
+    //    [Export("readyForEvent:")]
+    //    bool ReadyForEvent(AEPEvent _);
+    //}
 
     // @interface AEPEventSource : NSObject
     [BaseType(typeof(NSObject))]

@@ -34,7 +34,7 @@
       <Kind>Framework</Kind>
       <ForceLoad>True</ForceLoad>
       <SmartLink>False</SmartLink>
-      <Frameworks>Foundation</Frameworks>
+      <Frameworks>Foundation CoreFoundation AepServices</Frameworks>
       <LinkerFlags>-Objc</LinkerFlags>
     </NativeReference>
   </ItemGroup>
