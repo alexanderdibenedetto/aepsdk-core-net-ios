@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AEPServices
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AEPServices
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AEPServices
 import Compression
@@ -13,6 +13,7 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import os.log
 import os
 public struct DefaultHeadersFormatter {
@@ -52,11 +53,11 @@ public protocol HitProcessing {
   }
   public func hide()
   @objc public func show()
+  @objc deinit
   public func show(withMessagingDelegateControl delegateControl: Swift.Bool)
   @objc public func dismiss()
   @objc public func handleJavascriptMessage(_ name: Swift.String, withHandler handler: @escaping (Any?) -> Swift.Void)
   @objc public func setAssetMap(_ map: [Swift.String : Swift.String]?)
-  @objc deinit
 }
 final public class ThreadSafeArray<T> {
   public init(identifier: Swift.String = "com.adobe.threadsafearray.queue")
@@ -82,10 +83,10 @@ extension AEPServices.ThreadSafeArray where T : Swift.Equatable {
   final public func filterRemove(_ isIncluded: (T) throws -> Swift.Bool) -> [T]
 }
 @objc(AEPMessagingDelegate) public protocol MessagingDelegate {
-  @objc(onShow:) func onShow(message: AEPServices.Showable)
-  @objc(onDismiss:) func onDismiss(message: AEPServices.Showable)
-  @objc(shouldShowMessage:) func shouldShowMessage(message: AEPServices.Showable) -> Swift.Bool
-  @objc(urlLoaded:byMessage:) optional func urlLoaded(_ url: Foundation.URL, byMessage message: AEPServices.Showable)
+  @objc(onShow:) func onShow(message: any AEPServices.Showable)
+  @objc(onDismiss:) func onDismiss(message: any AEPServices.Showable)
+  @objc(shouldShowMessage:) func shouldShowMessage(message: any AEPServices.Showable) -> Swift.Bool
+  @objc(urlLoaded:byMessage:) optional func urlLoaded(_ url: Foundation.URL, byMessage message: any AEPServices.Showable)
 }
 @available(iOSApplicationExtension, unavailable)
 public protocol URLOpening {
@@ -118,12 +119,12 @@ public enum PrettyDictionary {
 }
 public class DataQueueService : AEPServices.DataQueuing {
   public init()
-  @objc public func getDataQueue(label databaseName: Swift.String) -> AEPServices.DataQueue?
+  @objc public func getDataQueue(label databaseName: Swift.String) -> (any AEPServices.DataQueue)?
   @objc deinit
 }
 public class PersistentHitQueue : AEPServices.HitQueuing {
-  final public let processor: AEPServices.HitProcessing
-  public init(dataQueue: AEPServices.DataQueue, processor: AEPServices.HitProcessing)
+  final public let processor: any AEPServices.HitProcessing
+  public init(dataQueue: any AEPServices.DataQueue, processor: any AEPServices.HitProcessing)
   @discardableResult
   public func queue(entity: AEPServices.DataEntity) -> Swift.Bool
   public func beginProcessing()
@@ -150,6 +151,7 @@ public struct NetworkServiceConstants {
   public struct HeaderValues {
     public static let CONTENT_TYPE_URL_ENCODED: Swift.String
   }
+  public static let RECOVERABLE_URL_ERROR_CODES: [Foundation.URLError.Code]
 }
 public enum CacheExpiry : Swift.Equatable {
   case never
@@ -175,9 +177,9 @@ public class OperationOrderer<T> {
 }
 @available(iOSApplicationExtension, unavailable)
 @objc(AEPUIServiceProtocol) public protocol UIService {
-  @objc func createFullscreenMessage(payload: Swift.String, listener: AEPServices.FullscreenMessageDelegate?, isLocalImageUsed: Swift.Bool) -> AEPServices.FullscreenPresentable
-  @objc optional func createFullscreenMessage(payload: Swift.String, listener: AEPServices.FullscreenMessageDelegate?, isLocalImageUsed: Swift.Bool, settings: AEPServices.MessageSettings?) -> AEPServices.FullscreenPresentable
-  @objc func createFloatingButton(listener: AEPServices.FloatingButtonDelegate) -> AEPServices.FloatingButtonPresentable
+  @objc func createFullscreenMessage(payload: Swift.String, listener: (any AEPServices.FullscreenMessageDelegate)?, isLocalImageUsed: Swift.Bool) -> any AEPServices.FullscreenPresentable
+  @objc optional func createFullscreenMessage(payload: Swift.String, listener: (any AEPServices.FullscreenMessageDelegate)?, isLocalImageUsed: Swift.Bool, settings: AEPServices.MessageSettings?) -> any AEPServices.FullscreenPresentable
+  @objc func createFloatingButton(listener: any AEPServices.FloatingButtonDelegate) -> any AEPServices.FloatingButtonPresentable
 }
 @available(iOSApplicationExtension, unavailable)
 @objc(AEPFloatingButtonPresentable) public protocol FloatingButtonPresentable : AEPServices.Dismissible, AEPServices.Showable {
@@ -241,7 +243,7 @@ final public class ThreadSafeDictionary<K, V> where K : Swift.Hashable {
   @objc deinit
 }
 public protocol HitQueuing {
-  var processor: AEPServices.HitProcessing { get }
+  var processor: any AEPServices.HitProcessing { get }
   @discardableResult
   func queue(entity: AEPServices.DataEntity) -> Swift.Bool
   func beginProcessing()
@@ -273,7 +275,7 @@ public enum HttpConnectionConstants {
   case swipeDown = 1
   case swipeLeft = 2
   case swipeRight = 3
-  case backgroundTap = 4
+  case tapBackground = 4
   public static func fromString(_ string: Swift.String) -> AEPServices.MessageGesture?
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
@@ -345,6 +347,11 @@ public enum HttpConnectionConstants {
   @discardableResult
   public func setDismissAnimation(_ animation: AEPServices.MessageAnimation?) -> AEPServices.MessageSettings
   @objc deinit
+}
+extension Foundation.URLError {
+  public var isRecoverable: Swift.Bool {
+    get
+  }
 }
 public class NamedCollectionDataStore {
   public init(name: Swift.String)
@@ -485,8 +492,8 @@ public struct AnyCodable : Swift.Codable {
   public init(_ value: Any?)
   public static func from(dictionary: [Swift.String : Any?]?) -> [Swift.String : AEPServices.AnyCodable]?
   public static func toAnyDictionary(dictionary: [Swift.String : AEPServices.AnyCodable]?) -> [Swift.String : Any]?
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension AEPServices.AnyCodable : Swift.ExpressibleByStringLiteral {
   public init(stringLiteral value: Swift.String)
@@ -528,8 +535,8 @@ extension Swift.Encodable {
 public struct HttpConnection {
   public let data: Foundation.Data?
   public let response: Foundation.HTTPURLResponse?
-  public let error: Swift.Error?
-  public init(data: Foundation.Data?, response: Foundation.HTTPURLResponse?, error: Swift.Error?)
+  public let error: (any Swift.Error)?
+  public init(data: Foundation.Data?, response: Foundation.HTTPURLResponse?, error: (any Swift.Error)?)
 }
 extension AEPServices.HttpConnection {
   public var responseString: Swift.String? {
@@ -544,7 +551,7 @@ extension AEPServices.HttpConnection {
   public func responseHttpHeader(forKey: Swift.String) -> Swift.String?
 }
 @objc(AEPDataQueuing) public protocol DataQueuing {
-  @objc func getDataQueue(label: Swift.String) -> AEPServices.DataQueue?
+  @objc func getDataQueue(label: Swift.String) -> (any AEPServices.DataQueue)?
 }
 @objc(AEPMessageAnimation) public enum MessageAnimation : Swift.Int {
   case none = 0
@@ -690,27 +697,27 @@ public protocol Networking {
 }
 @_hasMissingDesignatedInitializers public class ServiceProvider {
   public static let shared: AEPServices.ServiceProvider
-  weak public var messagingDelegate: AEPServices.MessagingDelegate?
-  public var systemInfoService: AEPServices.SystemInfoService {
+  weak public var messagingDelegate: (any AEPServices.MessagingDelegate)?
+  public var systemInfoService: any AEPServices.SystemInfoService {
     get
     set
   }
-  public var namedKeyValueService: AEPServices.NamedCollectionProcessing {
+  public var namedKeyValueService: any AEPServices.NamedCollectionProcessing {
     get
     set
   }
-  public var networkService: AEPServices.Networking {
+  public var networkService: any AEPServices.Networking {
     get
     set
   }
-  public var dataQueueService: AEPServices.DataQueuing {
+  public var dataQueueService: any AEPServices.DataQueuing {
     get
   }
-  public var cacheService: AEPServices.Caching {
+  public var cacheService: any AEPServices.Caching {
     get
     set
   }
-  public var loggingService: AEPServices.Logging {
+  public var loggingService: any AEPServices.Logging {
     get
     set
   }
@@ -719,11 +726,11 @@ public protocol Networking {
 @available(iOSApplicationExtension, unavailable)
 @available(tvOSApplicationExtension, unavailable)
 extension AEPServices.ServiceProvider {
-  public var urlService: AEPServices.URLOpening {
+  public var urlService: any AEPServices.URLOpening {
     get
     set
   }
-  public var uiService: AEPServices.UIService {
+  public var uiService: any AEPServices.UIService {
     get
     set
   }

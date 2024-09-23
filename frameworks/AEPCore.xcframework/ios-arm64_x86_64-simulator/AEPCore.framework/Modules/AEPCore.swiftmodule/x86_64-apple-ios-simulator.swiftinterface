@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AEPCore
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AEPCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AEPCore
 import AEPRulesEngine
@@ -9,9 +9,21 @@ import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
+extension AEPCore.Event {
+  public static let DEBUG_EVENT_DEBUG_KEY: Swift.String
+  public static let DEBUG_EVENT_TYPE_KEY: Swift.String
+  public static let DEBUG_EVENT_SOURCE_KEY: Swift.String
+  public var debugEventType: Swift.String? {
+    get
+  }
+  public var debugEventSource: Swift.String? {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class JSONRulesParser {
   public static func parse(_ data: Foundation.Data) -> [AEPCore.LaunchRule]?
-  public static func parse(_ data: Foundation.Data, runtime: AEPCore.ExtensionRuntime?) -> [AEPCore.LaunchRule]?
+  public static func parse(_ data: Foundation.Data, runtime: (any AEPCore.ExtensionRuntime)?) -> [AEPCore.LaunchRule]?
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(AEPEventSource) @objcMembers public class EventSource : ObjectiveC.NSObject {
@@ -38,6 +50,8 @@ import _StringProcessing
   @objc public static let errorResponseContent: Swift.String
   @objc public static let createTracker: Swift.String
   @objc public static let trackMedia: Swift.String
+  @objc public static let contentComplete: Swift.String
+  @objc public static let debug: Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
@@ -45,7 +59,7 @@ extension AEPServices.HitQueuing {
   public func handlePrivacyChange(status: AEPCore.PrivacyStatus)
 }
 public struct LaunchRule : AEPRulesEngine.Rule {
-  public let condition: AEPRulesEngine.Evaluable
+  public let condition: any AEPRulesEngine.Evaluable
   public let consequences: [AEPCore.RuleConsequence]
 }
 @objc extension AEPCore.MobileCore {
@@ -55,7 +69,7 @@ public struct LaunchRule : AEPRulesEngine.Rule {
   @objc public static func clearUpdatedConfiguration()
   @objc(setPrivacyStatus:) public static func setPrivacyStatus(_ status: AEPCore.PrivacyStatus)
   @objc(getPrivacyStatus:) public static func getPrivacyStatus(completion: @escaping (AEPCore.PrivacyStatus) -> Swift.Void)
-  @objc(getSdkIdentities:) public static func getSdkIdentities(completion: @escaping (Swift.String?, Swift.Error?) -> Swift.Void)
+  @objc(getSdkIdentities:) public static func getSdkIdentities(completion: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
   @objc(resetIdentities) public static func resetIdentities()
 }
 extension AEPCore.LaunchRulesEngine {
@@ -140,7 +154,7 @@ public struct RuleConsequence {
   @objc deinit
 }
 public class LaunchRulesEngine {
-  public init(name: Swift.String, extensionRuntime: AEPCore.ExtensionRuntime)
+  public init(name: Swift.String, extensionRuntime: any AEPCore.ExtensionRuntime)
   public func replaceRules(with rules: [AEPCore.LaunchRule])
   public func addRules(_ rules: [AEPCore.LaunchRule])
   @discardableResult
@@ -209,8 +223,8 @@ extension AEPCore.RuleConsequence {
   @objc convenience public init(name: Swift.String, type: Swift.String, source: Swift.String, data: [Swift.String : Any]?, mask: [Swift.String]? = nil)
   @objc(responseEventWithName:type:source:data:) public func createResponseEvent(name: Swift.String, type: Swift.String, source: Swift.String, data: [Swift.String : Any]?) -> AEPCore.Event
   @objc(chainedEventWithName:type:source:data:mask:) public func createChainedEvent(name: Swift.String, type: Swift.String, source: Swift.String, data: [Swift.String : Any]?, mask: [Swift.String]? = nil) -> AEPCore.Event
-  required public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @objc extension AEPCore.MobileCore {
@@ -231,14 +245,14 @@ extension AEPCore.RuleConsequence {
   @objc public static var extensionVersion: Swift.String {
     @objc get
   }
-  @objc public static var messagingDelegate: AEPServices.MessagingDelegate? {
+  @objc public static var messagingDelegate: (any AEPServices.MessagingDelegate)? {
     @objc @available(*, unavailable)
     get
     @objc set
   }
   @objc(registerExtensions:completion:) public static func registerExtensions(_ extensions: [ObjectiveC.NSObject.Type], _ completion: (() -> Swift.Void)? = nil)
-  @objc(registerExtension:completion:) public static func registerExtension(_ exten: AEPCore.Extension.Type, _ completion: (() -> Swift.Void)? = nil)
-  @objc(unregisterExtension:completion:) public static func unregisterExtension(_ exten: AEPCore.Extension.Type, _ completion: (() -> Swift.Void)? = nil)
+  @objc(registerExtension:completion:) public static func registerExtension(_ exten: any AEPCore.Extension.Type, _ completion: (() -> Swift.Void)? = nil)
+  @objc(unregisterExtension:completion:) public static func unregisterExtension(_ exten: any AEPCore.Extension.Type, _ completion: (() -> Swift.Void)? = nil)
   @objc public static func getRegisteredExtensions() -> Swift.String
   @objc(dispatch:) public static func dispatch(event: AEPCore.Event)
   @objc(dispatch:timeout:responseCallback:) public static func dispatch(event: AEPCore.Event, timeout: Foundation.TimeInterval = 1, responseCallback: @escaping (AEPCore.Event?) -> Swift.Void)
@@ -259,11 +273,11 @@ extension AEPCore.RuleConsequence {
   @objc var friendlyName: Swift.String { get }
   @objc static var extensionVersion: Swift.String { get }
   @objc var metadata: [Swift.String : Swift.String]? { get }
-  @objc var runtime: AEPCore.ExtensionRuntime { get }
+  @objc var runtime: any AEPCore.ExtensionRuntime { get }
   @objc func onRegistered()
   @objc func onUnregistered()
   @objc func readyForEvent(_ event: AEPCore.Event) -> Swift.Bool
-  @objc init?(runtime: AEPCore.ExtensionRuntime)
+  @objc init?(runtime: any AEPCore.ExtensionRuntime)
 }
 extension AEPCore.Extension {
   public func unregisterExtension()

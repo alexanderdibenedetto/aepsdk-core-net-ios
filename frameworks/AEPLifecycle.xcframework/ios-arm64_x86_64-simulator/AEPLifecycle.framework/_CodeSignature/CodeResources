@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AEPLifecycle-Swift.h</key>
 		<data>
-		KdRETl0X1AtEtEt7ZPWYV+R7BSk=
+		qjetWWbSVhOBQJ8Ym+0kGUTiTnQ=
 		</data>
 		<key>Headers/AEPLifecycle.h</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iaJ3D1YrAA7mQmjwD7P0HMLCj/k=
+		6d/ahFBFl1ZSQImQ7QU2ycym8b4=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VY04XZR3FI12/nxUFFQQKYz2dGc=
+		bGdnmPseu1ZmZvcIVN/ZRWIBveA=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hV2adB+XxpJf0SohTdS7mEXcOzI=
+		n7eltwyaokX1UpkPgUXWATAWkU4=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		g5yD6GoLjneqp/emuU0iJHgsQpI=
+		7koLK3HeHyz4yE1LczcAh74YhVk=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hV2adB+XxpJf0SohTdS7mEXcOzI=
+		n7eltwyaokX1UpkPgUXWATAWkU4=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		f7Q78EDztJ2kWaZ6YI0WKqCrxfk=
+		KTGGf5SJhGVdKSaGGZISlUnXcQk=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		VY04XZR3FI12/nxUFFQQKYz2dGc=
+		bGdnmPseu1ZmZvcIVN/ZRWIBveA=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xZNs6ftRVl6dXDW/68YbMNbk1gw=
+		aWzr5dIhW2/y4WWTizZ8hFlyppo=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3Ma9K+/FVeDQUIlhbgWM1J6iZ54=
+		qsmtITJevla6SynLdBqsVt2Rwak=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xZNs6ftRVl6dXDW/68YbMNbk1gw=
+		aWzr5dIhW2/y4WWTizZ8hFlyppo=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hhEVKMtuEgdJVjRhOafZWjXv9DI=
+		nHUUv/BgTH8ZK6bFVgNJgDb378E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		tkLxaOZ69GcbYLBvmqlwNkQALZ8=
+		1Kulzjq0yz+YQoa3RxdOU+5iPtM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fkjQwmNXE2+QUfMIW8i1oXFgMIGXSXRZ5wxiO02ugio=
+			haOUiUil+47ox+C645U5YYS5JEksFiMuOLOAmLmRifo=
 			</data>
 		</dict>
 		<key>Headers/AEPLifecycle.h</key>
@@ -81,77 +81,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6c9Jkp3u3Uz8x5ZQ8zmb2gb86Grn4hyAwgR4cBvik9s=
+			dwpgDtD5L1zMb6OQ/8RvCQQFqdgm7fmipgqHRKGw3Ok=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WN6baKIe2NQaSXSqVM82KJ+ErAT4y8uuLB8YfmwJtZI=
+			pM1yuiGR8i2/6OugBeKe+kJ3LN9GqD35q/xNzEbrvDw=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tcTrmKGfJexmwAOBMKiW4sEqfpwmCSmwnCdpYyenALw=
+			qwPBSTwA3akG3PzNbKUI610IPhKVVuJCI1Sy32qhzC8=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WN6baKIe2NQaSXSqVM82KJ+ErAT4y8uuLB8YfmwJtZI=
+			pM1yuiGR8i2/6OugBeKe+kJ3LN9GqD35q/xNzEbrvDw=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dwGXyxru1WQSTuZQT8aCA4/ZPEgvwGuoe6Zv9OjPx7s=
+			PH1gXf1voMx2jobyi+7vkD6yOCyhxxXBI/HRuEC0lUc=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6c9Jkp3u3Uz8x5ZQ8zmb2gb86Grn4hyAwgR4cBvik9s=
+			dwpgDtD5L1zMb6OQ/8RvCQQFqdgm7fmipgqHRKGw3Ok=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CsTOMbyb96B1YZAW0JewjsVlp2qrAGv+6pAyOhT8ghA=
+			cQXZFqKCTyzis47c3x0M5DlncT96pF8Gv3/480f5C88=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7fQG/fdyr4r17Y0emsDDDSWnNd6A9kUv8/MjgzVD9AM=
+			HBlS6EOCgitIm7RBwOHFDd0LX/BIiZZIOIk7od7XdRM=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CsTOMbyb96B1YZAW0JewjsVlp2qrAGv+6pAyOhT8ghA=
+			cQXZFqKCTyzis47c3x0M5DlncT96pF8Gv3/480f5C88=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BWnC4+Lyo2/6j2gtxZtuxlh1MTFLxdzUHm0n4vd+IeI=
+			7VbXUr3R+BW8I6Dw7P771MDF9nUzv67EDZdx1xJul4c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			609UaACobJvXb8dP9fzVzf3emKs0zx9aCGKCWKT/oGk=
+			puz9t1kIlrpGaBWTgZq/v7AoyymOhyyLMLkUQQMUnKo=
 			</data>
 		</dict>
 	</dict>

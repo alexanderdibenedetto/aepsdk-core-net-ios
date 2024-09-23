@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AEPServices-Swift.h</key>
 		<data>
-		UVAbD6YTtnLCdjJIG/tm2emnjhk=
+		GnizTm0hsEBfJ6X0Ba2aAZ/Rdbk=
 		</data>
 		<key>Headers/AEPServices.h</key>
 		<data>
@@ -14,51 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dcz8QcNGqVuqPXKETzKcEU3WlkA=
+		1JnwsqcF0Pud7oBWV83S6FaXtr4=
 		</data>
 		<key>Modules/AEPServices.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		fg2MzrMoUvppMR72+Aq2PPUZ/Og=
+		IGyIRw5GwwWypDzUpONqDePv0oI=
 		</data>
 		<key>Modules/AEPServices.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		B61cED4qZAA1PwEBxUh6ynTlLD4=
+		LiHzNmKW1BB97p4XOIyYzgHIej8=
 		</data>
 		<key>Modules/AEPServices.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ePS+QjhxOZUs/Uj7CS1UCQTI5tI=
+		wk4DGVCZJJdS+M6zeUvf27WtiFk=
 		</data>
 		<key>Modules/AEPServices.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		B61cED4qZAA1PwEBxUh6ynTlLD4=
+		LiHzNmKW1BB97p4XOIyYzgHIej8=
 		</data>
 		<key>Modules/AEPServices.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wjLhDiiVtvUZqy/PQIb0xtyQZQ0=
+		RCD9ZEm5hwj7YWedyqfBZPd0wuY=
 		</data>
 		<key>Modules/AEPServices.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fg2MzrMoUvppMR72+Aq2PPUZ/Og=
+		IGyIRw5GwwWypDzUpONqDePv0oI=
 		</data>
 		<key>Modules/AEPServices.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		usnF9mV+5chyv1lksBuujtVUTN8=
+		yA+568T9cuyLPShsBYYhkF9iS6w=
 		</data>
 		<key>Modules/AEPServices.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Sb/7vMge+6qnSg80BtyyhUyGAdU=
+		3FP24i8SOB4L6k3B6jJDyLd+X40=
 		</data>
 		<key>Modules/AEPServices.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		usnF9mV+5chyv1lksBuujtVUTN8=
+		yA+568T9cuyLPShsBYYhkF9iS6w=
 		</data>
 		<key>Modules/AEPServices.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6LinhHgiV1cGyoRSSx7Svm5nvGc=
+		px9VSIK/MluLOj7q9WIVeB3v33s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		39b7VCX0vPwK9oPH1YeiF6u9DPs=
+		Z+aBMll0Ot3Op1TT9cy6fFBkANc=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		ItPP3fVIqLks3bQrn1v4JMqDXN0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rNp1mVhV8p1awpTCX+3286+E+upj6Au3TZ61UzUpCY8=
+			PmT4S02S/YcrywrGoSZ+LsJRAuIfEwvEQxh+uoiSQTg=
 			</data>
 		</dict>
 		<key>Headers/AEPServices.h</key>
@@ -81,77 +85,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UtTaGdfocPHBo7IX47AGYa0Xe8nE8phnY8kCJ/Q2THw=
+			8fwb3m2vFURrBuSzq/LBzYmW+fi8CJrI8EN2MrMYWek=
 			</data>
 		</dict>
 		<key>Modules/AEPServices.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aUfe8VSQiEuXxkp2j6r2EqOhULAi+DYv1bU6RDn8iMs=
+			5JxQ0HqxsvI+6TokRWX13AisL+czIirkDRm6mMADZ5k=
 			</data>
 		</dict>
 		<key>Modules/AEPServices.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			axHMg6tSJKORtsy/hEUQ8tdDf/3uEOWTqKnJyHMEOBA=
+			0vDYlAzRmc5mQI639RNX00n+F+9/AoEQ1zTcJNrZFUE=
 			</data>
 		</dict>
 		<key>Modules/AEPServices.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aUfe8VSQiEuXxkp2j6r2EqOhULAi+DYv1bU6RDn8iMs=
+			5JxQ0HqxsvI+6TokRWX13AisL+czIirkDRm6mMADZ5k=
 			</data>
 		</dict>
 		<key>Modules/AEPServices.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kib6UaL9FENeV51rgM5EJ49npsHcslGsPdjvTbWcImY=
+			+VzUBm/8OGpJ6HFGS9QWq2wxg6zje43VMgc+ssgj2u4=
 			</data>
 		</dict>
 		<key>Modules/AEPServices.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UtTaGdfocPHBo7IX47AGYa0Xe8nE8phnY8kCJ/Q2THw=
+			8fwb3m2vFURrBuSzq/LBzYmW+fi8CJrI8EN2MrMYWek=
 			</data>
 		</dict>
 		<key>Modules/AEPServices.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			11KnztXaty8fPUn3I6G2RVM75yq1XRjoe6rmcTiqFAI=
+			Nyjp8Vu3QHkO/dYHZAozGiNgOmxzOSxHn2gucYU8+7M=
 			</data>
 		</dict>
 		<key>Modules/AEPServices.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vvc/ApHoBnzgrq89KGuinRqj9TFOeJeHp2ktAY+93zk=
+			nMde9fGFpH9SkGzOb6THyzfG14xIsavq8S20KZ3GqZM=
 			</data>
 		</dict>
 		<key>Modules/AEPServices.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			11KnztXaty8fPUn3I6G2RVM75yq1XRjoe6rmcTiqFAI=
+			Nyjp8Vu3QHkO/dYHZAozGiNgOmxzOSxHn2gucYU8+7M=
 			</data>
 		</dict>
 		<key>Modules/AEPServices.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zcQAhT1WQ7usAn5iQWt2qts/ofw5GHyoL1yLuJ0Bfv8=
+			UwjiemHk2SQcJacSgdMi6btfNXO7nkepQFfkKiOEs70=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cmo1uZ0uMCUkZOxtnAbQxdZ0uRocPlDA/mJgs/2NJi4=
+			RFvK9DLYpfZ30gyO11ehxPPjkZmC0PaLun1oL9OuM4E=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DcvI5PdEfKhZkI8ppGaY2Hg9TtIVqL5ww+DYYESCe7o=
 			</data>
 		</dict>
 	</dict>

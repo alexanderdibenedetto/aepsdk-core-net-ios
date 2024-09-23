@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AEPIdentity-Swift.h</key>
 		<data>
-		C2NrlaeLA7JpQWZpfPry2OFti4o=
+		GIIiyJXpyDDVBX8ZorRFS5G5VYk=
 		</data>
 		<key>Headers/AEPIdentity.h</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qxTMvhE1gsuFX9wuXyksPZ0wQE8=
+		Gza7zTeyZa8rUbBn7u4uvT6yxjs=
 		</data>
 		<key>Modules/AEPIdentity.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7KdEbbXQ9MKVtq5FmqY4BxjdXTw=
+		Y/5QSdYca8UZjMixCJbuFDCHk4E=
 		</data>
 		<key>Modules/AEPIdentity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zu2sNB9/RJdHUirRIkzF10TuSlA=
+		/YlQdJAWB7qITw1jJMmcBCXuk9w=
 		</data>
 		<key>Modules/AEPIdentity.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		I1zOZFO8y06EJnJXMZ0PI6W+hqE=
+		Ju0uHILP9blof0KacztA8msKg5g=
 		</data>
 		<key>Modules/AEPIdentity.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zu2sNB9/RJdHUirRIkzF10TuSlA=
+		/YlQdJAWB7qITw1jJMmcBCXuk9w=
 		</data>
 		<key>Modules/AEPIdentity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tQumc6LFsQnZ6vl53NcTOiHLKEs=
+		ytlQZBcvB9IdrHhQL3/s0pNJrgM=
 		</data>
 		<key>Modules/AEPIdentity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7KdEbbXQ9MKVtq5FmqY4BxjdXTw=
+		Y/5QSdYca8UZjMixCJbuFDCHk4E=
 		</data>
 		<key>Modules/AEPIdentity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KYy6CvvuBoFGAu2l6OwNlS8jShI=
+		MkpRguyxzsSvX4iFN4gpz6R0n1E=
 		</data>
 		<key>Modules/AEPIdentity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Ch/b7/FBziRjvvzn3aJ0sNrQWTU=
+		tDiuivehxvK57PUYh4oYN3MhPxQ=
 		</data>
 		<key>Modules/AEPIdentity.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KYy6CvvuBoFGAu2l6OwNlS8jShI=
+		MkpRguyxzsSvX4iFN4gpz6R0n1E=
 		</data>
 		<key>Modules/AEPIdentity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Eh0IFYriRo6irwEe7kSUpIR+vEQ=
+		YnfP9PUPihu3wUwBLcvCUrHMjmo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		A8UMWg6IUrnNL889FowfYsEi0mQ=
+		s7HyUnLZs2MnOYy8+na9DEBSaE8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1y+jremVFzKGIzBYY0pyv5nd1SqyKu5RJv4JyDb0ljo=
+			z1xw1b4ioLajS6LiH2IZTFnn344ID0S+PeTg1pTcMXU=
 			</data>
 		</dict>
 		<key>Headers/AEPIdentity.h</key>
@@ -81,77 +81,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ClSZr5WlfUlmZU6ewawHLhVCrAjTDhHRlBwb9NYKZAE=
+			iBrNeStv+DBsRxL5IvgzacQHFbiTgM+fU4bTYPF6GmU=
 			</data>
 		</dict>
 		<key>Modules/AEPIdentity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/o839bEu4SXlAuVXwo4binMFZzRDhi8aGvRgyCDYgrA=
+			elgwk8GrZ4ERywClT2EkZmqsWOYbwGPUNqbf4OhkJEs=
 			</data>
 		</dict>
 		<key>Modules/AEPIdentity.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Y17Z/LgdTxdwc77AS7sHUI/s/RmuZux+I8Mn2j6gzM=
+			6JE0L4gyaAFdpRsN8RPrleh7QLOqOKaIJ8EMKGAe7pA=
 			</data>
 		</dict>
 		<key>Modules/AEPIdentity.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/o839bEu4SXlAuVXwo4binMFZzRDhi8aGvRgyCDYgrA=
+			elgwk8GrZ4ERywClT2EkZmqsWOYbwGPUNqbf4OhkJEs=
 			</data>
 		</dict>
 		<key>Modules/AEPIdentity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qZFblSjuusNS9PefPFslBnGbhGs7xeyUelCmXyfiXB4=
+			rcTvjW91iI37O4MsuxxNOxP6Ut/eeePCqUIsjFjq4p8=
 			</data>
 		</dict>
 		<key>Modules/AEPIdentity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ClSZr5WlfUlmZU6ewawHLhVCrAjTDhHRlBwb9NYKZAE=
+			iBrNeStv+DBsRxL5IvgzacQHFbiTgM+fU4bTYPF6GmU=
 			</data>
 		</dict>
 		<key>Modules/AEPIdentity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T5eJNSQDq66Q3CDdCpsGDXHN0rGHQ6nu5G5Py1zHwcQ=
+			9OzD1GAbEqYVOiYQuC8R85T5nGyzfxAl12OfhBtJn2s=
 			</data>
 		</dict>
 		<key>Modules/AEPIdentity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iAHtMLO4I0qcoTQF/IRwZoQo6Ix7s16JmN8gsY9ueSE=
+			TBlXy/xtINhGo41+4g5LREOygNr/Go+iIG+6HAEn2J8=
 			</data>
 		</dict>
 		<key>Modules/AEPIdentity.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T5eJNSQDq66Q3CDdCpsGDXHN0rGHQ6nu5G5Py1zHwcQ=
+			9OzD1GAbEqYVOiYQuC8R85T5nGyzfxAl12OfhBtJn2s=
 			</data>
 		</dict>
 		<key>Modules/AEPIdentity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QS2+IXMIe2raxT1gYIRBfUc3QuoDxGNBgqx6ERXpcUE=
+			raRh3480ldwGuGQR7UD/YyxjIKDxvQD5B+0BZDMYm+M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VcbI9B6D1geVcMzUlQ3dAcLLlpUORDLBaGm4pDHW4Z0=
+			j5Av5HZrDNAiWhxuHwnPsY0TvLc885MwdJHE61gC2Nw=
 			</data>
 		</dict>
 	</dict>

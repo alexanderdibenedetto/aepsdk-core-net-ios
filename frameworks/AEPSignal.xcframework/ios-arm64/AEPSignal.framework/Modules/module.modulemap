@@ -1,7 +1,7 @@
 framework module AEPSignal {
   umbrella header "AEPSignal.h"
-
   export *
+
   module * { export * }
 }
 

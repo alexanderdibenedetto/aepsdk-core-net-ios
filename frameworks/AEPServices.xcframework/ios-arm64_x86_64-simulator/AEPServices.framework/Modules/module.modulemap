@@ -1,7 +1,7 @@
 framework module AEPServices {
   umbrella header "AEPServices.h"
-
   export *
+
   module * { export * }
 }
 

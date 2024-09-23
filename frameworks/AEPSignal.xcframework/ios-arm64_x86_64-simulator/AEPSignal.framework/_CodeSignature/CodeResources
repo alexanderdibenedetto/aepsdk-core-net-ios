@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AEPSignal-Swift.h</key>
 		<data>
-		BQGm/ilalH0hQyE/xv3vM+n32Zw=
+		h22XN7/iIiDFMJyArLIk5AsFB/g=
 		</data>
 		<key>Headers/AEPSignal.h</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bdGZeVuu4tzHIxMQKZNunX3EEYc=
+		kSFlUe4oQXHvICxoFh8ghXk6TMk=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		zFfygR9X9heI12OjoH9aqS3hzH8=
+		cycFVBeJRYgczU24eORQ3UrvmMQ=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		c/Azu4pIrqw8p2XEg6wluEbpyow=
+		x8VKVUxUaXU75f/V5a/cslE7Lfo=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		KVqM8HYIR7kopqirTPtrrEOjQsU=
+		YhiBSpYPGzDeJdLJ/3/FDhE6yZM=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		c/Azu4pIrqw8p2XEg6wluEbpyow=
+		x8VKVUxUaXU75f/V5a/cslE7Lfo=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WG8eQGmV3aE7jmiwp8NLpN37BVM=
+		v4Ve16fl5T2UAaLXjGkCzmxkE74=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		zFfygR9X9heI12OjoH9aqS3hzH8=
+		cycFVBeJRYgczU24eORQ3UrvmMQ=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8GtyHetTid+/Ro50oNJN+s8bPJk=
+		nMT3hqZKk8s5J0qyr+jyXssprx4=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		YLKuMcdVXIV1MrM9Db0R6bXqsTQ=
+		PcHivRyL2awH3RPd7Q8oU2nwMa8=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8GtyHetTid+/Ro50oNJN+s8bPJk=
+		nMT3hqZKk8s5J0qyr+jyXssprx4=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mBkRDc/5Jx46+j7169nv9oeQfKw=
+		Y8VqA/CdRB7QefWo+oV9Rk+Dtz0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		r6j2eWRwabdZCK8gNTzsqeTGvaY=
+		j2CNFXuzhXmztcydLti0BjmwkAA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ll7j66Xo9BuDkRtUcr/ZbgoQLKa1aWuEZSd02kEHq14=
+			7mY9gjijWqMKVV+J+kBpHQYCZ8z1P+Y19D9lVvWfL9E=
 			</data>
 		</dict>
 		<key>Headers/AEPSignal.h</key>
@@ -81,77 +81,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4JsJsiy/V7NXcL+gTfMusSjN6oMs+EY9l46u61Gl7CM=
+			5ELsChGHQi3u0QRQR6wMDZosyCYpHHQNFKgheM1U3sE=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yhZsxq3GBH7Bc48314ekShYOINbU/2EgxkBGgvxDb4M=
+			UJVkmztKT7X4IsUgjjeqYrR8UxJPtgOTshgTESM+X6Y=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tELBYxxh6dB1ROWLf93LHqmAdFaROfWRrxXaOJVaWbs=
+			5XE7xMF+4GwV1byCzWBv2th/hW74wEgtUALgsiF8TZM=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yhZsxq3GBH7Bc48314ekShYOINbU/2EgxkBGgvxDb4M=
+			UJVkmztKT7X4IsUgjjeqYrR8UxJPtgOTshgTESM+X6Y=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XgHvF4w0S2eu2QWL1o2AA5A52BNvjeOsmUMnLHeVmLQ=
+			HBP903P7PBEPc7FYjxarsRPPCU3i2XfYQCGbqQZK+UM=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4JsJsiy/V7NXcL+gTfMusSjN6oMs+EY9l46u61Gl7CM=
+			5ELsChGHQi3u0QRQR6wMDZosyCYpHHQNFKgheM1U3sE=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TReXTjh6ud9kcq6dNtYmhsk6wU3LYJu1W5Q5dFWCbh4=
+			TOJaILCJ6tgOSJnMIyhGpXnqiBlrpBErkIDbVIOnrWA=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pvAFeTIkeB9v0BrTPfRwUxCjvOsTP0J1gR1RHuSSqJs=
+			Me8nlCaLC/dN6T+yodgKupmRrurfp9L/rbBUTKEvbmM=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TReXTjh6ud9kcq6dNtYmhsk6wU3LYJu1W5Q5dFWCbh4=
+			TOJaILCJ6tgOSJnMIyhGpXnqiBlrpBErkIDbVIOnrWA=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YVImQ8p8/7Qsy0nSLMc1arMWhHpeXzw/wnKnCKHIu+E=
+			A2664TD67CsvzZRZOM/ZzPqDtEoBVa0NEZI22M+6azw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DFHRPSPORvm4Vku/1SYeaRJMZYhnO+pLQebPnKOE1Qs=
+			Oqnw5IwuGFlqtHuGOQ4FjIwuhGgmD/M7aa9ORI8S+8c=
 			</data>
 		</dict>
 	</dict>
