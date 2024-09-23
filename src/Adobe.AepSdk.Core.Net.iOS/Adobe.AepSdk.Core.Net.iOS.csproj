@@ -18,11 +18,7 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/alexanderdibenedetto/aepsdk-core-net-ios</PackageProjectUrl>
-    <PackageReadmeFile>..\..\README.md</PackageReadmeFile>
   </PropertyGroup>
-  <ItemGroup>
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
-  </ItemGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <CreatePackage>false</CreatePackage>
   </PropertyGroup>
