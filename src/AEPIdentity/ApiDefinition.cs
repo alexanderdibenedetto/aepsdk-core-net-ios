@@ -19,8 +19,8 @@ namespace AepIdentity
       protocol, then [Model] is redundant and will generate code that will never
       be used.
     */
-    [Protocol, Model]
     [BaseType(typeof(NSObject))]
+    [Protocol]
     interface AEPIdentifiable : INativeObject
     {
         // @required @property (readonly, copy, nonatomic) NSString * _Nullable origin;
@@ -88,10 +88,10 @@ namespace AepIdentity
         bool ReadyForEvent(AEPEvent @event);
     }
 
-    // @interface AEPIdentity_Swift_294 (AEPMobileIdentity)
+    // @interface AEPIdentity_Swift_341 (AEPMobileIdentity)
     [Category]
     [BaseType(typeof(AEPMobileIdentity))]
-    interface AEPMobileIdentity_AEPIdentity_Swift_294
+    interface AEPMobileIdentity_AEPIdentity_Swift_341
     {
         // +(void)appendToUrl:(NSURL * _Nullable)url completion:(void (^ _Nonnull)(NSURL * _Nullable, NSError * _Nullable))completion;
         [Static]

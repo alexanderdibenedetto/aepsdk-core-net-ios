@@ -10,11 +10,13 @@ using AepSignal;
 namespace AepSignal
 {
     // @interface AEPMobileSignal : NSObject
+    //[Unavailable(PlatformName.TvOSAppExtension)]
+    //[Unavailable(PlatformName.iOSAppExtension)]
     [BaseType(typeof(NSObject))]
     [DisableDefaultCtor]
     interface AEPMobileSignal
     {
-        // @property(readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
+        // @property (readonly, nonatomic, strong) id<AEPExtensionRuntime> _Nonnull runtime;
         //[Export("runtime", ArgumentSemantic.Strong)]
         //AEPExtensionRuntime Runtime { get; }
 

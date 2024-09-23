@@ -24,10 +24,7 @@ namespace AepServices
     {
     }
 
-    interface IAEPDataQueue : AEPDataQueue
-    {
-
-    }
+    partial interface IAEPDataQueue : AEPDataQueue { }
 
     // @protocol AEPDataQueue
     /*
@@ -50,7 +47,7 @@ namespace AepServices
         // @required -(AEPDataEntity * _Nullable)peek __attribute__((warn_unused_result("")));
         [Abstract]
         [NullAllowed, Export("peek")]
-        AEPDataEntity Peek { get; }
+        AEPDataEntity Peek();
 
         // @required -(NSArray<AEPDataEntity *> * _Nullable)peekWithN:(NSInteger)n __attribute__((warn_unused_result("")));
         [Abstract]
@@ -61,7 +58,7 @@ namespace AepServices
         // @required -(BOOL)remove;
         [Abstract]
         [Export("remove")]
-        bool Remove { get; }
+        bool Remove();
 
         // @required -(BOOL)removeWithN:(NSInteger)n;
         [Abstract]
@@ -71,7 +68,7 @@ namespace AepServices
         // @required -(BOOL)clear;
         [Abstract]
         [Export("clear")]
-        bool Clear { get; }
+        bool Clear();
 
         // @required -(NSInteger)count __attribute__((warn_unused_result("")));
         [Abstract]
@@ -123,7 +120,7 @@ namespace AepServices
         void Dismiss();
     }
 
-    interface IAEPDismissible : AEPDismissible { }
+    partial interface IAEPDismissible : AEPDismissible { }
 
     // @protocol AEPShowable
     /*
@@ -144,7 +141,7 @@ namespace AepServices
         void Show();
     }
 
-    interface IAEPShowable : AEPShowable { }
+    partial interface IAEPShowable : AEPShowable { }
 
     // @protocol AEPFloatingButtonPresentable <AEPDismissible, AEPShowable>
     /*
@@ -156,7 +153,8 @@ namespace AepServices
       protocol, then [Model] is redundant and will generate code that will never
       be used.
     */
-    [Protocol]
+    //[Unavailable(PlatformName.iOSAppExtension)]
+    [Protocol, Model]
     interface AEPFloatingButtonPresentable
     {
         // @required -(void)setButtonImageWithImageData:(NSData * _Nonnull)imageData;
@@ -170,10 +168,13 @@ namespace AepServices
         void SetInitialWithPosition(AEPFloatingButtonPosition position);
     }
 
+    partial interface IAEPFloatingButtonPresentable : AEPFloatingButtonPresentable { }
+
     // @interface AEPFloatingButton : NSObject <AEPFloatingButtonPresentable>
+    //[Unavailable(PlatformName.iOSAppExtension)]
     [BaseType(typeof(NSObject))]
     [DisableDefaultCtor]
-    interface AEPFloatingButton
+    interface AEPFloatingButton : IAEPFloatingButtonPresentable
     {
         // -(void)show;
         [Export("show")]
@@ -233,6 +234,7 @@ namespace AepServices
     }
 
     // @interface AEPFullscreenMessage : NSObject <AEPFullscreenPresentable>
+    //[Unavailable(PlatformName.iOSAppExtension)]
     [BaseType(typeof(NSObject))]
     [DisableDefaultCtor]
     interface AEPFullscreenMessage
@@ -266,31 +268,34 @@ namespace AepServices
         void HandleTap([NullAllowed] UITapGestureRecognizer sender);
     }
 
-    // @interface AEPServices_Swift_438 (AEPFullscreenMessage) <WKScriptMessageHandler>
-    [Category]
-    [BaseType(typeof(AEPFullscreenMessage))]
-    interface AEPFullscreenMessage_AEPServices_Swift_438
-    {
-        // -(void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
-        [Export("userContentController:didReceiveScriptMessage:")]
-        void UserContentController(WKUserContentController userContentController, WKScriptMessage message);
-    }
+    // @interface AEPServices_Swift_485 (AEPFullscreenMessage) <WKScriptMessageHandler>
+    //[Unavailable(PlatformName.iOSAppExtension)]
+    //[Category]
+    //[BaseType(typeof(AEPFullscreenMessage))]
+    //interface AEPFullscreenMessage_AEPServices_Swift_485 : IWKScriptMessageHandler
+    //{
+    //    // -(void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
+    //    [Export("userContentController:didReceiveScriptMessage:")]
+    //    void UserContentController(WKUserContentController userContentController, WKScriptMessage message);
+    //}
 
-    // @interface AEPServices_Swift_447 (AEPFullscreenMessage) <WKNavigationDelegate>
-    [Category]
-    [BaseType(typeof(AEPFullscreenMessage))]
-    interface AEPFullscreenMessage_AEPServices_Swift_447
-    {
-        // -(void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler __attribute__((swift_async("not_swift_private", 3)));
-        [Export("webView:decidePolicyForNavigationAction:decisionHandler:")]
-        void WebView(WKWebView webView, WKNavigationAction navigationAction, Action<WKNavigationActionPolicy> decisionHandler);
+    // @interface AEPServices_Swift_494 (AEPFullscreenMessage) <WKNavigationDelegate>
+    //[Unavailable(PlatformName.iOSAppExtension)]
+    //[Category]
+    //[BaseType(typeof(AEPFullscreenMessage))]
+    //interface AEPFullscreenMessage_AEPServices_Swift_494 : IWKNavigationDelegate
+    //{
+    //    // -(void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler __attribute__((swift_async("not_swift_private", 3)));
+    //    [Export("webView:decidePolicyForNavigationAction:decisionHandler:")]
+    //    void WebView(WKWebView webView, WKNavigationAction navigationAction, Action<WKNavigationActionPolicy> decisionHandler);
 
-        // -(void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
-        [Export("webView:didFinishNavigation:")]
-        void WebView(WKWebView webView, WKNavigation navigation);
-    }
+    //    // -(void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
+    //    [Export("webView:didFinishNavigation:")]
+    //    void WebView(WKWebView webView, WKNavigation navigation);
+    //}
 
     // @protocol AEPFullscreenMessageDelegate
+    //[Unavailable(PlatformName.iOSAppExtension)]
     [Protocol, Model]
     interface AEPFullscreenMessageDelegate
     {
@@ -368,11 +373,11 @@ namespace AepServices
         void Label(AEPLogLevel level, string label, string message);
     }
 
-    //// @interface MessageGestureRecognizer : UISwipeGestureRecognizer
-    //[BaseType(typeof(UISwipeGestureRecognizer), Name = "_TtC11AEPServices24MessageGestureRecognizer")]
-    //interface MessageGestureRecognizer
-    //{
-    //}
+    // @interface MessageGestureRecognizer : UISwipeGestureRecognizer
+    [BaseType(typeof(UISwipeGestureRecognizer), Name = "_TtC11AEPServices24MessageGestureRecognizer")]
+    interface MessageGestureRecognizer
+    {
+    }
 
     // @interface AEPMessageSettings : NSObject
     [BaseType(typeof(NSObject))]
@@ -394,28 +399,28 @@ namespace AepServices
     }
 
     // @protocol AEPMessagingDelegate
-    [Protocol, Model]
-    interface AEPMessagingDelegate
-    {
-        // @required -(void)onShow:(id<AEPShowable> _Nonnull)message;
-        [Abstract]
-        [Export("onShow:")]
-        void OnShow(IAEPShowable message);
+    //[Protocol, Model]
+    //interface AEPMessagingDelegate
+    //{
+    //    // @required -(void)onShow:(id<AEPShowable> _Nonnull)message;
+    //    [Abstract]
+    //    [Export("onShow:")]
+    //    void OnShow(AEPShowable message);
 
-        // @required -(void)onDismiss:(id<AEPShowable> _Nonnull)message;
-        [Abstract]
-        [Export("onDismiss:")]
-        void OnDismiss(IAEPShowable message);
+    //    // @required -(void)onDismiss:(id<AEPShowable> _Nonnull)message;
+    //    [Abstract]
+    //    [Export("onDismiss:")]
+    //    void OnDismiss(AEPShowable message);
 
-        // @required -(BOOL)shouldShowMessage:(id<AEPShowable> _Nonnull)message __attribute__((warn_unused_result("")));
-        [Abstract]
-        [Export("shouldShowMessage:")]
-        bool ShouldShowMessage(IAEPShowable message);
+    //    // @required -(BOOL)shouldShowMessage:(id<AEPShowable> _Nonnull)message __attribute__((warn_unused_result("")));
+    //    [Abstract]
+    //    [Export("shouldShowMessage:")]
+    //    bool ShouldShowMessage(AEPShowable message);
 
-        // @optional -(void)urlLoaded:(NSURL * _Nonnull)url byMessage:(id<AEPShowable> _Nonnull)message;
-        [Export("urlLoaded:byMessage:")]
-        void UrlLoaded(NSUrl url, IAEPShowable message);
-    }
+    //    // @optional -(void)urlLoaded:(NSURL * _Nonnull)url byMessage:(id<AEPShowable> _Nonnull)message;
+    //    [Export("urlLoaded:byMessage:")]
+    //    void UrlLoaded(NSUrl url, AEPShowable message);
+    //}
 
     // @interface AEPNetworkRequest : NSObject
     [BaseType(typeof(NSObject))]
@@ -424,16 +429,17 @@ namespace AepServices
     {
     }
 
-    //// @protocol AEPUIServiceProtocol
-    ///*
-    //  Check whether adding [Model] to this declaration is appropriate.
-    //  [Model] is used to generate a C# class that implements this protocol,
-    //  and might be useful for protocols that consumers are supposed to implement,
-    //  since consumers can subclass the generated class instead of implementing
-    //  the generated interface. If consumers are not supposed to implement this
-    //  protocol, then [Model] is redundant and will generate code that will never
-    //  be used.
-    //*/
+    // @protocol AEPUIServiceProtocol
+    /*
+      Check whether adding [Model] to this declaration is appropriate.
+      [Model] is used to generate a C# class that implements this protocol,
+      and might be useful for protocols that consumers are supposed to implement,
+      since consumers can subclass the generated class instead of implementing
+      the generated interface. If consumers are not supposed to implement this
+      protocol, then [Model] is redundant and will generate code that will never
+      be used.
+    */
+    //[Unavailable(PlatformName.iOSAppExtension)]
     //[Protocol]
     //interface AEPUIServiceProtocol
     //{
