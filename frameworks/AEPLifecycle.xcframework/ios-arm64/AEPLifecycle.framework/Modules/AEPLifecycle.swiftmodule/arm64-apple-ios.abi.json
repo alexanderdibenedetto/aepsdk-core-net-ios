@@ -867,6 +867,20 @@
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetrics.swift",
       "kind": "StringLiteral",
+      "offset": 767,
+      "length": 10,
+      "value": "\"M\/d\/yyyy\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 7,
+      "value": "\"en_US\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetrics.swift",
+      "kind": "StringLiteral",
       "offset": 2004,
       "length": 14,
       "value": "\"installevent\""
@@ -1215,6 +1229,48 @@
       "value": "\"LaunchEvent\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetrics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3504,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetrics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3616,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetrics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3725,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetrics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3834,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetrics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3952,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetrics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4084,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
       "offset": 710,
@@ -1233,215 +1289,215 @@
       "kind": "StringLiteral",
       "offset": 817,
       "length": 7,
-      "value": "\"4.0.0\""
+      "value": "\"5.2.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 916,
+      "offset": 917,
       "length": 7,
       "value": "\"start\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 947,
+      "offset": 948,
       "length": 7,
       "value": "\"pause\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 999,
+      "offset": 1000,
       "length": 7,
       "value": "86400.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 1009,
+      "offset": 1010,
       "length": 3,
       "value": "7.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1066,
+      "offset": 1067,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1105,
+      "offset": 1106,
       "length": 11,
       "value": "\"Lifecycle\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1180,
+      "offset": 1181,
       "length": 32,
       "value": "\"com.adobe.module.configuration\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1279,
+      "offset": 1280,
       "length": 16,
       "value": "\"LifecycleStart\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1360,
+      "offset": 1361,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1414,
+      "offset": 1415,
       "length": 23,
       "value": "\"additionalcontextdata\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1509,
+      "offset": 1510,
       "length": 11,
       "value": "\"osversion\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1549,
+      "offset": 1550,
       "length": 7,
       "value": "\"AppId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1602,
+      "offset": 1603,
       "length": 19,
       "value": "\"prevsessionlength\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1666,
+      "offset": 1667,
       "length": 22,
       "value": "\"ignoredsessionlength\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1733,
+      "offset": 1734,
       "length": 22,
       "value": "\"lifecyclecontextdata\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1791,
+      "offset": 1792,
       "length": 14,
       "value": "\"sessionevent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1851,
+      "offset": 1852,
       "length": 22,
       "value": "\"starttimestampmillis\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1914,
+      "offset": 1915,
       "length": 18,
       "value": "\"maxsessionlength\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1987,
+      "offset": 1988,
       "length": 37,
       "value": "\"previoussessionstarttimestampmillis\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2079,
+      "offset": 2080,
       "length": 37,
       "value": "\"previoussessionpausetimestampmillis\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2161,
+      "offset": 2162,
       "length": 26,
       "value": "\"lifecycle.sessionTimeout\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2254,
+      "offset": 2255,
       "length": 14,
       "value": "\"install.date\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2307,
+      "offset": 2308,
       "length": 16,
       "value": "\"last.date.used\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2358,
+      "offset": 2359,
       "length": 14,
       "value": "\"upgrade.date\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2417,
+      "offset": 2418,
       "length": 24,
       "value": "\"launches.after.upgrade\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2481,
+      "offset": 2482,
       "length": 19,
       "value": "\"persisted.context\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2537,
+      "offset": 2538,
       "length": 16,
       "value": "\"lifecycle.data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2588,
+      "offset": 2589,
       "length": 14,
       "value": "\"last.version\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2656,
+      "offset": 2657,
       "length": 27,
       "value": "\"com.adobe.module.identity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2761,
+      "offset": 2762,
       "length": 23,
       "value": "\"advertisingidentifier\""
     },
@@ -1509,11 +1565,235 @@
       "value": "\".stateManager\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2690,
+      "length": 130,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2711,
+      "length": 1,
+      "value": "\" - Received pause->start state update within \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2804,
+      "length": 3,
+      "value": "\" sec, ignoring.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2894,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2995,
+      "length": 134,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3016,
+      "length": 1,
+      "value": "\" - Received pause->pause state update within \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3109,
+      "length": 3,
+      "value": "\" sec, rescheduling.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3399,
+      "length": 78,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3420,
+      "length": 1,
+      "value": "\" - Received consecutive \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3452,
+      "length": 5,
+      "value": "\" state update, ignoring.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3504,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3662,
+      "length": 60,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3683,
+      "length": 1,
+      "value": "\" - Received new start state, updating.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3791,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3883,
+      "length": 132,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3904,
+      "length": 1,
+      "value": "\" - Received new pause state, waiting for \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3993,
+      "length": 3,
+      "value": "\" sec before updating.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4659,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2StateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5058,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
       "kind": "BooleanLiteral",
       "offset": 822,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1949,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3084,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "StringLiteral",
+      "offset": 3319,
+      "length": 207,
+      "value": "\"Lifecycle start was called but only \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "StringLiteral",
+      "offset": 3378,
+      "length": 7,
+      "value": "\" seconds have passed since the previous launch. Lifecycle timeout threshold is \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "StringLiteral",
+      "offset": 3474,
+      "length": 7,
+      "value": "\" seconds. A lifecycle event will not be dispatched.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3706,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3749,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4491,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4570,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "FloatLiteral",
+      "offset": 5342,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "FloatLiteral",
+      "offset": 5441,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "FloatLiteral",
+      "offset": 5505,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5747,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleSession.swift",
@@ -1528,6 +1808,111 @@
       "offset": 7083,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3502,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3580,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3664,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4917,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 6938,
+      "length": 7,
+      "value": "\"apple\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7416,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7478,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7538,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7563,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7578,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7678,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7698,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8341,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8353,
+      "length": 1,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2MetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8363,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/XDMApplication.swift",
@@ -1545,6 +1930,83 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2688,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
+      "kind": "StringLiteral",
+      "offset": 3471,
+      "length": 55,
+      "value": "\"Waiting for valid configuration to process lifecycle.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
+      "kind": "StringLiteral",
+      "offset": 3656,
+      "length": 21,
+      "value": "\"Starting lifecycle.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
+      "kind": "StringLiteral",
+      "offset": 3888,
+      "length": 20,
+      "value": "\"Pausing lifecycle.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
+      "kind": "Dictionary",
+      "offset": 5320,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5430,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
+      "kind": "Dictionary",
+      "offset": 8228,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
+      "kind": "FloatLiteral",
+      "offset": 8669,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
+      "kind": "FloatLiteral",
+      "offset": 8797,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
+      "kind": "StringLiteral",
+      "offset": 9223,
+      "length": 88,
+      "value": "\"Dispatching lifecycle start event with data: \n\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
+      "kind": "StringLiteral",
+      "offset": 9310,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/Lifecycle.swift",
       "kind": "StringLiteral",
       "offset": 695,
       "length": 9,
@@ -1552,6 +2014,20 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleContextData.swift",
+      "kind": "Array",
+      "offset": 1911,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleContextData.swift",
+      "kind": "Array",
+      "offset": 2450,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleContextData.swift",
       "kind": "StringLiteral",
       "offset": 4268,
       "length": 23,
@@ -1577,6 +2053,419 @@
       "offset": 4329,
       "length": 23,
       "value": "\"advertisingidentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleContextData.swift",
+      "kind": "Dictionary",
+      "offset": 4771,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleContextData.swift",
+      "kind": "Dictionary",
+      "offset": 4992,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2DataStoreCache.swift",
+      "kind": "FloatLiteral",
+      "offset": 1760,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1827,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1879,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1924,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2757,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3278,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3854,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3914,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4054,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4771,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5472,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5613,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5844,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6042,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6087,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6718,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 7715,
+      "length": 96,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 7761,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 7810,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8438,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8525,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8614,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8797,
+      "length": 70,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8816,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8838,
+      "length": 1,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8865,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8893,
+      "length": 4,
+      "value": "\"  \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8905,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8935,
+      "length": 4,
+      "value": "\"()\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8947,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 9232,
+      "length": 44,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 9253,
+      "length": 1,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 9275,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 9674,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 9686,
+      "length": 1,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 9696,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 9910,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 9922,
+      "length": 1,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 9932,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleMetricsBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 10024,
+      "length": 7,
+      "value": "\"en-US\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3479,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3686,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5106,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5828,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5898,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5934,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "Dictionary",
+      "offset": 6323,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7893,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "StringLiteral",
+      "offset": 8549,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "StringLiteral",
+      "offset": 8634,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "StringLiteral",
+      "offset": 8652,
+      "length": 41,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "StringLiteral",
+      "offset": 8672,
+      "length": 1,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "StringLiteral",
+      "offset": 8691,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "StringLiteral",
+      "offset": 8719,
+      "length": 4,
+      "value": "\"  \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "StringLiteral",
+      "offset": 8731,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "StringLiteral",
+      "offset": 8761,
+      "length": 4,
+      "value": "\"()\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2.swift",
+      "kind": "StringLiteral",
+      "offset": 8773,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/LifecycleV2Constants.swift",
@@ -1663,11 +2552,39 @@
       "value": "\"v2.app.close.date\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/XDMEnvironmentType.swift",
+      "kind": "StringLiteral",
+      "offset": 1155,
+      "length": 13,
+      "value": "\"Application\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleState.swift",
+      "kind": "Dictionary",
+      "offset": 4718,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/XDMLanguage.swift",
       "kind": "StringLiteral",
       "offset": 849,
       "length": 490,
       "value": "\"^(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+)|((en-GB-oed|i-ami|i-bnn|i-default|i-enochian|i-hak|i-klingon|i-lux|i-mingo|i-navajo|i-pwn|i-tao|i-tay|i-tsu|sgn-BE-FR|sgn-BE-NL|sgn-CH-DE)|(art-lojban|cel-gaulish|no-bok|no-nyn|zh-guoyu|zh-hakka|zh-min|zh-min-nan|zh-xiang)))$\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/XDMLanguage.swift",
+      "kind": "StringLiteral",
+      "offset": 1709,
+      "length": 137,
+      "value": "\"Language tag \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPLifecycle\/Sources\/LifecycleV2\/XDMLanguage.swift",
+      "kind": "StringLiteral",
+      "offset": 1734,
+      "length": 6,
+      "value": "\" failed validation and will be dropped. Values for XDM field 'environment._dc.language' must conform to BCP 47.\""
     }
   ]
 }

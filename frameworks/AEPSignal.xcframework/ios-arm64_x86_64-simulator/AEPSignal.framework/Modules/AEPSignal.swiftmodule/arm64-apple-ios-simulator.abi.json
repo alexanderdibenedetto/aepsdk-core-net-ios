@@ -103,6 +103,111 @@
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
       "kind": "StringLiteral",
+      "offset": 1386,
+      "length": 75,
+      "value": "\"Signal extension could not be initialized - unable to create a DataQueue.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 2966,
+      "length": 62,
+      "value": "\"Device has opted-out of tracking. Clearing the Signal queue.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 3955,
+      "length": 56,
+      "value": "\"Dropping postback, missing templateurl from EventData.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 4140,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 4210,
+      "length": 47,
+      "value": "\"Dropping collect pii call, url must be https.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 4402,
+      "length": 61,
+      "value": "\"Dropping postback, templateurl from EventData is malformed.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 4784,
+      "length": 48,
+      "value": "\"Dropping postback, unable to encode JSON data.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 5097,
+      "length": 72,
+      "value": "\"Unable to process OpenURL consequence - no URL was found in EventData.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 5314,
+      "length": 73,
+      "value": "\"Unable to process OpenURL consequence - URL in EventData was malformed.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 5472,
+      "length": 35,
+      "value": "\"Opening URL \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 5506,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 6296,
+      "length": 71,
+      "value": "\"Configuration is unavailable - unable to process event '\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 6364,
+      "length": 4,
+      "value": "\"'.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6388,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
+      "offset": 6513,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/Signal.swift",
+      "kind": "StringLiteral",
       "offset": 791,
       "length": 6,
       "value": "\"AEPSignal.Signal\""
@@ -126,117 +231,117 @@
       "kind": "StringLiteral",
       "offset": 778,
       "length": 7,
-      "value": "\"4.0.0\""
+      "value": "\"5.2.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 927,
+      "offset": 928,
       "length": 32,
       "value": "\"com.adobe.module.configuration\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 996,
+      "offset": 997,
       "length": 16,
       "value": "\"global.privacy\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1083,
+      "offset": 1084,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1119,
+      "offset": 1120,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1204,
       "length": 4,
       "value": "\"pb\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1234,
       "length": 5,
       "value": "\"pii\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1269,
+      "offset": 1270,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1350,
+      "offset": 1351,
       "length": 22,
       "value": "\"triggeredconsequence\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1397,
+      "offset": 1398,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1430,
+      "offset": 1431,
       "length": 8,
       "value": "\"detail\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1465,
+      "offset": 1466,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1507,
+      "offset": 1508,
       "length": 13,
       "value": "\"contenttype\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1556,
+      "offset": 1557,
       "length": 14,
       "value": "\"templatebody\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1605,
+      "offset": 1606,
       "length": 13,
       "value": "\"templateurl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1648,
+      "offset": 1649,
       "length": 9,
       "value": "\"timeout\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1684,
+      "offset": 1685,
       "length": 5,
       "value": "\"url\""
     },
@@ -246,6 +351,258 @@
       "offset": 724,
       "length": 20,
       "value": "\"SignalHitProcessor\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 973,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1297,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1415,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1542,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "Dictionary",
+      "offset": 1678,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1945,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2826,
+      "length": 72,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2862,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2897,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2989,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3070,
+      "length": 79,
+      "value": "\"Signal request successfully sent: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3130,
+      "length": 4,
+      "value": "\" sent successfully\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3174,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3282,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3362,
+      "length": 208,
+      "value": "\"Signal request failed with recoverable error \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3452,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3455,
+      "length": 3,
+      "value": "\" and status code \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3501,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3504,
+      "length": 1,
+      "value": "\". Will retry sending the request later: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3569,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3816,
+      "length": 195,
+      "value": "\"Signal request failed with recoverable error \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3906,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3909,
+      "length": 3,
+      "value": "\" and status code \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3955,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3958,
+      "length": 1,
+      "value": "\". Will retry sending the request later: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4010,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4036,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4182,
+      "length": 194,
+      "value": "\"Signal request failed with unrecoverable error \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4274,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4277,
+      "length": 3,
+      "value": "\" and status code \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4323,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4326,
+      "length": 1,
+      "value": "\". It will be dropped from the queue: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4375,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/AEPSignal\/Sources\/SignalHitProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4401,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

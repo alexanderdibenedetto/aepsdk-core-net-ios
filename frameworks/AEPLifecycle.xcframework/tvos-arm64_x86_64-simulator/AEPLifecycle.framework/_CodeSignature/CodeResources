@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AEPLifecycle-Swift.h</key>
 		<data>
-		KdRETl0X1AtEtEt7ZPWYV+R7BSk=
+		qjetWWbSVhOBQJ8Ym+0kGUTiTnQ=
 		</data>
 		<key>Headers/AEPLifecycle.h</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		S6NPIXLBlvF1pfhOmQS5/LQf5ro=
+		hcBfffQtA0jS27SE4xLhgJ1Sd0U=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		VY04XZR3FI12/nxUFFQQKYz2dGc=
+		bGdnmPseu1ZmZvcIVN/ZRWIBveA=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		kycq6cMdP/DcvNWXJN4oIjmoWRs=
+		XLwzz3FhI+27wtl7YIkP5ozsD08=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		nrebhrIt4II/kBQJL0K/7BCybDw=
+		uI8twDqm88Yf0g9r2ntwGKTufRw=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		kycq6cMdP/DcvNWXJN4oIjmoWRs=
+		XLwzz3FhI+27wtl7YIkP5ozsD08=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		q8XkmM/8bs+MXcoypo+S4MjK9E8=
+		CvAZmjUF8ZEjw7xMXYIs0f9izr8=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		VY04XZR3FI12/nxUFFQQKYz2dGc=
+		bGdnmPseu1ZmZvcIVN/ZRWIBveA=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		E2qXAB3CvjwshDezWgPE7kSXGj4=
+		SoMBE4gJro/TEpZKpd1tJH9NhLU=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		o/JUaW0Vu96F1TyqPHEEiNzk3gI=
+		B8j1ifAcaJALCubuD1aN6lHjBBg=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		E2qXAB3CvjwshDezWgPE7kSXGj4=
+		SoMBE4gJro/TEpZKpd1tJH9NhLU=
 		</data>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		aHbAjSyIoFtvqn1Hrwt/8lxYfx0=
+		QekwlLIZK0TI/hQzORCzQQtAs0I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		tkLxaOZ69GcbYLBvmqlwNkQALZ8=
+		1Kulzjq0yz+YQoa3RxdOU+5iPtM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fkjQwmNXE2+QUfMIW8i1oXFgMIGXSXRZ5wxiO02ugio=
+			haOUiUil+47ox+C645U5YYS5JEksFiMuOLOAmLmRifo=
 			</data>
 		</dict>
 		<key>Headers/AEPLifecycle.h</key>
@@ -81,77 +81,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6c9Jkp3u3Uz8x5ZQ8zmb2gb86Grn4hyAwgR4cBvik9s=
+			dwpgDtD5L1zMb6OQ/8RvCQQFqdgm7fmipgqHRKGw3Ok=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wfr6HLHDcmiKbSBn1128syDd7B7tRsjk5dynClKu1Vc=
+			J88qRTrU4ExXV8ajD2wEUhAlC3NI1oPqUyQPObJOs78=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BhsCP/KdstOKz3VFaXa9B/xgpwZybZApr/VGB45Dsqs=
+			plJl0ysmsWIROvX8xMTJKjDZMRpSbXvI0X91IIpW0cs=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wfr6HLHDcmiKbSBn1128syDd7B7tRsjk5dynClKu1Vc=
+			J88qRTrU4ExXV8ajD2wEUhAlC3NI1oPqUyQPObJOs78=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8VQvkf1gqv9eyyTQxMr65lOnQvrDGcvbKVX0PZ8RNNs=
+			iMEMaWwKGQJc8Hxr48351uOTJy+59TNv1rj/mXQXyvI=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6c9Jkp3u3Uz8x5ZQ8zmb2gb86Grn4hyAwgR4cBvik9s=
+			dwpgDtD5L1zMb6OQ/8RvCQQFqdgm7fmipgqHRKGw3Ok=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VHD39ACAwXQXeFyYk2iMPsS0PJ7CK0SwFbqb2yCf0IE=
+			4SPLwwbGrtn29hfQhmaCsuJLDFLvd4r1v9QKR00xuv4=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cDB3FY9OQwT1/pymEA9Yq6hjxzc/cjcYA1ofM0WCans=
+			insycG1NYljcfxEcy9BMT5goYkS1QaQBDSsVF02iqVs=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VHD39ACAwXQXeFyYk2iMPsS0PJ7CK0SwFbqb2yCf0IE=
+			4SPLwwbGrtn29hfQhmaCsuJLDFLvd4r1v9QKR00xuv4=
 			</data>
 		</dict>
 		<key>Modules/AEPLifecycle.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lr7txb0lzTO5vKLZtTWV/WrTkJ70FiqBDmy7AXiOxBs=
+			EY06zWatmehWghKT+fsqH265mjDIoiRwWV7bFrAyPks=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			609UaACobJvXb8dP9fzVzf3emKs0zx9aCGKCWKT/oGk=
+			puz9t1kIlrpGaBWTgZq/v7AoyymOhyyLMLkUQQMUnKo=
 			</data>
 		</dict>
 	</dict>

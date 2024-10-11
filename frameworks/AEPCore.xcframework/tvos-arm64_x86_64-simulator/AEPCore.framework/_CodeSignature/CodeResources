@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AEPCore-Swift.h</key>
 		<data>
-		mOxp6pa7OvCedx8IsSkM82Cduns=
+		EqE2rqW0cVTuuoV5z5zSms5+JYU=
 		</data>
 		<key>Headers/AEPCore.h</key>
 		<data>
@@ -14,51 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		trhv/iyD5L1bFLhVVfx01TUdMvU=
+		ZyaoOgWFX7FIEGfKzqtcgeSSN7A=
 		</data>
 		<key>Modules/AEPCore.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		v1cMjeg5VoPRuXHfyOezefhIVnI=
+		5y3YeAM59bZW7KpS0eFH1hvDc3o=
 		</data>
 		<key>Modules/AEPCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		nOnSebTdqnLkdf8aHgeZtskezSs=
+		wY2ja3DzragST7Tn/Buoya20B3A=
 		</data>
 		<key>Modules/AEPCore.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		+utL2Ezqjo71hEJeOQAlLiHjPng=
+		bNG55lbdKEpFW0sww9m57p2IMDo=
 		</data>
 		<key>Modules/AEPCore.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		nOnSebTdqnLkdf8aHgeZtskezSs=
+		wY2ja3DzragST7Tn/Buoya20B3A=
 		</data>
 		<key>Modules/AEPCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		w2ddGqrs42eYHeYUxMgDbvV5y30=
+		rJB4uIDHPfewVDfcO1s/kdu3KZA=
 		</data>
 		<key>Modules/AEPCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		v1cMjeg5VoPRuXHfyOezefhIVnI=
+		5y3YeAM59bZW7KpS0eFH1hvDc3o=
 		</data>
 		<key>Modules/AEPCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		UENgLSDdsCL2FD3HgcKfHuY6RGM=
+		Ln2q8nFr4ZbEZiOonRiCjjnr9zM=
 		</data>
 		<key>Modules/AEPCore.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		blNURPY/XPNUFrQRYYh6a2U9ifg=
+		u1tn4P6m3AW15dhjJllde1fGjWc=
 		</data>
 		<key>Modules/AEPCore.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		UENgLSDdsCL2FD3HgcKfHuY6RGM=
+		Ln2q8nFr4ZbEZiOonRiCjjnr9zM=
 		</data>
 		<key>Modules/AEPCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		DX39einZAM19el96EvclhInKIrI=
+		lMuHZE/6U1yVs/I8K4FDEux2C98=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		cd59JaKm1x96cOFsNbt6to5xWBk=
+		97l2RbnZpYNdXDYWXbir9bMSxv4=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		ItPP3fVIqLks3bQrn1v4JMqDXN0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CAR93doi1w9eLfebGczicKAFF7/77G1Si5VZBAz1wN4=
+			Zty52WKzLWTxQUKazSGfPJmuIzDmf7ZgunhflRuZdBo=
 			</data>
 		</dict>
 		<key>Headers/AEPCore.h</key>
@@ -81,77 +85,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0dlyavrP0TTu/bXAgUtwuhUEai27wcZqk9Anmx5BEfo=
+			qubMpnTAw1lYtmZMjZj2Oa0YUQ44kl3RNi+o+DREIFo=
 			</data>
 		</dict>
 		<key>Modules/AEPCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vbt1GvXJhKQh1IhL2lQfCGn9y1GubDV7FMofhygTOcE=
+			dNUcVTJLQTKvm5XifIiFbf7zXhAdp2Ka5LwZHxT5jeo=
 			</data>
 		</dict>
 		<key>Modules/AEPCore.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zsPOd5QtsKeC2uhUQt3expFSeCxgp8tP4X+nYGq6rqM=
+			VDW2PdL9177Lp/SzaF2k1VfoXonRknY2c4T8fntb4fM=
 			</data>
 		</dict>
 		<key>Modules/AEPCore.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vbt1GvXJhKQh1IhL2lQfCGn9y1GubDV7FMofhygTOcE=
+			dNUcVTJLQTKvm5XifIiFbf7zXhAdp2Ka5LwZHxT5jeo=
 			</data>
 		</dict>
 		<key>Modules/AEPCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			88sR8HYuJWrxuh3LJwMS7OhJ1gVzLzdNsaMTb96vGqc=
+			0s3+29UmWmpC7M7UTPjA/5ZmcKfF8MsMEDxI9dbCS3g=
 			</data>
 		</dict>
 		<key>Modules/AEPCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0dlyavrP0TTu/bXAgUtwuhUEai27wcZqk9Anmx5BEfo=
+			qubMpnTAw1lYtmZMjZj2Oa0YUQ44kl3RNi+o+DREIFo=
 			</data>
 		</dict>
 		<key>Modules/AEPCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BZ7hSNogkR4g9WWOMi7wLjSDn3LRZYl17qcI+CIBJOg=
+			jQxUk0yMz0WIbnNv+otH4nicCBaF7oEK7mSWgXKtRbo=
 			</data>
 		</dict>
 		<key>Modules/AEPCore.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DRh0RIBqmVpnnEj1Ixz58MZ1JP8loay5SjgwFTKdMk0=
+			M/2DQyWGxJyvTmlGf3fefmDnr3K5o7jEDoYmiguTpDc=
 			</data>
 		</dict>
 		<key>Modules/AEPCore.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BZ7hSNogkR4g9WWOMi7wLjSDn3LRZYl17qcI+CIBJOg=
+			jQxUk0yMz0WIbnNv+otH4nicCBaF7oEK7mSWgXKtRbo=
 			</data>
 		</dict>
 		<key>Modules/AEPCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z+YrTR9QomW58YrGSgzevVQBOXvj+tgAA6RviJGNzc0=
+			ewoVmOsP66fNaBrxlpvRYmpaKyoFhmcPsnF37xzLfZw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i59j+ac1Uuw7vDvErDcKSszX68HoRFQF9vk31JA+j/o=
+			0rq44hEGTmKyoOW2nMtxo7Msk7gn9reDtWnTZiQ5WaI=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DcvI5PdEfKhZkI8ppGaY2Hg9TtIVqL5ww+DYYESCe7o=
 			</data>
 		</dict>
 	</dict>

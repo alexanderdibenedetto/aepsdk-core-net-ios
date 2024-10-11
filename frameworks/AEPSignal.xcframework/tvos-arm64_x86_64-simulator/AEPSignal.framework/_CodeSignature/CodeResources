@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AEPSignal-Swift.h</key>
 		<data>
-		BQGm/ilalH0hQyE/xv3vM+n32Zw=
+		h22XN7/iIiDFMJyArLIk5AsFB/g=
 		</data>
 		<key>Headers/AEPSignal.h</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		c0Nk1Cf6m0URYZyNbD+8yXnS27s=
+		rlyB8l9hymltu46kiVw2JJZJn38=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		zFfygR9X9heI12OjoH9aqS3hzH8=
+		cycFVBeJRYgczU24eORQ3UrvmMQ=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		Kj2XdayU8NhNr2YyPPEJ9v/9sSw=
+		/oDL/F0/UohikqcGqPKIe9DToEQ=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		yZ5/dP0r//ENeFVf+vilG6Pp0Pg=
+		04xFN8Xvs1yF7P1j915nalqHoNg=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		Kj2XdayU8NhNr2YyPPEJ9v/9sSw=
+		/oDL/F0/UohikqcGqPKIe9DToEQ=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		Z5R5+jmgqA1m38fJcR3bBhl/UFc=
+		7pR8655tT+OdBL1arRx2zeMPs6s=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		zFfygR9X9heI12OjoH9aqS3hzH8=
+		cycFVBeJRYgczU24eORQ3UrvmMQ=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		V0gKOTV3jIpR/Dpuc6MfDO6gv50=
+		y2mDbk10yPv8d4a9iyfEwpXQLWo=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		hW/UY+DCd7H6uTmtk+FcYOSNctk=
+		s+Bhu4swNCnQ0NUfsVOZRQGDtzE=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		V0gKOTV3jIpR/Dpuc6MfDO6gv50=
+		y2mDbk10yPv8d4a9iyfEwpXQLWo=
 		</data>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		6xmk1RQflHBZkQcL47ci4aYcv7E=
+		gKOwzghii3KDyZBlPl0FfKSNryo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		r6j2eWRwabdZCK8gNTzsqeTGvaY=
+		j2CNFXuzhXmztcydLti0BjmwkAA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ll7j66Xo9BuDkRtUcr/ZbgoQLKa1aWuEZSd02kEHq14=
+			7mY9gjijWqMKVV+J+kBpHQYCZ8z1P+Y19D9lVvWfL9E=
 			</data>
 		</dict>
 		<key>Headers/AEPSignal.h</key>
@@ -81,77 +81,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4JsJsiy/V7NXcL+gTfMusSjN6oMs+EY9l46u61Gl7CM=
+			5ELsChGHQi3u0QRQR6wMDZosyCYpHHQNFKgheM1U3sE=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wYsvexu0gHOEjb832ftYF6dWqPRVZKTNJ9x1IswmlHM=
+			gqTJJ+8KnOLt9vSG2Mzbd6CVJb/LmEvGFLKpN2yVtUM=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lEme7uEGoFfPN0vKJjSaWfg1GVicTOzG+S34nxZwsvU=
+			WJA7xNZIU1aF+xN7LMqaV2hBttDG/hUougV7O7jkeLs=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wYsvexu0gHOEjb832ftYF6dWqPRVZKTNJ9x1IswmlHM=
+			gqTJJ+8KnOLt9vSG2Mzbd6CVJb/LmEvGFLKpN2yVtUM=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nNguhkmHlDTqdqh4FjYSeenxHTUu+Br7iR5e+mU4vVk=
+			9HGyD7jhJJx5LVTLCq6MhCX26bHVDjMo5LkAScZ9SDI=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4JsJsiy/V7NXcL+gTfMusSjN6oMs+EY9l46u61Gl7CM=
+			5ELsChGHQi3u0QRQR6wMDZosyCYpHHQNFKgheM1U3sE=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnI03NxbZdP7Fm41NKeRhbA4uGeLoRCiWl0z1Pl9N4o=
+			Aqe+mpJ0ao4N3et6xY3qneDiFmGLjqT6EeTWyqxH6Iw=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3bUybRZO/0CdFQrvYtubRa10InKob99m4DViS4r11eI=
+			OmliCj4YWhbvN+6nERgg6nR2LxySpSK5xUL9wGz8sfM=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnI03NxbZdP7Fm41NKeRhbA4uGeLoRCiWl0z1Pl9N4o=
+			Aqe+mpJ0ao4N3et6xY3qneDiFmGLjqT6EeTWyqxH6Iw=
 			</data>
 		</dict>
 		<key>Modules/AEPSignal.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W1NhhaW3sVlhy00sz3z6h4R5lTQaO5u3szdlwKCJwmI=
+			RFX60taPpPcRPwKMVE7GIjc7GE8/nOz6ILBclXj9hLw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DFHRPSPORvm4Vku/1SYeaRJMZYhnO+pLQebPnKOE1Qs=
+			Oqnw5IwuGFlqtHuGOQ4FjIwuhGgmD/M7aa9ORI8S+8c=
 			</data>
 		</dict>
 	</dict>

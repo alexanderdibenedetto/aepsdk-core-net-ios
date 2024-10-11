@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-tvos11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AEPIdentity
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-tvos12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AEPIdentity
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AEPCore
 @_exported import AEPIdentity
@@ -9,6 +9,7 @@ import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc(AEPMobileVisitorAuthState) public enum MobileVisitorAuthenticationState : Swift.Int, Swift.Codable {
   case unknown = 0
   case authenticated = 1
@@ -20,21 +21,21 @@ import _StringProcessing
   }
 }
 @objc extension AEPIdentity.Identity {
-  @objc public static func appendTo(url: Foundation.URL?, completion: @escaping (Foundation.URL?, Swift.Error?) -> Swift.Void)
-  @objc(getIdentifiers:) public static func getIdentifiers(completion: @escaping ([AEPIdentity.Identifiable]?, Swift.Error?) -> Swift.Void)
-  @objc(getExperienceCloudId:) public static func getExperienceCloudId(completion: @escaping (Swift.String?, Swift.Error?) -> Swift.Void)
+  @objc public static func appendTo(url: Foundation.URL?, completion: @escaping (Foundation.URL?, (any Swift.Error)?) -> Swift.Void)
+  @objc(getIdentifiers:) public static func getIdentifiers(completion: @escaping ([any AEPIdentity.Identifiable]?, (any Swift.Error)?) -> Swift.Void)
+  @objc(getExperienceCloudId:) public static func getExperienceCloudId(completion: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
   @objc(syncIdentifierWithType:identifier:authenticationState:) public static func syncIdentifier(identifierType: Swift.String, identifier: Swift.String, authenticationState: AEPIdentity.MobileVisitorAuthenticationState)
   @objc(syncIdentifiers:) public static func syncIdentifiers(identifiers: [Swift.String : Swift.String]?)
   @objc(syncIdentifiers:authenticationState:) public static func syncIdentifiers(identifiers: [Swift.String : Swift.String]?, authenticationState: AEPIdentity.MobileVisitorAuthenticationState)
-  @objc(getUrlVariables:) public static func getUrlVariables(completion: @escaping (Swift.String?, Swift.Error?) -> Swift.Void)
+  @objc(getUrlVariables:) public static func getUrlVariables(completion: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
 }
 @objc(AEPMobileIdentity) public class Identity : ObjectiveC.NSObject, AEPCore.Extension {
-  @objc final public let runtime: AEPCore.ExtensionRuntime
+  @objc final public let runtime: any AEPCore.ExtensionRuntime
   @objc final public let name: Swift.String
   @objc final public let friendlyName: Swift.String
   @objc public static let extensionVersion: Swift.String
   @objc final public let metadata: [Swift.String : Swift.String]?
-  @objc required public init(runtime: AEPCore.ExtensionRuntime)
+  @objc required public init(runtime: any AEPCore.ExtensionRuntime)
   @objc public func onRegistered()
   @objc public func onUnregistered()
   @objc public func readyForEvent(_ event: AEPCore.Event) -> Swift.Bool

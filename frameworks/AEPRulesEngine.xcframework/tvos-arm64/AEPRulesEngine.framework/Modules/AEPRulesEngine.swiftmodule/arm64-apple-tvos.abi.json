@@ -4463,6 +4463,90 @@
       "value": "\">\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1134,
+      "length": 47,
+      "value": "\"Evaluating \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1152,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1171,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1180,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1802,
+      "length": 111,
+      "value": "\"Failed to evaluate \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1856,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1875,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1912,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1972,
+      "length": 60,
+      "value": "\"Comparison (\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 2008,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/ComparisonExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 2015,
+      "length": 1,
+      "value": "\") returned false\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
       "kind": "StringLiteral",
       "offset": 679,
@@ -4475,6 +4559,174 @@
       "offset": 735,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 1006,
+      "length": 73,
+      "value": "\"No operator defined for \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 1078,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1260,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 1313,
+      "length": 54,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 1344,
+      "length": 1,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 1351,
+      "length": 1,
+      "value": "\") \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 1365,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 1645,
+      "length": 88,
+      "value": "\"No operator defined for \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 1732,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1919,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 1972,
+      "length": 90,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2002,
+      "length": 1,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2009,
+      "length": 1,
+      "value": "\") \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2023,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2053,
+      "length": 1,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2060,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2770,
+      "length": 75,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2783,
+      "length": 1,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2813,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2843,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2937,
+      "length": 57,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2950,
+      "length": 1,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2980,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 2992,
+      "length": 1,
+      "value": "\")\""
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
@@ -4505,6 +4757,370 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 3619,
+      "length": 5,
+      "value": "\"and\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 3707,
+      "length": 4,
+      "value": "\"or\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 3795,
+      "length": 8,
+      "value": "\"equals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 3878,
+      "length": 8,
+      "value": "\"equals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 3958,
+      "length": 8,
+      "value": "\"equals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 4040,
+      "length": 8,
+      "value": "\"equals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 4123,
+      "length": 8,
+      "value": "\"equals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 4205,
+      "length": 11,
+      "value": "\"notEquals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 4291,
+      "length": 11,
+      "value": "\"notEquals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 4374,
+      "length": 11,
+      "value": "\"notEquals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 4459,
+      "length": 11,
+      "value": "\"notEquals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 4545,
+      "length": 11,
+      "value": "\"notEquals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 4630,
+      "length": 12,
+      "value": "\"startsWith\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 4738,
+      "length": 10,
+      "value": "\"endsWith\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 4841,
+      "length": 10,
+      "value": "\"contains\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 4943,
+      "length": 13,
+      "value": "\"notContains\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5050,
+      "length": 13,
+      "value": "\"greaterThan\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5134,
+      "length": 13,
+      "value": "\"greaterThan\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5220,
+      "length": 13,
+      "value": "\"greaterThan\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5308,
+      "length": 14,
+      "value": "\"greaterEqual\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5394,
+      "length": 14,
+      "value": "\"greaterEqual\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5482,
+      "length": 14,
+      "value": "\"greaterEqual\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5572,
+      "length": 11,
+      "value": "\"lessEqual\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5655,
+      "length": 11,
+      "value": "\"lessEqual\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5740,
+      "length": 11,
+      "value": "\"lessEqual\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5827,
+      "length": 10,
+      "value": "\"lessThan\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5908,
+      "length": 10,
+      "value": "\"lessThan\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 5991,
+      "length": 10,
+      "value": "\"lessThan\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 6076,
+      "length": 10,
+      "value": "\"notExist\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 6201,
+      "length": 8,
+      "value": "\"exists\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 6380,
+      "length": 8,
+      "value": "\"equals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 6499,
+      "length": 11,
+      "value": "\"notEquals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 6621,
+      "length": 12,
+      "value": "\"startsWith\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 6755,
+      "length": 10,
+      "value": "\"endsWith\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 6884,
+      "length": 10,
+      "value": "\"contains\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/ConditionEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 7012,
+      "length": 13,
+      "value": "\"notContains\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/LogicalExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1159,
+      "length": 5,
+      "value": "\"and\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/LogicalExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1395,
+      "length": 21,
+      "value": "\"`And` returns false\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/LogicalExpression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1495,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/LogicalExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 4,
+      "value": "\"or\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/LogicalExpression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1795,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/LogicalExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 2000,
+      "length": 20,
+      "value": "\"`Or` returns false\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/LogicalExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 2118,
+      "length": 49,
+      "value": "\"Unknown conjunction operator '\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/LogicalExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 2165,
+      "length": 4,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 700,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 719,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 738,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 1189,
+      "length": 7,
+      "value": "\"TRACE\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 1237,
+      "length": 7,
+      "value": "\"DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 1287,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 1337,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 679,
@@ -4561,39 +5177,179 @@
       "value": "3"
     },
     {
-      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Template\/MustacheToken.swift",
+      "kind": "StringLiteral",
+      "offset": 871,
+      "length": 13,
+      "value": "\"\\((.*\\))+\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Template\/MustacheToken.swift",
+      "kind": "StringLiteral",
+      "offset": 1749,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/Operand.swift",
       "kind": "IntegerLiteral",
-      "offset": 679,
+      "offset": 1392,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/Operand.swift",
       "kind": "IntegerLiteral",
-      "offset": 700,
+      "offset": 1430,
       "length": 1,
-      "value": "1"
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 719,
-      "length": 1,
-      "value": "2"
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/Operand.swift",
+      "kind": "StringLiteral",
+      "offset": 1803,
+      "length": 8,
+      "value": "\"<None>\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Log\/LogLevel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 738,
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/Operand.swift",
+      "kind": "StringLiteral",
+      "offset": 1862,
+      "length": 19,
+      "value": "\"<Value: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/Operand.swift",
+      "kind": "StringLiteral",
+      "offset": 1879,
       "length": 1,
-      "value": "3"
+      "value": "\">\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/Operand.swift",
+      "kind": "StringLiteral",
+      "offset": 1936,
+      "length": 22,
+      "value": "\"<Token: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/Operand.swift",
+      "kind": "StringLiteral",
+      "offset": 1956,
+      "length": 1,
+      "value": "\">\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/Operand.swift",
+      "kind": "StringLiteral",
+      "offset": 2019,
+      "length": 95,
+      "value": "\"<Function: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/Operand.swift",
+      "kind": "StringLiteral",
+      "offset": 2062,
+      "length": 1,
+      "value": "\", Parameters: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/Operand.swift",
+      "kind": "StringLiteral",
+      "offset": 2112,
+      "length": 1,
+      "value": "\">\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Result+RulesFailure.swift",
+      "kind": "BooleanLiteral",
+      "offset": 827,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Result+RulesFailure.swift",
+      "kind": "StringLiteral",
+      "offset": 1145,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Result+RulesFailure.swift",
+      "kind": "StringLiteral",
+      "offset": 1480,
+      "length": 7,
+      "value": "\"   ->\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Result+RulesFailure.swift",
+      "kind": "Array",
+      "offset": 1604,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Result+RulesFailure.swift",
+      "kind": "StringLiteral",
+      "offset": 1729,
+      "length": 5,
+      "value": "\"   \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Result+RulesFailure.swift",
+      "kind": "Array",
+      "offset": 1778,
+      "length": 19,
+      "value": "[\"unknown failure\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/RulesEngine.swift",
       "kind": "StringLiteral",
       "offset": 760,
       "length": 7,
-      "value": "\"4.0.0\""
+      "value": "\"5.0.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Template\/Template.swift",
+      "kind": "Array",
+      "offset": 812,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Template\/Template.swift",
+      "kind": "Array",
+      "offset": 1031,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Template\/Template.swift",
+      "kind": "StringLiteral",
+      "offset": 1503,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Template\/TemplateParser.swift",
+      "kind": "Array",
+      "offset": 1010,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Template\/TemplateParser.swift",
+      "kind": "StringLiteral",
+      "offset": 3864,
+      "length": 23,
+      "value": "\"Unclosed Mustache tag\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Template\/TemplateParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4145,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Transformer.swift",
@@ -4615,6 +5371,27 @@
       "offset": 720,
       "length": 1,
       "value": "\">\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/UnaryExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1021,
+      "length": 38,
+      "value": "\"Evaluating \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/UnaryExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1049,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/aepsdk-core-ios\/aepsdk-core-ios\/Pods\/AEPRulesEngine\/Sources\/AEPRulesEngine\/Expression\/UnaryExpression.swift",
+      "kind": "StringLiteral",
+      "offset": 1058,
+      "length": 2,
+      "value": "\"\""
     }
   ]
 }

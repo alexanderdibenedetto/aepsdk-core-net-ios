@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-tvos11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AEPServices
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-tvos12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AEPServices
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AEPServices
 import Compression
@@ -11,6 +11,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import os.log
 import os
 public struct DefaultHeadersFormatter {
@@ -82,12 +83,12 @@ public enum PrettyDictionary {
 }
 public class DataQueueService : AEPServices.DataQueuing {
   public init()
-  @objc public func getDataQueue(label databaseName: Swift.String) -> AEPServices.DataQueue?
+  @objc public func getDataQueue(label databaseName: Swift.String) -> (any AEPServices.DataQueue)?
   @objc deinit
 }
 public class PersistentHitQueue : AEPServices.HitQueuing {
-  final public let processor: AEPServices.HitProcessing
-  public init(dataQueue: AEPServices.DataQueue, processor: AEPServices.HitProcessing)
+  final public let processor: any AEPServices.HitProcessing
+  public init(dataQueue: any AEPServices.DataQueue, processor: any AEPServices.HitProcessing)
   @discardableResult
   public func queue(entity: AEPServices.DataEntity) -> Swift.Bool
   public func beginProcessing()
@@ -110,6 +111,7 @@ public struct NetworkServiceConstants {
   public struct HeaderValues {
     public static let CONTENT_TYPE_URL_ENCODED: Swift.String
   }
+  public static let RECOVERABLE_URL_ERROR_CODES: [Foundation.URLError.Code]
 }
 public enum CacheExpiry : Swift.Equatable {
   case never
@@ -169,7 +171,7 @@ final public class ThreadSafeDictionary<K, V> where K : Swift.Hashable {
   @objc deinit
 }
 public protocol HitQueuing {
-  var processor: AEPServices.HitProcessing { get }
+  var processor: any AEPServices.HitProcessing { get }
   @discardableResult
   func queue(entity: AEPServices.DataEntity) -> Swift.Bool
   func beginProcessing()
@@ -194,6 +196,11 @@ public enum HttpConnectionConstants {
     public static let HTTP_HEADER_CONTENT_TYPE_JSON_APPLICATION: Swift.String
     public static let HTTP_HEADER_CONTENT_TYPE_WWW_FORM_URLENCODED: Swift.String
     public static let HTTP_HEADER_ACCEPT_TEXT_HTML: Swift.String
+  }
+}
+extension Foundation.URLError {
+  public var isRecoverable: Swift.Bool {
+    get
   }
 }
 public class NamedCollectionDataStore {
@@ -314,8 +321,8 @@ public struct AnyCodable : Swift.Codable {
   public init(_ value: Any?)
   public static func from(dictionary: [Swift.String : Any?]?) -> [Swift.String : AEPServices.AnyCodable]?
   public static func toAnyDictionary(dictionary: [Swift.String : AEPServices.AnyCodable]?) -> [Swift.String : Any]?
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension AEPServices.AnyCodable : Swift.ExpressibleByStringLiteral {
   public init(stringLiteral value: Swift.String)
@@ -357,8 +364,8 @@ extension Swift.Encodable {
 public struct HttpConnection {
   public let data: Foundation.Data?
   public let response: Foundation.HTTPURLResponse?
-  public let error: Swift.Error?
-  public init(data: Foundation.Data?, response: Foundation.HTTPURLResponse?, error: Swift.Error?)
+  public let error: (any Swift.Error)?
+  public init(data: Foundation.Data?, response: Foundation.HTTPURLResponse?, error: (any Swift.Error)?)
 }
 extension AEPServices.HttpConnection {
   public var responseString: Swift.String? {
@@ -373,7 +380,7 @@ extension AEPServices.HttpConnection {
   public func responseHttpHeader(forKey: Swift.String) -> Swift.String?
 }
 @objc(AEPDataQueuing) public protocol DataQueuing {
-  @objc func getDataQueue(label: Swift.String) -> AEPServices.DataQueue?
+  @objc func getDataQueue(label: Swift.String) -> (any AEPServices.DataQueue)?
 }
 @_inheritsConvenienceInitializers @objc(AEPLog) public class Log : ObjectiveC.NSObject {
   @objc public static var logFilter: AEPServices.LogLevel
@@ -501,26 +508,26 @@ public protocol Networking {
 }
 @_hasMissingDesignatedInitializers public class ServiceProvider {
   public static let shared: AEPServices.ServiceProvider
-  public var systemInfoService: AEPServices.SystemInfoService {
+  public var systemInfoService: any AEPServices.SystemInfoService {
     get
     set
   }
-  public var namedKeyValueService: AEPServices.NamedCollectionProcessing {
+  public var namedKeyValueService: any AEPServices.NamedCollectionProcessing {
     get
     set
   }
-  public var networkService: AEPServices.Networking {
+  public var networkService: any AEPServices.Networking {
     get
     set
   }
-  public var dataQueueService: AEPServices.DataQueuing {
+  public var dataQueueService: any AEPServices.DataQueuing {
     get
   }
-  public var cacheService: AEPServices.Caching {
+  public var cacheService: any AEPServices.Caching {
     get
     set
   }
-  public var loggingService: AEPServices.Logging {
+  public var loggingService: any AEPServices.Logging {
     get
     set
   }
@@ -529,7 +536,7 @@ public protocol Networking {
 @available(iOSApplicationExtension, unavailable)
 @available(tvOSApplicationExtension, unavailable)
 extension AEPServices.ServiceProvider {
-  public var urlService: AEPServices.URLOpening {
+  public var urlService: any AEPServices.URLOpening {
     get
     set
   }

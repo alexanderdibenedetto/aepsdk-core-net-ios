@@ -51,7 +51,7 @@ public class AppDelegate : MauiUIApplicationDelegate
                 new NSNumber(300)
             };
             NSDictionary<NSString, NSObject> dict = new(keys, objects);
-            AEPMobileCore_AEPCore_Swift_863.UpdateConfiguration((null as AEPMobileCore), dict);
+            AEPMobileCore_AEPCore_Swift_915.UpdateConfiguration((null as AEPMobileCore), dict);
 
             // register any extensions being used with adobe mobile.
             AEPMobileCore.RegisterExtensions(
@@ -73,20 +73,20 @@ public class AppDelegate : MauiUIApplicationDelegate
     {
         Debug.WriteLine($"Extension registrations complete.");
         // configure with your app id.
-        AEPMobileCore_AEPCore_Swift_863.ConfigureWithAppId((null as AEPMobileCore), "com.companyname.test");
+        AEPMobileCore_AEPCore_Swift_915.ConfigureWithAppId((null as AEPMobileCore), "com.companyname.test");
         // start the analytics collection lifecycle for the initial app open.
-        AEPMobileCore_AEPCore_Swift_832.LifecycleStart((null as AEPMobileCore), null);
+        AEPMobileCore_AEPCore_Swift_884.LifecycleStart((null as AEPMobileCore), null);
         Debug.WriteLine($"Adobe initialized successfully.");
     }
 
     public void PlatformTrackState(string state, NSDictionary<NSString, NSObject> data)
     {
-        AEPMobileCore_AEPCore_Swift_846.TrackState((null as AEPMobileCore), state, data);
+        AEPMobileCore_AEPCore_Swift_898.TrackState((null as AEPMobileCore), state, data);
     }
 
     public void PlatformTrackAction(string action, NSDictionary<NSString, NSObject> data)
     {
-        AEPMobileCore_AEPCore_Swift_846.TrackAction((null as AEPMobileCore), action, data);
+        AEPMobileCore_AEPCore_Swift_898.TrackAction((null as AEPMobileCore), action, data);
     }
 
     public async Task<string> GenerateVisitorUrl(string url)
@@ -99,7 +99,7 @@ public class AppDelegate : MauiUIApplicationDelegate
             {
                 try
                 {
-                    AEPMobileIdentity_AEPIdentity_Swift_294.AppendToUrl((null as AEPMobileIdentity), NSUrl.FromString(url), callback);
+                    AEPMobileIdentity_AEPIdentity_Swift_341.AppendToUrl((null as AEPMobileIdentity), NSUrl.FromString(url), callback);
                 }
                 catch (Exception exception)
                 {
@@ -121,7 +121,7 @@ public class AppDelegate : MauiUIApplicationDelegate
         {
             try
             {
-                AEPMobileIdentity_AEPIdentity_Swift_294.GetUrlVariables((null as AEPMobileIdentity), callback);
+                AEPMobileIdentity_AEPIdentity_Swift_341.GetUrlVariables((null as AEPMobileIdentity), callback);
             }
             catch (Exception exception)
             {

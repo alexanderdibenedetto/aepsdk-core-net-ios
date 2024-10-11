@@ -60,6 +60,6 @@ namespace AepServices
         SwipeDown = 1,
         SwipeLeft = 2,
         SwipeRight = 3,
-        BackgroundTap = 4
+        TapBackground = 4
     }
 }

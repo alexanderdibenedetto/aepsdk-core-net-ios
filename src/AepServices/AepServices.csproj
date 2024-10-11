@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0-ios</TargetFramework>
+    <TargetFramework>net8.0-ios</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
@@ -12,7 +12,7 @@
     <Description>.NET MAUI Bindings for Adobe.AepSdk.Core.iOS</Description>
     <Authors>Alexander DiBenedetto</Authors>
     <PackageTags>Adobe MAUI AEP</PackageTags>
-    <ReleaseVersion>0.0.1</ReleaseVersion>
+    <ReleaseVersion>5.2.0</ReleaseVersion>
     <AssemblyVersion>$(ReleaseVersion)</AssemblyVersion>
     <PackageVersion>$(ReleaseVersion)</PackageVersion>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
@@ -27,7 +27,7 @@
       <Kind>Framework</Kind>
       <ForceLoad>True</ForceLoad>
       <SmartLink>False</SmartLink>
-      <Frameworks>UIKit Foundation WebKit</Frameworks>
+      <Frameworks>Foundation CoreFoundation UIKit WebKit</Frameworks>
       <LinkerFlags>-Objc</LinkerFlags>
     </NativeReference>
   </ItemGroup>

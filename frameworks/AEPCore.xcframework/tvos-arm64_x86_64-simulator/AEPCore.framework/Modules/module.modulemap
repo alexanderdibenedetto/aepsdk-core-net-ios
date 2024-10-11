@@ -1,7 +1,7 @@
 framework module AEPCore {
   umbrella header "AEPCore.h"
-
   export *
+
   module * { export * }
 }
 
